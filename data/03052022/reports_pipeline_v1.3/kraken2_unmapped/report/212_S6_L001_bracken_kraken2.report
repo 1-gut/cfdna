@@ -1,0 +1,84 @@
+100.00	1699253	0	R	1	root
+100.00	1699230	0	R1	131567	  cellular organisms
+99.98	1698978	0	D	2759	    Eukaryota
+99.98	1698978	0	D1	33154	      Opisthokonta
+99.98	1698978	0	K	33208	        Metazoa
+99.98	1698978	0	K1	6072	          Eumetazoa
+99.98	1698978	0	K2	33213	            Bilateria
+99.98	1698978	0	K3	33511	              Deuterostomia
+99.98	1698978	0	P	7711	                Chordata
+99.98	1698978	0	P1	89593	                  Craniata
+99.98	1698978	0	P2	7742	                    Vertebrata
+99.98	1698978	0	P3	7776	                      Gnathostomata
+99.98	1698978	0	P4	117570	                        Teleostomi
+99.98	1698978	0	P5	117571	                          Euteleostomi
+99.98	1698978	0	P6	8287	                            Sarcopterygii
+99.98	1698978	0	C	1338369	                              Dipnotetrapodomorpha
+99.98	1698978	0	C1	32523	                                Tetrapoda
+99.98	1698978	0	C2	32524	                                  Amniota
+99.98	1698978	0	C	40674	                                    Mammalia
+99.98	1698978	0	C1	32525	                                      Theria
+99.98	1698978	0	C2	9347	                                        Eutheria
+99.98	1698978	0	C3	1437010	                                          Boreoeutheria
+99.98	1698978	0	C4	314146	                                            Euarchontoglires
+99.98	1698978	0	O	9443	                                              Primates
+99.98	1698978	0	O1	376913	                                                Haplorrhini
+99.98	1698978	0	O2	314293	                                                  Simiiformes
+99.98	1698978	0	O3	9526	                                                    Catarrhini
+99.98	1698978	0	O4	314295	                                                      Hominoidea
+99.98	1698978	0	F	9604	                                                        Hominidae
+99.98	1698978	0	F1	207598	                                                          Homininae
+99.98	1698978	0	G	9605	                                                            Homo
+99.98	1698978	1698978	S	9606	                                                              Homo sapiens
+0.01	251	0	D	2	    Bacteria
+0.01	181	0	P	1224	      Proteobacteria
+0.01	161	0	C	1236	        Gammaproteobacteria
+0.00	68	0	O	91347	          Enterobacterales
+0.00	68	0	F	543	            Enterobacteriaceae
+0.00	68	0	G	570	              Klebsiella
+0.00	68	68	S	573	                Klebsiella pneumoniae
+0.00	48	0	O	135614	          Xanthomonadales
+0.00	48	0	F	32033	            Xanthomonadaceae
+0.00	48	0	G	40323	              Stenotrophomonas
+0.00	48	0	G1	995085	                Stenotrophomonas maltophilia group
+0.00	48	48	S	40324	                  Stenotrophomonas maltophilia
+0.00	44	0	O	72274	          Pseudomonadales
+0.00	39	0	F	135621	            Pseudomonadaceae
+0.00	39	0	G	286	              Pseudomonas
+0.00	20	0	G1	136845	                Pseudomonas putida group
+0.00	20	20	S	47885	                  Pseudomonas oryzihabitans
+0.00	18	0	G1	136843	                Pseudomonas fluorescens group
+0.00	18	18	S	294	                  Pseudomonas fluorescens
+0.00	5	0	F	468	            Moraxellaceae
+0.00	5	0	G	475	              Moraxella
+0.00	5	5	S	34062	                Moraxella osloensis
+0.00	20	0	C	28216	        Betaproteobacteria
+0.00	20	0	O	80840	          Burkholderiales
+0.00	20	0	F	80864	            Comamonadaceae
+0.00	20	0	G	12916	              Acidovorax
+0.00	20	0	G1	2684926	                unclassified Acidovorax
+0.00	20	20	S	358220	                  Acidovorax sp. KKS102
+0.00	69	0	D1	1783272	      Terrabacteria group
+0.00	39	0	P	201174	        Actinobacteria
+0.00	39	0	C	1760	          Actinomycetia
+0.00	39	0	O	85009	            Propionibacteriales
+0.00	39	0	F	31957	              Propionibacteriaceae
+0.00	39	0	G	1912216	                Cutibacterium
+0.00	39	39	S	1747	                  Cutibacterium acnes
+0.00	30	0	P	1239	        Firmicutes
+0.00	30	0	C	91061	          Bacilli
+0.00	30	0	O	1385	            Bacillales
+0.00	30	0	F	90964	              Staphylococcaceae
+0.00	30	0	G	1279	                Staphylococcus
+0.00	23	23	S	1292	                  Staphylococcus warneri
+0.00	6	6	S	1282	                  Staphylococcus epidermidis
+0.00	23	0	D	10239	  Viruses
+0.00	23	0	D1	2731341	    Duplodnaviria
+0.00	23	0	D2	2731360	      Heunggongvirae
+0.00	23	0	P	2731361	        Peploviricota
+0.00	23	0	C	2731363	          Herviviricetes
+0.00	23	0	O	548681	            Herpesvirales
+0.00	23	0	F	10292	              Herpesviridae
+0.00	23	0	F1	10357	                Betaherpesvirinae
+0.00	23	0	G	40272	                  Roseolovirus
+0.00	23	23	S	10372	                    Human betaherpesvirus 7
