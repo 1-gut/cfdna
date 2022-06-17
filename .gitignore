@@ -2,6 +2,5 @@
 .DS_Store
 .RData
 .Rhistory
-*.png
 credentials.json
 *.Rproj
