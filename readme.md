@@ -77,6 +77,7 @@ Prior to publishing this repo to public access, remember to remove the token fro
 │   │           cleaned_nanopore_vs_illumina_data.csv
 │   │
 │   └───music
+│       ├───bioanalyzer # raw bioanalyzer xml files
 │       ├───clinical
 │       │       music_all_03062022.csv
 │       │       music_clinical_2022-06-09.csv
