@@ -6,6 +6,9 @@
 # RDS file
 input_music_clinical_data <- "data/music/clinical/music_clinical_2022-06-10.rds"
 
+input_mito_trajectory_file <- "data/music/music_rising_mito_trajectory.csv"
+input_endoscopic_healing_file <- "data/music/music_mucosal_healing.csv"
+
 # Reads from sheet name 'cleaned_data'
 input_dpcr_file <- "data/music/dpcr/music_cfdna_master_02062022.xlsx"
 output_dir <- "output/music/dpcr/"
@@ -39,6 +42,17 @@ print("Creating merged file...")
 df <- left_join(dpcr, music, by = c("study_id", "redcap_event_name"))
 print("Complete.")
 
+# Add endoscopic healing and mito trajectory groups
+df_mito <- read.csv(input_mito_trajectory_file)
+df <- left_join(df, df_mito, by="study_id")
+df$rising_mitochondrial_cfdna[is.na(df$rising_mitochondrial_cfdna)] <- "Non-rising trajectory"
+df$rising_mitochondrial_cfdna <- factor(df$rising_mitochondrial_cfdna, levels=c("Rising trajectory", "Non-rising trajectory"))
+
+df_endoscopy <- read.csv(input_endoscopic_healing_file)
+df <- left_join(df, df_endoscopy, by="study_id")
+df$complete_mucosal_healing[df$complete_mucosal_healing==""] <- NA
+df$endoscopic_improvement[df$endoscopic_improvement==""] <- NA
+df$complete_mucosal_healing <- factor(df$complete_mucosal_healing, levels=c("Yes", "No"))
 # Create simplified df for analysis
 # Choose your variables here.
 
@@ -307,6 +321,57 @@ plot.trajectory(y = "nd2_sapphire", y_label = "ND2")
 plot.trajectory(y = "total_cfdna", y_label = "Total cfDNA")
 plot.trajectory(y = "crp", y_label = "CRP")
 plot.trajectory(y = "calprotectin", y_label = "Calprotectin")
+
+# Separate COX3 against trajectory
+
+p <- df %>%
+  ggplot(aes(
+    x = redcap_event_name, y = cox3_log,
+    group = study_id, col = study_id
+  )) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_label(aes(label = study_id), data = df %>%
+               filter(redcap_event_name == "timepoint_3")) +
+  xlab("Timepoints") +
+  ylab("COX3") +
+  labs(title = "COX3 (Log) Trajectories") +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  facet_grid(
+    . ~ rising_mitochondrial_cfdna
+  ) +
+  theme_options
+print(p)
+ggplot2::ggsave(paste0(output_dir, "cox3_separated_by_trajectory.png"), p,
+                dpi = 300, width = 5000, height = 2000, units = "px"
+)
+
+# Plot COX3 Log against mucosal healing outcomes
+
+p <- df %>%
+  filter(!is.na(complete_mucosal_healing)) %>%
+  ggplot(aes(
+    x = redcap_event_name, y = cox3_log,
+    group = study_id, col = study_id
+  )) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_label(aes(label = study_id), data = df %>% filter(!is.na(complete_mucosal_healing)) %>%
+               filter(redcap_event_name == "timepoint_3")) +
+  xlab("Timepoints") +
+  ylab("COX3 (Log)") +
+  labs(title = "COX3 by Complete Mucosal Healing") +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  facet_grid(
+    . ~ complete_mucosal_healing
+  ) +
+  theme_options
+print(p)
+ggplot2::ggsave(paste0(output_dir, "cox3_by_mucosal_healing.png"), p,
+                dpi = 300, width = 5000, height = 2000, units = "px"
+)
 
 
 # ====================================================================

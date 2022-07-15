@@ -5,8 +5,8 @@
 output_dir <- "output/music/bioanalyzer/" 
 input_annotation_file <- "data/music/bioanalyzer/music_bioanalyzer_annotations_manual.csv"
 input_music_clinical_data <- "data/music/clinical/music_clinical_2022-07-15.rds"
-input_mito_trajectory_file <- "data/music/bioanalyzer/music_rising_mito_trajectory.csv"
-input_endoscopic_healing_file <- "data/music/bioanalyzer/music_mucosal_healing.csv"
+input_mito_trajectory_file <- "data/music/music_rising_mito_trajectory.csv"
+input_endoscopic_healing_file <- "data/music/music_mucosal_healing.csv"
 input_bioanalyzer_files_dir <- "data/music/bioanalyzer"
 # -----------------------------------------------------------------------------
 print("Loading required packages...")
@@ -51,7 +51,7 @@ cleaned_annotation_file$redcap_event_name <- as.factor(cleaned_annotation_file$r
 # Add mito trajectory data here
 rising_mito_csv <- read.csv(input_mito_trajectory_file)
 cleaned_annotation_file <- dplyr::left_join(cleaned_annotation_file, rising_mito_csv, by="study_id")
-cleaned_annotation_file$rising_mitochondrial_cfdna[is.na(cleaned_annotation_file$rising_mitochondrial_cfdna)] <- "Falling trajectory"
+cleaned_annotation_file$rising_mitochondrial_cfdna[is.na(cleaned_annotation_file$rising_mitochondrial_cfdna)] <- "Non-rising trajectory"
 cleaned_annotation_file$rising_mitochondrial_cfdna[cleaned_annotation_file$study_group_name=="NC"] <- NA
 
 # Add endoscopic healing data here (manually generated)

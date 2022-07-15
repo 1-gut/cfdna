@@ -82,11 +82,11 @@ plot.all <- qplot.electrophoresis(
 ) + annotate(
   "text",
   x = 7000,
-  y = 400,
+  y = 200,
   size = 8,
   label = count_label
 ) + 
-  labs(x = "Length (bp)", y = "Fluorescence (fu)", title = "cfDNA Fragment Size (All Samples)") +
+  labs(x = "Length (bp)", y = "Fluorescence (fu)", title = "cfDNA Fragment Size (GI-DAMPs)") +
   theme_options
 
 print(plot.all)
@@ -196,7 +196,7 @@ plot.by.group <- qplot.electrophoresis(
   hjust = 1.05,
   vjust = 1.5
 ) +
-  labs(x = "Length (bp)", y = "Fluorescence (fu)", title = "cfDNA Fragment Size by Group") +
+  labs(x = "Length (bp)", y = "Fluorescence (fu)", title = "cfDNA Fragment Size by Group (GI-DAMPs)") +
   theme_options
 
 # Print & Save
