@@ -1,0 +1,108 @@
+sample.name,to_discard,study_id,redcap_event_name
+Broc cfDNA extracts 67,yes,,
+68,yes,,
+69,yes,,
+70,yes,,
+71,yes,,
+72,yes,,
+Shaun cfDNA MGM20464 90-1 0m,,90-1,timepoint_1
+MGM20490 90-1 3m,,90-1,timepoint_2
+MGM20422 90-2 0m,,90-2,timepoint_1
+MGM20423 90-2 3m,,90-2,timepoint_2
+E121161 Viking Pool 26 cleaned up,yes,,
+Shaun cfDNA MGM20425 90-3 0m,,90-3,timepoint_1
+20426 90-3 3m,,90-3,timepoint_2
+20427 90-3 6m,,90-3,timepoint_3
+20428 90-4 0m,,90-4,timepoint_1
+20429 90-4 3m,,90-4,timepoint_2
+20430 90-4 6m,,90-4,timepoint_3
+20431 90-5 0m,,90-5,timepoint_1
+20432 90-5 3m,,90-5,timepoint_2
+20433 90-5 6m,,90-5,timepoint_3
+20434 90-6 0m,,90-6,timepoint_1
+20436 90-6 3m,,90-6,timepoint_2
+Shaun cfDNA MGM20437 90-6 6m,,90-6,timepoint_3
+20438 90-7 0m,,90-7,timepoint_1
+20439 90-7 3m,,90-7,timepoint_2
+20440 90-7 6m,,90-7,timepoint_3
+20441 90-8 0m,,90-8,timepoint_1
+20442 90-8 3m,,90-8,timepoint_2
+20443 90-8 6m,,90-8,timepoint_3
+20444 90-9 0m,,90-9,timepoint_1
+20445 90-9 3m,,90-9,timepoint_2
+20446 90-9 6m,,90-9,timepoint_3
+20447 90-10 0m,,90-10,timepoint_1
+Shaun cfDNA MGM20448 90-10 3m,,90-10,timepoint_2
+20449 90-10 6m,,90-10,timepoint_3
+20452 90-11 0m,,90-11,timepoint_1
+20453 90-11 3m,,90-11,timepoint_2
+20454 90-11 6m,,90-11,timepoint_3
+20455 90-12 0m,,90-12,timepoint_1
+20456 90-12 3m,,90-12,timepoint_2
+20457 90-12 6m,,90-12,timepoint_3
+20458 90-13 0m,,90-13,timepoint_1
+20459 90-13 3m,,90-13,timepoint_2
+20460 90-13 6m,,90-13,timepoint_3
+Shaun MGM20461 90-14 0m,,90-14,timepoint_1
+20462 90-14 3m,,90-14,timepoint_2
+20463 90-14 6m,,90-14,timepoint_3
+20491 90-15 0m,,90-15,timepoint_1
+20492 90-15 6m,,90-15,timepoint_3
+20597 90-16 0m,,90-16,timepoint_1
+20598 90-16 3m,,90-16,timepoint_2
+20757 90-16 6m,,90-16,timepoint_3
+20599 90-17 0m,,90-17,timepoint_1
+20600 90-17 3mj,,90-17,timepoint_2
+20758 90-18 0m,,90-18,timepoint_1
+Shaun cfDNA MGM20759 90-18 3m,,90-18,timepoint_2
+20760 90-18 6m,,90-18,timepoint_3
+20761 90-20 0m,,90-20,timepoint_1
+20762 90-20 3m,,90-20,timepoint_2
+20763 90-20 6m,,90-20,timepoint_3
+20764 90-21 0m,,90-21,timepoint_1
+20765 90-21 3m,,90-21,timepoint_2
+20766 90-21 6m,,90-21,timepoint_3
+20767 90-22 0,,90-22,timepoint_1
+20768 90-22 3m,,90-22,timepoint_2
+20769 90-22 6m,,90-22,timepoint_3
+Shaun cfDNA E4B box MGM20493 91-1 0m,,91-1,timepoint_1
+20494 91-1 6m,,91-1,timepoint_3
+20495 91-2 0m,,91-2,timepoint_1
+20496 91-2 6m,,91-2,timepoint_3
+20497 91-3 3m,,91-3,timepoint_2
+20498 91-3 6m,,91-3,timepoint_3
+20499 91-4 0m,,91-4,timepoint_1
+20500 91-4 3m,,91-4,timepoint_2
+20501 91-4 6m,,91-4,timepoint_3
+20502 91-5 0m,,91-5,timepoint_1
+20516 91-5 3m,,91-5,timepoint_2
+Shaun cfDNA MGM20517 91-6 0m,,91-6,timepoint_1
+20518 91-6 3m,,91-6,timepoint_2
+20519 91-7 0m,,91-7,timepoint_1
+20520 91-8 0m,,91-8,timepoint_1
+20521 91-8 3m,,91-8,timepoint_2
+20522 91-9 0m,,91-9,timepoint_1
+20509 91-9 3m,,91-9,timepoint_2
+20510 91-10 0m,,91-10,timepoint_1
+20511 91-10 3m,,91-10,timepoint_2
+20512 91-11 0m,,91-11,timepoint_1
+20513 91-11 3m,,91-11,timepoint_2
+Shaun cfDNA E4B MGM20514 91-12 0m,,91-12,timepoint_1
+20588 91-12 3m,,91-12,timepoint_2
+20589 91-13 0m,,91-13,timepoint_1
+20590 91-13 3m,,91-13,timepoint_2
+20591 91-14 0m,,91-14,timepoint_1
+20592 91-14 3m,,91-14,timepoint_2
+20593 91-15 0m,,91-15,timepoint_1
+20594 91-15 3m,,91-15,timepoint_2
+20595 91-16 0m,,91-16,timepoint_1
+20596 91-16 3m,,91-16,timepoint_2
+20450 NC 11042022,,,
+Shaun cfDNA MGM20465 NC 14-04-2022,,,
+MGM20503 NC 15-04-2022,,,
+MGM20515 NC 19-04-2022,,,
+MGM20601 NC 21-04-2022,,,
+MGM20770 NC 26-04-2022,,,
+MGM20424 90-2 6m,,90-2,timepoint_3
+Broc 68 rep,yes,,
+Broc 69 rep,yes,,

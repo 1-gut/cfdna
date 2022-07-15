@@ -103,7 +103,9 @@ df_main <- df_raw %>%
     "montrlcdbehav_montrl",
     "montreal_perianal",
     "montrlucextent_montrl",
-    "montrl_uc_server"
+    "montrl_uc_server",
+    "endoscopy_result_endcospy",
+    "histopathology_report_text"
   ))
 
 # Now compress df_main into usable format
@@ -284,8 +286,21 @@ df <- df %>% dplyr::rename(age = patientdetailsage,
   montreal_cd_location = montrlcdlocation_montrl,
   montreal_cd_behaviour = montrlcdbehav_montrl,
   montreal_uc_extent = montrlucextent_montrl,
-  montreal_uc_severity = montrl_uc_server
+  montreal_uc_severity = montrl_uc_server,
+  endoscopy_report = endoscopy_result_endcospy,
+  histology_report = histopathology_report_text
 )
+
+# Endoscopy Report Text for manually assessing endoscopic healing
+df_endoscopy <- df %>% select(c("study_id",
+                                "redcap_event_name",
+                                "endoscopy_report",
+                                "histology_report",
+                                "mayo_endoscopic_findings",
+                                "uceis_total_score",
+                                "uceis_noncalc",
+                                "cdeis_total_score",
+                                "sescd_noncalc"))
 
 # Save RDS and CSV files.
 # Use RDS if for further R analysis to preserve data types.
@@ -295,6 +310,11 @@ saveRDS(df, file = paste0(output_dir, "music_clinical_", current_date, ".rds"))
 write.csv(
   df,
   file = paste0(output_dir, "music_clinical_", current_date, ".csv"),
+  row.names = FALSE
+)
+write.csv(
+  df_endoscopy,
+  file = paste0(output_dir, "music_endoscopy_", current_date, ".csv"),
   row.names = FALSE
 )
 print("Saving complete.")
