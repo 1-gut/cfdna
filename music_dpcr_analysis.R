@@ -373,6 +373,30 @@ ggplot2::ggsave(paste0(output_dir, "cox3_by_mucosal_healing.png"), p,
                 dpi = 300, width = 5000, height = 2000, units = "px"
 )
 
+p <- df %>%
+  filter(!is.na(complete_mucosal_healing)) %>%
+  ggplot(aes(
+    x = redcap_event_name, y = total_cfdna,
+    group = study_id, col = study_id
+  )) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_label(aes(label = study_id), data = df %>% filter(!is.na(complete_mucosal_healing)) %>%
+               filter(redcap_event_name == "timepoint_3")) +
+  xlab("Timepoints") +
+  ylab("Total cfDNA (ng/uL)") +
+  labs(title = "Total cfDNA by Complete Mucosal Healing") +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  facet_grid(
+    . ~ complete_mucosal_healing
+  ) +
+  theme_options
+print(p)
+ggplot2::ggsave(paste0(output_dir, "total_cfdna_by_mucosal_healing.png"), p,
+                dpi = 300, width = 5000, height = 2000, units = "px"
+)
+
 
 # ====================================================================
 # COX3 log by Gender, PGA
