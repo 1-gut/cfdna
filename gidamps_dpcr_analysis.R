@@ -474,7 +474,17 @@ pairwise.wilcox.test(
 #   Active        0.4173                0.4173    -     
 #   Highly active 0.0343                0.0343    0.0051
 # 
-# P value adjustment method: BH 
+# P value adjustment method: B
+
+# Median and IQR for cox3 and total cfDNA
+
+ibd_status_df_exclude_outlier_cfdna %>%
+  group_by(ibd_status) %>%
+  summarise_at(vars(cox3), list(median = median, iqr = IQR))
+
+ibd_status_df_exclude_outlier_cfdna %>%
+  group_by(ibd_status) %>%
+  summarise_at(vars(total_cfdna), list(median = median, iqr = IQR))
 
 p <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
