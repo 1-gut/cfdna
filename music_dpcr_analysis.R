@@ -218,8 +218,12 @@ plot.longitudinal.boxplot <- function(y, y_label) {
 # plot.longitudinal.boxplot(y="cox3_log", y_label="COX3")
 # plot.longitudinal.boxplot(y="nd2_log", y_label="ND2")
 # plot.longitudinal.boxplot(y="total_cfdna", y_label="Total cfDNA")
-# plot.longitudinal.boxplot(y="crp", y_label="CRP")
-# plot.longitudinal.boxplot(y="calprotectin", y_label="Calprotectin")
+plot.longitudinal.boxplot(y="crp", y_label="CRP")
+plot.longitudinal.boxplot(y="calprotectin", y_label="Calprotectin")
+plot.longitudinal.boxplot(y="cucq_total", y_label="CUCQ-32")
+plot.longitudinal.boxplot(y="hbi_total", y_label="HBI")
+plot.longitudinal.boxplot(y="sccai_total", y_label="SCCAI")
+plot.longitudinal.boxplot(y="mayo_total", y_label="Mayo Clinical Score")
 
 
 # ====================================================================
@@ -321,6 +325,7 @@ plot.trajectory(y = "nd2_sapphire", y_label = "ND2")
 plot.trajectory(y = "total_cfdna", y_label = "Total cfDNA")
 plot.trajectory(y = "crp", y_label = "CRP")
 plot.trajectory(y = "calprotectin", y_label = "Calprotectin")
+plot.trajectory(y = "cucq_total", y_label = "CUCQ-32")
 
 # Separate COX3 against trajectory
 
