@@ -1,0 +1,1640 @@
+"center","study_id","study_group_name","age","sex","redcap_event_name","visit_review_date","haemoglobin","red_cell_count","white_cell_count","neutrophils_lab","lymphocytes_lab","monocytes_lab","eosinophils_lab","basophils_lab","plt_lab","crp","albumin","calprotectin","cucq_total","bmi_weight","physician_global_assessment","hbi_total","sccai_total","mayo_total","new_flare_up","unplanned_hospital","mayo_endoscopic_findings","uceis_total_score","uceis_noncalc","cdeis_total_score","sescd_noncalc","montreal_cd_location","montreal_cd_behaviour","montreal_perianal","montreal_uc_extent","montreal_uc_severity","endoscopy_report","histology_report","date_of_diagnosis","patient_diagnose_age"
+"Edinburgh","90-1","CD",28,"male","timepoint_1",2021-01-27,134,5.2,8,5.3,1.57,0.78,0.28,0.02,333,12,41,1039,NA,102,"Moderate",11,NA,NA,"No","No",NA,NA,NA,NA,20,"L2","B1",NA,NA,NA,"ileum normal. uniform colitis from rectum to caecum with patchy superficial ulceration (ses-cd=20/60)","The ileal biopsies are normal, there is no evidence of inflammation or granuloma formation.
+                                
+All of these colonic and rectal biopsies are abnormal exhibiting a moderate increase in chronic inflammatory cells in the lamina propria which is relatively diffuse and the right colon but slightly patchy the left colon. There is only minimal crypt architectural distortion with any mild focal goblet cell depletion. Only very occasional scattered crypt abscesses are seen throughout the colon.
+Granulomata are not seen and there is no evidence of dysplasia in any of these biopsies.
+
+Conclusion: The colonic biopsies show evidence of pancolonic mildly active inflammatory bowel disease. It is presumed that the histological features have been modified by steroid therapy. Nonetheless the overall appearance of the clinical diagnosis of Crohn's disease. The ileal biopsies are normal which correlates with the endoscopic findings.
+",2013-09-01,21
+"Edinburgh","90-1","CD",28,"male","timepoint_2",2021-04-28,134,5.12,7.6,4.6,2.04,0.79,0.16,0.02,355,4,41,1173,121,103.1,"Mild",8,NA,NA,"No","No",NA,NA,NA,0,NA,"L2","B1",NA,NA,NA,"Better appearances. Mayo Score = 1, UCEIS = 2/8, SES-CD = 12/56.
+Confluent colitis from rectum to caecum with normal ileum.
+Adalimumab effects wearing off after 7 days - will need TDM and dose escalation.","The terminal ileal biopsies appear normal.
+                                
+The biopsies from all sites in the large bowel are inflamed. There is expansion of the lamina propria by moderate chronic inflammation which appears diffuse in the right side of the colon but more patchy in the left side, particularly in the rectum.
+
+There is patchy mild active inflammation throughout the large bowel, with foci of cryptitis, occasional crypt abscess and neutrophils in the surface of the ileum. There is no frank ulceration or surface erosion. No granulomas or viral inclusions are seen.
+
+Crypt architecture is largely preserved with only occasional minor crypt abnormalities and occasional crypt loss. There is mild mucin depletion throughout. Paneth cell metaplasia is noted in the sigmoid colon and rectum. There is no dysplasia or malignancy.
+      
+Comment:
+The appearances are in keeping with pan colonic, mildly active chronic inflammatory bowel disease.
+The histological appearances are rather non-specific, however the patchy nature of the inflammation, particularly distally, would be in keeping with the clinical impression of medically treated Crohn's disease.
+
+1. Terminal ileal biopsies - No significant histological abnormality
+2-7. Colonic biopsies (caecum, ascending, transverse, descending, sigmoid, rectal) - Mild active chronic inflammation
+                       
+                             ",2013-09-01,21
+"Edinburgh","90-1","CD",28,"male","timepoint_3",2021-08-11,132,5.09,8.7,5.22,2.33,0.97,0.12,0.03,333,7,39,1250,156,93.4,"Moderate",14,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-09-01,21
+"Edinburgh","90-1","CD",28,"male","timepoint_4",2021-12-01,129,4.9,6.9,3.52,2.46,0.63,0.25,0.07,354,1,37,117,6,102,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-09-01,21
+"Edinburgh","90-1","CD",28,"male","timepoint_5",2022-03-23,125,4.82,6.4,3.31,2.16,0.67,0.23,0.06,322,2,40,NA,23,111,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-09-01,21
+"Edinburgh","90-2","UC",56,"male","timepoint_1",2021-02-08,149,5,11.8,10.67,0.49,0.64,0.03,0.01,130,17,38,526,174,95,"Moderate",NA,7,5,"No","No",2,6,6,NA,NA,NA,NA,NA,"E2","S2","confluent colitis to 20cm, mucosa is granular, inflamed, mild amount of luminal blood, superficially ulcerated. mayo 2 uceis 6/8 worst segment is rectum and sigmoid",NA,2013-02-04,48
+"Edinburgh","90-2","UC",56,"male","timepoint_2",2021-06-10,121,4.1,8,6.23,1,0.66,0.09,0.02,289,55,32,20,101,87.3,NA,NA,0,NA,"No","Yes",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2013-02-04,48
+"Edinburgh","90-2","UC",56,"male","timepoint_3",2021-08-11,149,5.05,5.4,3.54,1.17,0.44,0.17,0.03,180,6,40,39,53,91.3,"Remission",NA,2,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S0",NA,NA,2013-02-04,48
+"Edinburgh","90-2","UC",56,"male","timepoint_4",2021-11-10,144,4.97,5.9,4.37,0.95,0.4,0.12,0.02,177,4,39,20,92,90.3,"Remission",NA,3,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S0",NA,NA,2013-02-04,48
+"Edinburgh","90-2","UC",56,"male","timepoint_5",2022-02-09,146,4.78,5.6,4.75,0.37,0.38,0.06,0.02,123,18,38,20,47,91.8,"Remission",NA,0,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2013-02-04,48
+"Edinburgh","90-3","UC",33,"male","timepoint_1",2021-02-10,146,5.3,6.5,4.33,1.71,0.35,0.12,0.02,282,1,43,1127,75,71,"Mild",NA,1,2,"No","No",2,NA,NA,NA,NA,NA,NA,NA,"E3","S1","Colitis from rectum to splenic flexure. fine apthous ulcers seen around caecum and ascending. ileum is normal.
+UCEIS 6 Mayo 2","The biopsies from the terminal ileum are histologically normal. The caecal biopsies exhibit a mild to moderate focal increase in chronic inflammatory cells in the lamina propria but the, there is however only minimal focal cryptitis with mild goblet cell depletion but little in the way of crypt architectural distortion.
+
+The biopsies from the ascending colon and transverse colon exhibit focal crypt loss, crypt shortening and crypt architectural distortion but no evidence of active inflammation.
+
+The biopsies from the descending colon through to the rectum are all abnormal exhibiting a moderate relatively diffuse increase in chronic inflammatory cells in the lamina propria associated with quite marked crypt architectural distortion but only mild focal goblet cell depletion and minimal focal cryptitis. These changes are possibly more marked in the biopsies from the descending colon however the more distal biopsies are somewhat superficial so this may represent a sampling error. Paneth cell metaplasia is seen extending to the descending colon. Granulomata are not seen in these biopsies despite examining multiple levels and there is no evidence of dysplasia in any of these biopsies.
+                                
+Review of previous biopsies:                              
+The biopsies from 2009 exhibit the features of a mildly active chronic inflammatory bowel disease involving the left colon and rectum there is moderate crypt architectural distortion with villiform change on the surface. The biopsies from the 2011 exhibit similar features again there is only focal activity in the form of crypt abscesses is a slightly more than the biopsies from 2009. The biopsies from 2012 are the first full colonoscopic series, the terminal ileal biopsies are normal, the colonic biopsies are all abnormal with crypt architectural distortion being the predominant abnormality comment the degree of inflammation and architectural distortion increases distally, ulceration seen within the sigmoid colon and rectum. The sigmoidoscopic biopsies from 2016 extend from this the transverse colon to the rectum and again show evidence of active chronic IBD with focal ulceration. The full colonoscopic series from 2016 also shows increasing crypt architectural distortion distally, the disease is less active in these biopsies and while a small granulomata is seen in one of the biopsies from the ascending colon this appears to be related to an inflamed crypt. Isolated granulomata are not seen in any of these biopsies.
+                                
+Final conclusion:
+All of the biopsies from 2009 to the current biopsies exhibit the features of mildly active chronic inflammatory bowel disease and the pattern is unequivocally that of ulcerative colitis. While in many of the biopsies including the current ones the inflammation is limited to the left colon there are architectural changes seen in the right colon indicating that there has been previous inflammation and indeed right colonic inflammation was seen in the biopsies from 2012. I presume the relative lack of active inflammation the current biopsies is a consequence of  medical therapy.
+",2009-06-01,22
+"Edinburgh","90-3","UC",33,"male","timepoint_2",2021-05-19,151,5.4,7.4,4.2,2.65,0.41,0.09,0.03,275,1,43,451,45,74.2,"Mild",NA,2,2,"No","No",1,NA,NA,NA,NA,NA,NA,NA,"E3","S1","improved appearance following switch from uste to ada. UCEIS=2/8 Mayo=1. Patchy erythema from rectum to prox descending. from transverse to ileum looked normal. ","1.  Examination shows normal small bowel mucosa.
+                                
+2-7.  Examination shows large bowel mucosa.  There is mild architectural distortion with very occasional branching crypts in the more proximal biopsies and crypts more spaced apart and more random in the left sided/distal biopsies. There is a mild increase in mixed inflammatory cells within the lamina propria more proximally which overall becomes more prominent distally but prominent cryptitis and crypt abscess formation are not features.  There is a degree of fibrosis in the more distal biopsies.
+                                
+The features of this biopsy series are consistent with mildly active/partially treated ulcerative colitis but with relatively little by way of acute/active inflammation.  No granulomas/dysplasia or malignancy are seen.  No viral inclusions are identified on H&E.
+",2009-06-01,22
+"Edinburgh","90-3","UC",33,"male","timepoint_3",2021-07-28,140,5,11.4,6.67,3.09,0.99,0.39,0.03,298,4,40,1250,112,73.4,"Moderate",NA,8,6,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S1",NA,NA,2009-06-01,22
+"Edinburgh","90-3","UC",33,"male","timepoint_4",2021-11-24,154,5.58,6.9,2.52,3.94,0.35,0.07,0.05,268,1,42,20,32,74.8,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,2009-06-01,22
+"Edinburgh","90-3","UC",33,"male","timepoint_5",2022-03-30,148,5.41,6.3,4.05,1.84,0.39,0.02,0.01,288,1,43,1096,34,75.2,"Remission",NA,0,0,"No","No",2,4,4,NA,NA,NA,NA,NA,"E3",NA,"Summary: Much improved appearances on Tofacitinib. Note clinically, BO 3x/day, no blood in stools.
+1. From caecum to sigmoid, mostly healed mucosa.
+2. Some patchy erythema in descending colon.
+3. Only area of activity in rectum - proctitis, Mayo Score 2. V1, B0, E3 = UCEIS 4.
+Overall, better than previous scopes. For topical steroid suppositories as added treatment. Will see in clinic.",NA,2009-06-01,22
+"Edinburgh","90-4","CD",32,"male","timepoint_1",2021-04-12,162,5,4.8,3.14,1.11,0.44,0.03,0.04,239,1,43,188,113,70,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,"normal ileum and colon. Very minor changes in the rectum ?prep related.","minor changes in the rectum consistent with bowel preparation. no active crohn's disease.",1999-09-14,11
+"Edinburgh","90-4","CD",32,"male","timepoint_2",2021-05-26,163,5.13,5.1,3.39,1.27,0.38,0.02,0.05,232,1,44,118,92,70.2,"Mild",3,NA,NA,"No","No",NA,NA,NA,0,NA,"L3","B3",NA,NA,NA,"Rectum slightly fibrotic. Otherwise normal appearances. SES-CD 0.","biopsies all normal.",1999-09-14,11
+"Edinburgh","90-4","CD",32,"male","timepoint_3",2021-09-02,161,5,5.5,4.04,0.98,0.39,0.02,0.06,249,2,46,212,69,69.5,"Remission",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,1999-09-14,11
+"Edinburgh","90-4","CD",32,"male","timepoint_4",2021-12-01,160,5.11,4.9,3.24,1.23,0.33,0.03,0.06,229,2,40,247,45,68.6,"Remission",1,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,1999-09-14,11
+"Edinburgh","90-4","CD",32,"male","timepoint_5",2022-03-02,151,4.97,4.2,2.65,1.21,0.27,0.04,0.07,228,2,40,226,43,67.5,"Remission",1,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,1999-09-14,11
+"Edinburgh","90-5","UC",27,"male","timepoint_1",2021-03-03,141,4.6,6.2,3.76,1.81,0.45,0.12,0.06,337,2,41,106,47,86,"Remission",NA,1,0,"No","No",1,NA,NA,NA,NA,NA,NA,NA,"E3","S1","ileum normal. mild confluent colitis from caecum to sigmoid. rectum is relatively spared. mayo 1, uceis 1.","patchy active colitis with mild chronic features, consistent with mildly active IBD",2007-08-01,13
+"Edinburgh","90-5","UC",27,"male","timepoint_2",2021-06-10,131,4.3,11.8,6.63,2.44,1.57,1.1,0.08,353,10,39,1131,70,85.5,"Mild",NA,4,3,"Yes","No",2,3,NA,NA,NA,NA,NA,NA,"E3","S1","uniform confluent colitis from rectum to caecum with very mild backwash ileitis. UCEIS 3 V2 B0 E1 Mayo 2. For vedo therapy.","All of the colonic and rectal biopsies are abnormal and show similar
+                               histological changes.  There is a florid and diffuse increase in lymphocytes and
+                               plasma cells within the lamina propria, including basal plasmacytosis.  This is
+                               associated with cryptitis, crypt abscess formation and mucin depletion.  There
+                               is prominent crypt distortion with areas of villous transformation.  Granulomas
+                               are not identified.
+                                
+                               Comment:  The appearances are in keeping with moderately active pancolonic
+                               ulcerative colitis and mild backwash ileitis.  There is no evidence of
+                               dysplasia.
+                                
+                               Colonoscopic biopsies - Active pancolonic ulcerative colitis",2007-08-01,13
+"Edinburgh","90-5","UC",27,"male","timepoint_3",2021-09-02,142,4.7,11.1,8.65,1.49,0.94,0,0,375,2,39,1028,32,89.5,"Mild",NA,3,2,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S1",NA,NA,2007-08-01,13
+"Edinburgh","90-5","UC",27,"male","timepoint_4",2021-12-01,150,4.98,9,4.48,2.95,0.97,0.47,0.1,383,3,38,524,42,92.4,"Mild",NA,2,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S1",NA,NA,2007-08-01,13
+"Edinburgh","90-5","UC",27,"male","timepoint_5",2022-03-09,159,5.3,8,3.66,2.91,0.8,0.54,0.06,405,3,41,240,26,93.2,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S1",NA,NA,2007-08-01,13
+"Edinburgh","90-6","CD",24,"male","timepoint_1",2021-04-12,132,5.8,7.1,4.95,1,0.85,0.25,0.04,517,17,40,NA,72,87.5,"Moderate",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,"ileo colic anastomosis wide and patent Rutgeerts i2. SES-CD 6 and 6 in right colon and left colon .","1.  Examination shows superficial pieces of small bowel mucosa.  There is mild broadening of the villi associated with a small amount of superficial acute inflammation. No significant chronic inflammation or granulomas are seen.  
+ 2-6.  Examination shows mostly normal large bowel mucosa.  Occasional small patches of acute inflammation are seen, most prominently within the right colon biopsies, where there is also a fragment of ulcer slough.  
+                                
+The features are consistent with mildly active Crohn's disease. ",2012-09-01,16
+"Edinburgh","90-6","CD",24,"male","timepoint_2",2021-06-21,125,5.21,6.9,4.38,1.36,0.84,0.27,0.03,482,24,36,497,62,86.2,"Moderate",8,NA,NA,"No","No",NA,NA,NA,25,NA,"L3","B3",NA,NA,NA,"rutgeert's i2 recurrentce seen - >5 aphthous ulcers with ulcer size up to 1cm. patchy inflammation seen in ascending colon, splenic flexure, sigmoid and rectum. SES-CD is 25/56. extensive Crohn's disease. Needs full reload on adalimumab and commence weekly injections. for early clinic review.","The ileal biopsies comprise two small fragments of small bowel mucosa.
+                               One of the fragments is within normal limits.  The second shows a diffuse
+                               increase in lymphocytes and plasma cells within the lamina propria.  There is
+                               expansion and blunting of the villous architecture.  This fragment also shows
+                               infiltration of the surface epithelium by neutrophils.
+                                
+                               The anastomotic biopsies comprise colonic type mucosa showing a mild and patchy
+                               increase in lamina propria cellularity, without significant cryptitis.  There is
+                               further chronic inflammation in the right colon and splenic flexure biopsies.
+                               These fragments also show focal cryptitis with occasional small crypt abscess.
+                               One of the fragments from the splenic flexure appears to show aphthous type
+                               ulceration.
+                                
+                               There is no significant inflammation in the sigmoid and rectal fragments.
+                               Granulomas are not identified.
+                                
+                               Comment:  The current biopsies show mildly active disease in the terminal ileum,
+                               right colon and splenic flexure.  There is no evidence of dysplasia.
+                                
+                               Colonoscopic biopsies - Mildly active Crohn's disease",2012-09-01,16
+"Edinburgh","90-6","CD",24,"male","timepoint_3",2021-08-18,135,5.49,6.5,3.71,1.83,0.77,0.19,0.04,427,4,37,554,81,85,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2012-09-01,16
+"Edinburgh","90-6","CD",24,"male","timepoint_4",2022-03-23,147,5.45,6.5,3.71,1.77,0.84,0.12,0.05,467,15,35,437,57,89,"Moderate",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2012-09-01,16
+"Edinburgh","90-6","CD",24,"male","timepoint_5",2022-07-20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,81,83.5,"Moderate",8,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2012-09-01,16
+"Edinburgh","90-7","UC",51,"male","timepoint_1",2021-04-12,145,5,7.4,5.24,1.5,0.51,0.14,0.04,277,6,41,1250,92,83,"Moderate",NA,2,3,"Yes","No",2,5,NA,NA,NA,NA,NA,NA,"E2","S2","20cm of colitis seen UCEIS 5 Mayo 2. Caecal patch seen as well.",NA,2019-09-01,50
+"Edinburgh","90-7","UC",51,"male","timepoint_2",2021-07-28,153,5.14,6.7,4.24,1.64,0.68,0.11,0.01,243,3,42,125,69,82.6,"Mild",NA,3,2,"No","No",1,4,4,NA,NA,NA,NA,NA,"E2","S2","Left colitis has resolved completely but there remains a caecal patch (UCEIS 2+1+1 = 4). Remaining colon and ileum normal.",NA,2019-09-01,50
+"Edinburgh","90-7","UC",51,"male","timepoint_3",2021-10-20,152,5.06,5.4,3.29,1.4,0.59,0.14,0.01,246,1,43,NA,54,82.8,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2019-09-01,50
+"Edinburgh","90-7","UC",51,"male","timepoint_4",2022-01-19,153,5.19,5.6,3.13,1.58,0.54,0.33,0.03,272,2,41,78,71,NA,"Remission",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2019-09-01,50
+"Edinburgh","90-7","UC",51,"male","timepoint_5",2022-04-20,156,5.27,6.7,4.42,1.35,0.63,0.29,0.04,319,4,NA,NA,26,83.8,"Remission",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2019-09-01,50
+"Edinburgh","90-8","UC",37,"female","timepoint_1",2021-03-31,133,4.67,5.5,3.97,0.88,0.59,0.04,0.05,216,1,44,64,56,56.8,"Mild",NA,3,3,"No","No",2,4,NA,NA,NA,NA,NA,NA,"E2","S1","mild-mod rectosigmoiditis - remaining to ti normal.","active chronic inflammation in caecum and distal colon. distribution in keeping with uc with caecal patch. IBD favouring UC preferred to a definitive diagnosis.",2021-03-19,37
+"Edinburgh","90-8","UC",37,"female","timepoint_2",2021-07-07,136,4.72,5.8,3.5,1.38,0.69,0.16,0.06,225,2,44,108,36,55.6,"Remission",NA,0,0,"No","No",1,1,NA,NA,NA,NA,NA,NA,"E2","S1","very minor proctitis - 3-4cm, patchy erythema. colitis has largely resolved. uceis 1 mayo 1.","rectal biopsies mild and patchy chronic inflammation. no significant activity.",2021-03-19,37
+"Edinburgh","90-8","UC",37,"female","timepoint_3",2021-10-20,132,4.6,5.3,3.23,1.27,0.58,0.15,0.05,224,1,43,59,33,58,"Remission",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S1",NA,NA,2021-03-19,37
+"Edinburgh","90-8","UC",37,"female","timepoint_4",2022-01-19,127,4.47,4.4,2.76,0.89,0.55,0.12,0.06,238,5,39,254,33,57.5,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S1",NA,NA,2021-03-19,37
+"Edinburgh","90-8","UC",37,"female","timepoint_5",2022-04-06,126,4.5,5.3,3.49,1.08,0.49,0.13,0.07,222,1,41,96,25,59.3,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S1",NA,NA,2021-03-19,37
+"Edinburgh","90-9","UC",43,"male","timepoint_1",2021-04-14,156,5.29,5.4,3.46,0.85,0.63,0.36,0.07,385,8,41,1036,133,108.1,"Moderate",NA,10,7,"No","No",2,4,NA,NA,NA,NA,NA,NA,"E2","S2","confluent colitis to 30cm. mayo 2 uceis 2+1+1 4/8","moderate active chronic inflammation in sigmoid and rectal biopsies. in keeping with dx of UC.",2012-03-14,34
+"Edinburgh","90-9","UC",43,"male","timepoint_2",2021-08-04,156,5.41,4.2,1.76,1.08,0.76,0.49,0.1,329,2,42,20,26,110.6,"Remission",NA,0,0,"No","No",0,0,NA,NA,NA,NA,NA,NA,"E2","S2","Ileum and colon looked normal - almost complete mucosal healing (very minor proctitis - almost normal mucosa). UCEIS=0, Mayo = 0.","Rectal biopsies only.
+
+Histology reveals fragments of rectal mucosa showing lamina propria oedema but no significant chronic or active inflammation.  There is no dysplasia.
+Rectal biopsies - Minimal abnormality
+                                
+",2012-03-14,34
+"Edinburgh","90-9","UC",43,"male","timepoint_3",2021-11-10,155,5.48,4.6,2.72,0.66,0.79,0.33,0.07,320,3,41,20,22,108.5,NA,NA,2,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2012-03-14,34
+"Edinburgh","90-9","UC",43,"male","timepoint_4",2022-02-09,153,5.37,3.9,2.03,0.84,0.61,0.29,0.09,327,1.1,40,20,22,108.5,"Remission",NA,1,1,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2012-03-14,34
+"Edinburgh","90-9","UC",43,"male","timepoint_5",2022-05-04,149,5.07,5,2.9,0.92,0.74,0.34,0.06,299,1,38,1239,113,108.3,"Moderate",NA,9,4,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2012-03-14,34
+"Edinburgh","90-10","CD",18,"male","timepoint_1",2021-05-19,131,4.51,5.4,3.13,1.36,0.66,0.21,0.01,244,10,34,1166,143,64,"Moderate",9,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,"HBI score 11. Aphthous ulceration and inflammation throughout colon and TI, although more severe at TI (cobblestoning) with relative rectal sparing. No evidence of stricture.","Colonoscopy 29/4/2021
+
+The biopsies from the terminal ileum show small bowel type mucosa, some of which appears normal but other fragments show almost total loss of the villous architecture associated   inflammation in the lamina propria.  Scattered small granulomas are seen both within the inflamed fragments and the more normal appearing fragments.  The colonic biopsies are all abnormal.  They have a relatively preserved mucosal 
+ architecture but there is a mild and patchy increase in acute and chronic  inflammation throughout with numerous granulomas seen through the entire series   of biopsies.  There is some evidence of Paneth cell metaplasia in the biopsies    from the left side.  There is relatively mild disease activity in the colonic   biopsies.
+                                
+Comment:
+This colonoscopic biopsy series shows patchy active inflammation with numerous granulomas.  The appearances are those of Crohn's disease showing a relatively mild colonic disease activity histologically, but more activity in the terminal ileum.
+                                
+Colonoscopic biopsies - Crohn's disease
+",2021-05-07,18
+"Edinburgh","90-10","CD",18,"male","timepoint_2",2021-08-18,130,4.4,10.7,8.54,1.01,0.82,0.35,0.02,177,7,39,138,103,68,"Mild",2,NA,NA,"No","No",NA,NA,NA,6,NA,"L3","B1",NA,NA,NA,"Colonoscopy 9/8/2021 
+substantial improvement since medical treatment started. Ileum - 1-2 small ulcers (Rutgeerts i1, SES-CD 3). Rectum - 2-3 small ulcers (SES-CD 3) Total SES-CD 6.","Ileocolorectal biopsies:
+                               1.  Terminal ileum.
+                               2.  Caecum.
+                               3.  Right colon.
+                               4.  Left colon.
+                               5.  Rectum.
+1.  Examination shows small bowel mucosa that is within normal limits.  No ulceration is identified.
+2-4.  Examination shows mostly normal large bowel mucosa, however, there is focal acute inflammation with cryptitis in the left and right colon biopsies with some pericryptal aggregation of macrophages in this location in the right colon.  The appearances, however, fall short of granuloma.
+5.  Examination shows a larger focus of acute and chronic inflammation with some cryptitis.  Again, no granulomas are identified.
+The features of this biopsy series are those of focally active colitis and are in keeping with a mostly quiescent/treated Crohn's disease.",2021-05-07,18
+"Edinburgh","90-10","CD",18,"male","timepoint_3",2021-11-17,138,4.24,5.6,3.04,1.78,0.52,0.24,0.02,151,1,40,245,116,68,"Moderate",4,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-05-07,18
+"Edinburgh","90-10","CD",18,"male","timepoint_4",2022-02-16,134,4.27,3.9,1.66,1.64,0.34,0.2,0.01,178,1,39,381,104,67.6,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-05-07,18
+"Edinburgh","90-10","CD",18,"male","timepoint_5",2022-05-25,131,4.26,3.4,1.64,1.32,0.34,0.1,0.02,156,1,38,138,119,67,"Mild",6,NA,NA,"No","No",NA,NA,NA,NA,6,"L3","B1",NA,NA,NA,"Summary:
+1. Still evidence of active Crohn's albeit mild.
+2. Several small apthous ulcers seen in ileum and also rectum. SES-CD=3+0+0+0+3=6. The rest of colon normal.
+3. I note still symptomatic, we will aim to increase adalimumab to 40mg weekly.","1. Terminal ileum
+2.  Caecum
+3.  Ascending colon
+4.  Descending colon
+5.  Sigmoid colon
+6.  Rectum
+                                
+Microscopy
+                                
+ 1.-6.
+In the terminal ileum, there is patchy active inflammation of the mucosa, with partial blunting of villi, mixed infiltrate of the lamina propria with a few epithelioid granulomas, and focal surface erosion with intra-epithelial neutrophils.  Other fragments from the terminal ileum have normal villous and
+crypt architecture with no active inflammation.  CMV cytopathic changes are not  seen.
+                                
+In the caecum, there is mild active inflammation with patchy lamina propria infiltrate, and a few co-incident foci of cryptitis, and an occasional small granuloma.  Crypt architecture here is very mildly distorted.  Some fragments are not inflamed, with normal architecture.
+                                
+In the ascending colon there is a single focus of cryptitis with an associated granuloma.  Crypt architecture here is essentially normal.
+                                
+In the descending and sigmoid colon, there is mild focal crypt distortion, and metaplastic paneth cells.  There is very focal active inflammation in the sigmoid colon, with a single instance of mild cryptitis.
+                                
+In the rectum, there is patchy active inflammation with mixed lamina propria infiltrate, along with cryptitis and occasional crypt abscesses.  Crypt architecture here is distorted.  A single epithelioid granuloma is also seen.
+                                
+ Summary
+Findings are in keeping with active chronic inflammatory bowel disease with the  patchy distribution within and between the sampled sites entirely in keeping with the established Crohn's disease diagnosis.  On histology, there is mild disease activity in the terminal ileum, caecum, and rectum, with relatively quiescent disease in ascending, descending and sigmoid colon.  There is no evidence of dysplasia.
+                                
+",2021-05-07,18
+"Edinburgh","90-11","CD",22,"male","timepoint_1",2021-06-02,101,4.6,7.3,4.24,1.75,0.98,0.31,0.05,607,29,35,930,32,67.1,"Mild",1,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,"Presence of moderate to severe inflammation in the colon and the terminal ileum, which most probably corresponds to Crohn's disease. In the rectum and until 25 cm of insertion the inflammation is mild to moderate but after that point it is marked with ulceration seen, exhibiting progressively increasing severity as we move to the proximal colon and the terminal ileum.
+SES CD (2+5+6+6+11)=30.
+Multible biopsies taken from TI and all areas of the colon.
+Patient to be started on oral steroid course with Prednisolone along with Adcal D3, to have small bowel MRI and urgent appointment in the new patient IBD clinic.","Specimen
+
+Colonoscopic biopsies
+1. Terminal ileum
+2. Caecum
+3. Ascending
+4. Transverse
+5. Descending
+6. Sigmoid
+7. Rectum
+
+Macroscopy
+
+Each biopsy consists of 3 or 4 fragments
+
+Microscopy 
+The biopsies from the terminal ileum exhibit extensive ulceration. The intact mucosa is markedly inflamed and exhibits crypt architectural distortion with goblet cell depletion and almost complete villous atrophy.
+
+The biopsies from the caecum also exhibits focal ulceration however the nonulcerated mucosa is only minimally abnormal with a mild focal increase in lamina propria inflammation. The biopsies from the ascending colon exhibit focal lamina propria inflammation associated with localised crypt elongation and little in the way of active crypt inflammation. Most the biopsy fragments from this site are however normal.
+
+The biopsies from the transverse colon also exhibit focal ulceration, the adjacent mucosa shows an increase in chronic inflammatory cells lamina propria with occasional crypt abscesses and foci of cryptitis but only minimal crypt architectural distortion and focal goblet cell depletion. One biopsy fragment from this site is however normal.
+
+Focal ulceration is also seen in the descending colon though the accompanying intact mucosal fragments are normal. The biopsies from the sigmoid colon and rectum are normal.
+
+Neither granulomata nor CMV inclusions are seen. There is also no evidence of dysplasia.
+
+Conclusion
+The ulceration seen in these biopsies is relatively non-specific in nature however when combined with background inflammation particularly in the ileal and right colonic biopsies the features are considered highly suggestive of Crohn's disease as suspected endoscopically.",2021-03-16,22
+"Edinburgh","90-11","CD",22,"male","timepoint_2",2021-09-02,123,4.8,6.9,4.43,1.44,0.61,0.39,0.07,408,2,44,982,14,68.8,"Remission",0,NA,NA,"No","No",NA,NA,NA,0,NA,"L3","B3",NA,NA,NA,"Ileum and colon now looking normal. SES-CD = 0.
+Evidence of healed and mildly scarred mucosa in ascending colon, distal descending and sigmoid (with 2 x pseudopolyps). Otherwise, this looks like complete mucosal healing in response to anti-TNF+azathioprine.","
+Specimen
+
+Colonoscopic biopsies:
+1.  Terminal ileum.
+2.  Caecum.
+3.  Descending.
+4.  Sigmoid.
+5.  Rectum.
+
+Macroscopy
+
+1.  One fragment.
+2.  Three fragments.
+3&4.  One fragment each.
+5.  Two fragments.
+All taken.
+
+Microscopy
+1-5.  Histology reveals fragments of normal small bowel, colonic and rectal mucosa.  There is no evidence of active Crohn's disease or dysplasia.
+
+Colonoscopic biopsies - Normal",2021-03-16,22
+"Edinburgh","90-11","CD",22,"male","timepoint_3",2021-12-01,140,4.45,4.4,2.28,1.36,0.43,0.24,0.05,316,1,43,54,14,70.9,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2021-03-16,22
+"Edinburgh","90-11","CD",22,"male","timepoint_4",2022-03-02,133,4.22,2.1,0.76,1,0.26,0.1,0.02,197,3,42,20,12,73.7,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2021-03-16,22
+"Edinburgh","90-11","CD",22,"male","timepoint_5",2022-06-01,135,4.51,7.3,5.11,1.22,0.61,0.26,0.06,256,4,43,20,14,74.5,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2021-03-16,22
+"Edinburgh","90-12","CD",42,"female","timepoint_1",2021-08-11,144,5.23,4.4,2.44,1.15,0.65,0.13,0.01,255,2,36,182,68,75.6,"Moderate",0,NA,NA,"No","No",NA,NA,NA,2,NA,"L3","B2",NA,NA,NA,"Colon looked normal. At ileo-colonic anastomosis and neo-TI <5cm aphthous ulcers (but 1cm in diameter) - therefore, Rutgeert's i2 recurrence. ","Few large ulcers in neoterminal ileum.  Previous right hemicolectomy.
+Microscopy :                
+1.  Examination shows almost normal superficial fragments of small bowel mucosa.  The villous architecture is preserved, however there is very focal mild acute inflammation in some of the villi focally extending to the surface.  No chronic inflammation, frank ulceration or granulomas are seen. 
+Examination shows normal large bowel mucosa.
+The features in this biopsy series are those of minimal acute inflammation in the neoterminal ileum.  They are non-specific but may be related to the presence of a neighbouring anastomosis or may be related to the known Crohn's disease.",2015-01-01,36
+"Edinburgh","90-12","CD",42,"female","timepoint_2",2021-11-17,146,5.41,5.3,3.56,0.99,0.63,0.1,0.02,266,1,35,73,58,NA,"Remission",1,NA,NA,"No","No",NA,NA,NA,3,NA,"L3","B2",NA,NA,NA,"1. 4-5 small apthous ulcers in the first 5 cm neoterminal ileum, above this - normal mucosa. 
+2. The ileo-colic anastamosis is widely patent and there is one ulcer overlying this, as previously noted.
+3. Strictly speaking this is Rutgeerts i1 score. The remainder of the colon is normal.","Specimen
+
+Colonoscopic biopsies:
+1.  Neoterminal ileum.
+2.  Anastomosis.
+3.  Transverse colon.
+4.  Rectum.
+
+Microscopy
+The biopsies from the neoterminal ileum are of small bowel type mucosa which shows some mild disturbance of the mucosal architecture with quite broad villae and some oedema in the lamina propria.  There is no evidence of active inflammation, however, and granulomas are not seen.
+
+The biopsies from the anastomosis consist of a mixture of probable small bowel type mucosa and colonic mucosa.  One fragment appears uninflamed whilst the other fragment shows rather patchy acute and chronic inflammation with neutrophils present within epithelium, cryptitis but no crypt abscesses.  No granulomas are seen.  No CMV inclusions are seen.
+
+The colonic biopsies are all of normal colonic mucosa showing no evidence of inflammation or granulomas.  There is no evidence of dysplasia.
+
+Comment
+This colonoscopic series shows active inflammation at the anastomosis only with some minimal architectural change in the neoterminal ileum.  The inflammation at the anastomosis may not necessarily represent active Crohn's disease, but simply reflect inflammation secondary to the anastomosis.  There is no evidence of active disease elsewhere.
+
+Colonoscopic biopsy series - Active inflammation at anastomosis",2015-01-01,36
+"Edinburgh","90-12","CD",42,"female","timepoint_3",2022-02-16,141,5.09,5.2,3.11,1.38,0.55,0.12,0.02,286,3,35,169,64,77.4,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2015-01-01,36
+"Edinburgh","90-12","CD",42,"female","timepoint_4",2022-05-18,140,5.16,4.8,2.68,1.5,0.49,0.15,0.01,343,2,32,45,72,79.5,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2015-01-01,36
+"Edinburgh","90-13","CD",22,"male","timepoint_1",2021-08-20,141,4.97,17.2,11.26,3.62,2.2,0.06,0.03,375,32,34,839,55,92,"Moderate",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3+L4","B3","Perianal disease",NA,NA,"Moderate inflammation to limit of insertion in distal transverse. Left colon SES-CD 6, rectum and distal sigmoid relatively spared SES-CD 3. Aphthous ulcers, congestion, erythema.
+
+Plan
+To start oral steroids
+MR pelvis
+Escalate Ustekinumab to q4
+","Examination overall shows good architectural preservation, but with mild
+distortion in the mid descending associated with some cryptitis and very
+occasional crypt abscess formation.  There is minimal background focal cryptitis
+and one further small crypt abscess/degenerate crypt is seen within the more
+proximal biopsies.  There is patchy lamina propria inflammation with some
+ulceration and deeper well formed epithelioid granulomas.  No dysplasia or
+malignancy are seen.
+
+The features are those of mild to focally moderately active Crohn's disease as
+stated clinically.  The features appear worse in the biopsies from the mid
+descending colon with the rectum appearing more spared.",2009-01-01,10
+"Edinburgh","90-13","CD",22,"male","timepoint_2",2021-11-10,135,4.77,9,5.93,1.61,0.99,0.38,0.05,408,41,33,1059,133,99,"Moderate",5,NA,NA,"No","No",NA,NA,NA,20,NA,"L3+L4","B3","Perianal disease",NA,NA,"Pancolonic Crohn's, worse in L colon but entire colon showed ongoing inflammation. Terminal ileum was normal. Biopsy series taken. SES-CD (from TI to rectum) = 0 + 4 + 4 + 9 + 3 = 20.","Specimen
+
+Colonoscopic biopsies
+1. Terminal ileum
+2. Caecum
+3. Ascending
+4. Transverse
+5. Descending
+6. Sigmoid
+7. Rectum
+
+Macroscopy
+
+1, 2, 4, 6 & 7. Each biopsy consists of 2 fragments
+3. Three fragments
+5. One fragment
+
+Microscopy
+
+The biopsies from the terminal ileum consist of normal small bowel mucosa. There is no evidence of inflammation or granuloma formation.
+
+All of the colonic and rectal biopsies are abnormal. All exhibit a mild to moderate variable increase in chronic inflammatory cells in lamina propria. 
+
+There is crypt elongation with mild goblet cell depletion but no significant crypt architectural distortion. A single granuloma is seen in one of the biopsies from the caecum and a peri-crypt or granuloma is seen in one of the biopsies from the sigmoid colon. There is essentially no evidence of active crypt inflammation proximal however the biopsies from the descending colon through to the rectum contains scattered crypt abscesses.
+
+Conclusion
+While the ileum is normal these biopsies demonstrate pancolonic Crohn's disease with the only histological evidence of activity seen within the biopsies from the ascending colon to the rectum.
+
+There is no evidence of dysplasia in any of these biopsies.",2009-01-01,10
+"Edinburgh","90-13","CD",22,"male","timepoint_3",2022-02-23,125,4.59,7.5,3.85,2.37,1.23,0.04,0.04,448,11,32,1191,80,93.9,"Mild",5,NA,NA,"Yes","Yes",NA,NA,NA,NA,NA,"L3+L4","B3","Perianal disease",NA,NA,NA,NA,2009-01-01,10
+"Edinburgh","90-13","CD",22,"male","timepoint_4",2022-06-01,145,4.92,8.9,6.71,1.21,0.87,0.04,0.05,300,5,40,NA,18,99.9,"Mild",1,NA,NA,"No","Yes",NA,NA,NA,NA,NA,"L2+L4","B3","Perianal disease",NA,NA,NA,NA,2009-01-01,10
+"Edinburgh","90-14","CD",59,"female","timepoint_1",2021-09-16,117,3.92,9.1,8.54,0.4,0.12,0,0,314,1,34,84,112,61.8,"Moderate",2,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"SES CD = 9 based on ulceration and confluent inflammation most marked in sigmoid colon.
+Rectum also involved with erythema but no ulceration.
+Evidence of chronicity with psuedo polyps/mucosal bridging in sigmoid.
+Multiple biopsies taken and sent urgently - to consider combination therapy with infliximab and azathioprine on ward.","1. Sigmoid biopsies.
+2. Rectal biopsies.
+Microscopy
+                                
+ 1&2.  The biopsies from both sites are all abnormal.  There is architectural distortion with some dilated and branched crypts.  There is a generalised,  diffuse increase in the number of chronic inflammatory cells in the lamina
+propria which extends deeper into the muscularis mucosae.  There is patchy active cryptitis but there are numerous crypt abscesses throughout.  Mucosalulceration is noted in the sigmoid.  Viral inclusions are not identified and there are no granulomata.  One of the fragments from the rectum shows features suggestive of a hyperplastic polyp.
+                                
+The features are those of moderate to severely active chronic inflammatory bowel disease.  There is no dysplasia.
+                                
+Sigmoidoscopic biopsies - Moderate to severely active inflammatory bowel disease
+",2013-04-15,51
+"Edinburgh","90-14","CD",59,"female","timepoint_2",2021-12-01,143,4.63,5,3.51,1.02,0.39,0.05,0.03,242,1,40,61,45,61,"Mild",2,NA,NA,"No","No",NA,NA,NA,0,NA,"L2","B1",NA,NA,NA,"Ileum - normal. Evidence of pseudopolyps from transverse colon to distal sigmoid. No evidence of active inflammation. Compared to earlier scope - there is mucosal healing. Biopsies taken. Please start on azathioprine to go with her infliximab.SES-CD = 0."," 1. Terminal ileum.
+                               2. Caecum.
+                               3. Sigmoid.
+                               4. Rectum.
+                                
+                               Macroscopy
+                                
+                               1. Received 2 pieces of tissue. 
+                               2. Received 2 pieces of tissue. 
+                               3. Received 5 pieces of tissue.
+                               4. Received 3 pieces of tissue. 
+                                
+Microscopy
+                                
+1. There is no significant histological abnormality in these terminal ileal biopsies.
+                                
+2. There is no significant histological abnormality in these colonic biopsies.
+                                
+3. Microscopic examination shows multiple fragments of colonic mucosa. Most fragments are unremarkable. There is mild inflammation in one of the fragments associated with a mixed inflammatory cell infiltrate which is composed mainly of mononuclear cells and eosinophils. No granulomata are identified. There is no evidence of dysplasia or malignancy.
+                                
+ 4.There is no significant histological abnormality in these rectal biopsies.
+                                
+Comment: There is mild  inflammation in one fragment from the sigmoid. In the given context this could represent a small focus of mild active disease or an inflammatory polyp, however the histological findings are non-specific. Disease activity is otherwise quiescent. No evidence of dysplasia.
+",2013-04-15,51
+"Edinburgh","90-14","CD",59,"female","timepoint_3",2022-03-23,124,3.97,3.6,2.4,0.72,0.39,0.09,0.03,210,2,34,36,19,64.2,"Remission",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-04-15,51
+"Edinburgh","90-14","CD",59,"female","timepoint_4",2022-06-22,130,4.2,3.5,2.1,1.03,0.28,0.06,0.02,217,1,36,309,18,60.5,"Remission",1,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-04-15,51
+"Edinburgh","90-15","CD",30,"male","timepoint_1",2021-10-05,153,5.04,4,2.12,1.3,0.4,0.2,0.02,267,14,38,1057,100,88.3,"Moderate",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,"ICV is ulcerated and not passed. Caecum to descending colon normal. Sigmoid and rectum showed patchy erythema. Anal canal is ulcerated. Patient uncomfortable - retroflexion not done.
+SES-CD 5/56 (Ileum 3, left colon 1, rectum 1).","The biopsy from the ileo-caecal valve shows evidence of ulceration. There is quite intense active chronic inflammation of the small amount of intact mucosa are included.
+                                
+Multiple small granulomas are seen in the caecal biopsy has a very occasional small crypt abscesses. There is no crypt architectural distortion.
+                                
+The biopsies from the ascending through to the descending colon are all entirely normal.
+                                
+Multiple small granulomas and occasional isolated giant cells are seen in the lamina propria the biopsy from the sigmoid colon where there is also a mild focal increase in chronic inflammatory cells in lamina propria and foci of cryptitis with very occasional small crypt abscesses. There is no evidence of 
+crypt architectural distortion.
+                                
+Some of the biopsies from the rectum and normal while others exhibit a mild increase in chronic inflammatory cells in lamina propria associated with scattered small granulomata and occasional mucosal giant cells. There is no evidence of crypt inflammation.
+                                
+Conclusion
+These biopsies exhibit features of minimally active Crohn's disease involving the IC valve, caecum, sigmoid and rectum. There is no evidence of dysplasia in any of these biopsies.
+",2014-03-05,23
+"Edinburgh","90-15","CD",30,"male","timepoint_2",2022-01-19,156,5.14,4.7,2.89,1.13,0.36,0.23,0.04,340,12,33,NA,110,NA,"Mild",6,NA,NA,"No","No",NA,NA,NA,NA,10,"L3","B2",NA,NA,NA,"Active, patchy CD collitis from rectum to mid sigmoid. 
+Unable to pass due to acute angulation and patient discomfort. Has had 1x ustekinumab infusion. SES-CD = 5 (rectum) + 5 (left colon =10/56. He has dominant outlet symptoms - I have given him a prescription for Prednisolone suppositories and will see in clinic asap.","1.  Colonic biopsies sigmoid.
+2.  Rectal biopsies.
+
+Microscopy
+
+1&2.  Histological examination shows fragments of colorectal mucosa in which
+there is minimal distortion of the glandular architecture.  There is a
+predominantly chronic, mixed inflammatory cell infiltrate within the lamina
+propria.  A number of granulomas are present. The features are in keeping with
+relatively mild active chronic inflammation; although the degree of activity is
+slightly more prominent in the rectal biopsies.  There is no evidence of
+dysplasia or malignancy.
+
+Comment:  The history is noted.  The features are in keeping with Crohn's disease in which there is relatively mild disease activity.  No evidence of dysplasia.
+
+
+",2014-03-05,23
+"Edinburgh","90-15","CD",30,"male","timepoint_3",2022-04-13,144,4.97,6.6,4.6,1.15,0.57,0.28,0.04,375,27,32,1250,124,80.6,"Moderate",4,NA,NA,"Ongoing","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2014-03-05,23
+"Edinburgh","90-16","CD",26,"male","timepoint_1",2021-09-29,120,4.51,12,10.95,0.56,0.45,0.06,0.01,261,2,29,452,6,67.1,"Mild",0,NA,NA,"No","No",NA,NA,NA,3,NA,"L3","B2",NA,NA,NA,"Ileo-caecal valve is deformed from previous inflammation and stenosed (see photo), would not admit scope. Otherwise colon is normal. He is assymptomatic now (no abdo pain), but remains on polymeric diet. Weaning off Prednisolone (15mg) Due to speak to CWL today. 
+Research biopsies recorded as MID-90-16-001.","The ileocaecal valve biopsies comprise colonic type mucosa.  These
+fragments show lamina propria oedema with a moderate and patchy increase in
+lymphocytes and plasma cells.  There is cryptitis and infiltration of the
+surface epithelium by neutrophils.  Focal erosion is noted.  Granulomas are not
+identified.
+
+The remaining colonic and rectal biopsies are normal.
+
+Comment:  The features are in keeping with mildly active Crohn's disease
+involving the ileocaecal valve.  There is no evidence of dysplasia.
+
+Colonoscopic biopsies - Active inflammation at ileocaecal valve
+",2012-05-07,16
+"Edinburgh","90-16","CD",26,"male","timepoint_2",2022-01-05,131,4.42,8.3,6.72,0.79,0.63,0.18,0.02,226,9,32,1059,15,68.9,"Moderate",1,NA,NA,"Yes","Yes",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2012-05-07,16
+"Edinburgh","90-16","CD",26,"male","timepoint_3",2022-05-11,120,4.2,3.6,2.37,0.65,0.47,0.09,0.02,370,12,32,NA,121,64.6,"Mild",2,NA,NA,"No","Yes",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2012-05-07,16
+"Edinburgh","90-17","UC",23,"female","timepoint_1",2021-09-29,127,4.31,15.6,12.2,2.63,0.62,0.05,0.06,332,1,39,20,181,58.7,"Moderate",NA,3,3,"No","No",1,3,NA,NA,NA,NA,NA,NA,"E3","S2","Scoped to ileum. Very minor proctitis - almost normal. The remainder of colon and ileum showed no signs of inflammation. A few small pseudopolyps in transverse/proximal desc colon.
+UCEIS - V1, B1 and E1 = 3/15 (rectum). We will follow-up in clinic. Continue Remsina and Azathioprine, wean off Prednisolone.
+MID-90-17-001.","Rectal biopsies.
+
+Macroscopy
+
+2 fragments measuring 3 mm.
+
+Microscopy
+
+Sections show a single fragment of large bowel-type mucosa demonstrating mild
+crypt architectural distortion.  There is no significant inflammation.
+Granulomas are not seen.  Organisms are not seen.  There is no evidence of
+dysplasia.
+
+The appearances are non-specific however could in keeping with the clinical
+impression of ulcerative colitis undergoing medical therapy.
+
+Rectal biopsies - Architectural distortion only; no significant inflammation
+",2019-06-01,21
+"Edinburgh","90-17","UC",23,"female","timepoint_2",2022-02-02,119,3.85,7.4,5.26,1.4,0.43,0.24,0.05,340,1.1,38,20,72,62.4,"Remission",NA,0,0,"No","No",0,0,0,NA,NA,NA,NA,NA,"E3","S2","Looks like complete mucosal healing in response to infliximab.
+Mayo Score =0. UCEIS=0.
+","The caecal and ascending colonic mucosa has essentially normal architecture, with no evidence of active inflammation.
+
+There is crypt architectural distortion in the transverse and descending colonic mucosa, without evidence of active inflammation.
+
+The sigmoid colonic mucosa is oedematous, and mildly inflamed with lympho-plasmacytic infiltrate in the lamina propria, and very focal neutrophilic infiltrate in the surface epithelium, but no convincing ulceration, and no cryptitis or crypt abscesses.  Crypt architecture in the sigmoid colon is also distorted.
+
+There is crypt architectural distortion in the rectal mucosa, and prominent lymphoid aggregates, but without evidence of active inflammation.
+
+There are no definite granulomas, and no evidence of dysplasia.
+
+Summary
+The findings are of very minor active inflammation restricted to the sigmoid colon, constituting at most mild focal disease activity, with essentially quiescent disease (architectural distortions only) in the rest of the colon and rectum.  Previous biopsy reports are noted.  The histological features are
+entirely in keeping with treatment response in Ulcerative Colitis, and consistent with the endoscopic impression.
+",2019-06-01,21
+"Edinburgh","90-17","UC",23,"female","timepoint_3",2022-05-11,124,3.97,5.8,3.28,1.71,0.53,0.14,0.09,250,1,38,51,39,60.2,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S2",NA,NA,2019-06-01,21
+"Edinburgh","90-18","UC",44,"male","timepoint_1",2021-10-06,134,4.69,15.8,11.92,1.92,1.87,0.06,0.03,291,1,30,947,116,93.2,"Mild",NA,2,1,"No","No",2,4,4,NA,NA,NA,NA,NA,"E3",NA,"Confluent inflammation in rectum with loss of vascular pattern,. Intramucosal blood. Slightly improved in sigmoid with areas of normal vascular pattern. A few superficial aphthopus ulcers in sigmoid. Biopsies sent ","All of these biopsies are abnormal exhibiting marked crypt architectural distortion resulting in villiform transformation of the mucosal surface. Goblet cells are relatively well preserved. There is only a mild diffuse increase in chronic inflammatory cells in lamina propria and only very occasional foci of cryptitis. No crypt abscesses or ulceration are seen.
+                                
+Conclusion: These biopsies is that the features of chronic ulcerative colitis are at least histologically the changes are similar in both the sigmoid and rectum. There is only minimal histological evidence of activity. There is no evidence of dysplasia in these biopsies.
+",1999-09-01,22
+"Edinburgh","90-18","UC",44,"male","timepoint_2",2022-01-05,162,5.42,7,3.62,1.78,1.21,0.34,0.09,257,1,38,47,42,96,"Remission",NA,1,0,"No","No",0,0,0,NA,NA,NA,NA,NA,"E3",NA,"3 month colonoscopy to assess for mucosal healing following treatment with adalimumab. There was no active disease today - Mayo 0. UCEIS 0. Biopsy series taken. Ongoing follow-up in clinic.
+","Examination of all the biopsies shows a similar appearance with
+superficial pieces of very mildly distorted colonic mucosa with some increased
+spacing and irregularity to the profile of the crypts.  This is associated with
+lamina propria fibrosis in areas, with macrophages and mild mixed inflammation
+rich in eosinophils within the lamina propria.  Very small aggregates of
+neutrophils are seen within the lamina propria and more rarely occasional
+polymorphs are seen within the crypt epithelium.  Occasional crypts show a
+degenerate appearance.  Paneth cell metaplasia is seen within the left colon.
+
+The features are those of post inflammatory changes with a small amount of
+evidence to some focal ongoing inflammation.  They are in keeping with treated
+chronic inflammatory bowel disease.  No dysplasia or malignancy are seen.
+",1999-09-01,22
+"Edinburgh","90-18","UC",44,"male","timepoint_3",2022-04-06,149,5.07,7,3.48,1.91,1.26,0.3,0.09,288,1,34,425,133,95.1,"Moderate",NA,2,2,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,1999-09-01,22
+"Edinburgh","90-18","UC",44,"male","timepoint_4",2022-06-29,157,5.39,6.1,2.5,2.12,1.15,0.23,0.1,248,1,39,20,12,96.3,"Mild",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,1999-09-01,22
+"Edinburgh","90-19","CD",23,"female","timepoint_1",2021-10-13,135,4.64,12.4,9.73,1.68,0.83,0.17,0.03,342,6,34,387,180,145,"Moderate",11,NA,NA,"No","No",NA,NA,NA,25,NA,"L2","B1",NA,NA,NA,"Mild Crohn's colitis affecting caecum to descending colon. Biopsies taken. Terminal ileum looked normal. 
+SES-CD =9/56. 
+For follow up and switch in biologic therapy. ","The terminal ileal biopsies consist of normal small bowel mucosa. There is no
+histological evidence of Crohn's disease.
+
+All of the colonic biopsies from the caecum through to the descending colon are
+abnormal exhibiting mild to moderate focal increase in chronic inflammatory
+cells in lamina propria associated with occasional crypt abscesses. There is
+only minimal focal crypt architectural distortion and goblet cell depletion.
+Granulomas are not identified in any of these biopsies.
+
+The biopsies from the sigmoid colon and rectum on normal apart from a possible
+small superficial granuloma in one of the biopsies from the sigmoid colon.
+
+Conclusion
+
+These biopsies demonstrate histological evidence of mildly active Crohn's
+disease caecum to the descending colon which mirrors the distribution seen
+endoscopically.
+
+There is no evidence of dysplasia in these biopsies.
+
+",2019-09-04,21
+"Edinburgh","90-19","CD",23,"female","timepoint_2",2022-02-10,134,4.65,7.9,4.89,2.17,0.61,0.17,0.06,375,4,31,543,80,138,"Mild",6,NA,NA,"Ongoing","No",NA,NA,NA,0,NA,"L2","B1",NA,NA,NA,"Follow-up research scope as part of MUSIC study, SES-CD today is 0. Complete mucosal healing on vedolizumab. Continue treatment and ongoing follow-up.",NA,2019-09-04,21
+"Edinburgh","90-19","CD",23,"female","timepoint_3",2022-05-23,140,4.89,9.9,7.12,1.99,0.64,0.12,0.07,368,8,34,NA,33,136,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2019-09-04,21
+"Edinburgh","90-20","CD",28,"female","timepoint_1",2021-10-13,113,4.75,12.9,9.28,2.98,0.54,0.04,0.01,396,1,36,1250,NA,70,"Mild",3,NA,NA,"No","No",NA,NA,NA,0,NA,"L2","B1",NA,NA,NA,"Normal ileum and colon.
+SES-CD = 0
+Looks like complete mucosal healing
+Continue on IFX 6 weekly ","The terminal ileal biopsy consists of normal small bowel mucosa. 
+
+Small granulomata identified within mucosal lymphoid aggregates within biopsies from the transverse and descending colon and an isolated mucosal giant cell is seen in the biopsy from the sigmoid colon. Small granumloata and an isolated giant cell are also seen within the rectal biopsies. All of the colonic and rectal biopsies are otherwise normal showing no evidence of inflammation of crypt architectural distortion. 
+
+Conclusion: There is no evidence of active Crohn's disease in any of these biopsies which correlates with the endoscopic findings. There is no evidence of dysplasia. ",2013-01-01,19
+"Edinburgh","90-20","CD",28,"female","timepoint_2",2022-02-02,135,5.02,6.1,3.64,1.9,0.42,0.08,0.03,292,2,38,NA,60,75.4,"Remission",2,NA,NA,"No","No",NA,NA,NA,0,0,"L2","B1",NA,NA,NA,"Quiescent ileo-colonic Crohn's disease = Full mucosal healing. SES-CD=0. Incidental small polyp found in transverse colon, removed entirely.
+",NA,2013-01-01,19
+"Edinburgh","90-20","CD",28,"female","timepoint_3",2022-05-11,143,4.7,6.3,3.71,1.94,0.45,0.11,0.04,328,5,37,NA,58,NA,"Remission",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2013-01-01,19
+"Edinburgh","90-21","UC",34,"female","timepoint_1",2021-10-13,127,4.93,5.5,3.12,1.84,0.33,0.16,0.01,416,1,38,577,97,57.4,"Moderate",NA,5,4,"No","No",2,NA,NA,NA,NA,NA,NA,NA,"E2","S2","30cm moderately active UC.
+normal beyond this point.","Specimen
+
+Biopsies from:
+A. Terminal ileum (inked yellow).
+B. Sigmoid colon (inked blue).
+C. Rectum (inked orange).
+
+Macroscopy
+
+Pathology report, 1 tissue block and 1 H&E stained section received.
+
+Microscopy
+A-C.  The ileal biopsies comprise fragments of small intestinal mucosa with prominent Peyers patches but no significant active or chronic inflammation. Granulomata are not identified.
+
+The sigmoid biopsies show large bowel mucosa with mild architectural distortion with focal crypt branching.  There is a generalised increase in the number of chronic inflammatory cells within the lamina propria and there is mild to moderate patchy active cryptitis with occasional crypt abscesses.
+
+The rectal biopsies are suboptimally orientated but also show mild crypt distortion and a generalised increase in the number of chronic inflammatory cells within the lamina propria including lymphoid aggregates with reactive germinal centres. There is mild patchy active cryptitis with ill-defined, small crypt abscesses. Granulomata are not identified.
+
+Conclusion
+The histological features are those of mild to moderately active distal chronic inflammatory bowel disease.  If an infective aetiology has been excluded the pattern of inflammation in these limited biopsies favours ulcerative colitis however a full set of colonoscopic biopsies would have been preferable for full histological assessment of distribution.
+",2021-08-08,34
+"Edinburgh","90-21","UC",34,"female","timepoint_2",2022-02-08,122,5.09,7.6,5.04,1.38,0.61,0.49,0.05,342,1,39,73,62,57.7,"Mild",NA,3,2,"No","No",1,1,NA,NA,NA,NA,NA,NA,"E2","S2","Previously active 30cm UC - now settled, with normal mucosa. Only 3-5cm of very minor proctitis. Mayo 0-1, UCEIS v1b0e0 = 1/15. I will see her back in my clinic. ","1-2 Distal descending and sigmoid: There is no significant histological abnormality in these colonic biopsies. There is no evidence of active UC. There is no evidence of dysplasia or malignancy.
+
+3. Rectal: Histological examination shows two small fragments of colorectal mucosa. The colonoscopic findings are noted. There is no obvious acute inflammation; however unfortunately both biopsies after processing are too small/crushed to allow for adequate histological assessment.",2021-08-08,34
+"Edinburgh","90-21","UC",34,"female","timepoint_3",2022-05-06,120,4.89,6.9,4.14,1.93,0.48,0.27,0.04,334,1,37,55,35,57.4,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2021-08-08,34
+"Edinburgh","90-22","CD",22,"male","timepoint_1",2021-10-19,144,5,6.4,4.86,1.23,0.31,0.02,0.01,280,1,43,508,7,66.5,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,"Normal ileum and colon SES-CD=0 ",NA,2017-07-01,18
+"Edinburgh","90-22","CD",22,"male","timepoint_2",2022-01-26,151,5.18,6,4.29,1.36,0.35,0.03,0.01,317,1,43,489,5,67.5,"Remission",0,NA,NA,"No","No",NA,NA,NA,0,NA,"L3","B1",NA,NA,NA,"Colon and ileum normal. No evidence of overt Crohn's disease.
+We will also arrange MRI small bowel. Aim to see back in clinic in April 2022.","1.  Terminal ileum - four fragments.
+                                
+                               2.  Caecum - two fragments.
+                                
+                               3.  Ascending - four fragments.
+                                
+                               4.  Transverse - six fragments.
+                                
+                               5.  Descending - two fragments.
+                                
+                               6.  Sigmoid - two fragments.
+                                
+                               7.  Rectum - two fragments.
+                                
+Microscopy
+                                
+1.  Examination shows normal small bowel mucosa.
+2-7.  Examination shows a mild vaguely patchy lamina propria inflammation in the more proximal biopsies with associated lamina propria granuloma, but little by  way of acute/active inflammation.  The appearances normalise distally with the sigmoid and rectum being within normal limits.
+The features are those of mildly active, more proximal, colonic Crohn's disease.",2017-07-01,18
+"Edinburgh","90-22","CD",22,"male","timepoint_3",2022-04-20,146,5.1,6.3,4.36,1.45,0.41,0.05,0.01,334,1,42,399,2,67.9,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2017-07-01,18
+"Edinburgh","90-22","CD",22,"male","timepoint_4",2022-07-20,147,5.05,7.2,4.95,1.63,0.48,0.08,0.02,304,1,41,982,0,68.6,"Mild",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2017-07-01,18
+"Edinburgh","90-23","CD",57,"female","timepoint_1",2021-10-20,130,4.6,8.5,5.96,1.93,0.43,0.11,0.02,339,6,41,56,159,91.3,"Moderate",13,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2016-08-23,52
+"Edinburgh","90-23","CD",57,"female","timepoint_2",2022-06-02,132,4.65,9.2,6.63,1.88,0.51,0.13,0.05,344,5,39,55,144,NA,"Mild",13,NA,NA,"No","No",NA,NA,NA,0,NA,"L3","B1",NA,NA,NA,"Only complete to sigmoid due to patient discomfort and fixed angulation. No evidence of active CD - biopsies taken. I note bowel frequency has reduced 5/day from 10-15/day; and calprotectin normalised. We will see back in research clinic and continue on Vedolizumab.","Colonoscopic biopsies
+1. Sigmoid
+2. Rectum
+
+Macroscopy
+
+1. 2 fragments
+2. 4 fragments
+
+Microscopy
+
+All of these colonic and rectal biopsies are normal. There is no evidence of
+inflammatory bowel disease or dysplasia.
+",2016-08-23,52
+"Edinburgh","90-23","CD",57,"female","timepoint_3",2022-04-13,1333,4.75,9.2,6.37,2.15,0.52,0.15,0.04,359,5,40,77,120,94.9,"Remission",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2016-08-23,52
+"Edinburgh","90-23","CD",57,"female","timepoint_4",2022-07-20,125,4.49,9.7,6.29,2.55,0.65,0.2,0.04,338,4,38,NA,83,95.5,"Mild",8,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2016-08-23,52
+"Edinburgh","90-24","CD",29,"male","timepoint_1",2021-11-10,130,4.9,9.1,6.75,0.96,1.13,0.23,0.06,426,11,33,1250,101,75,"Moderate",10,NA,NA,"No","No",NA,NA,NA,NA,18,"L3+L4","B3","Perianal disease",NA,NA,"Active colitis affecting rectum, sigmoid and descending colon. Transverse and ascending colon = normal. A few ulcers on the IC valve and ileum appeared normal. SES-CD 18/56 (attached sheet). We will sort out further Rx, likely vedolizumab. GID-006-P (additional research biopsies taken).","The ileal biopsies comprise superficial fragments of small intestinal
+mucosa with preservation of normal villous architecture. There is no significant
+inflammation and granulomata are not identified.
+
+The biopsy from the ileocaecal valve is ulcerated and there is a diffuse
+increase in the number of both acute and chronic inflammatory cells in the
+lamina propria.  Granulomata are not identified.
+
+The colonic biopsies show no significant architectural distortion but there are
+numerous, well-formed granulomas present within the lamina propria throughout.
+There is no significant active inflammation from the caecum to the descending
+colon but there is evidence of frank mucosal ulceration within the sigmoid.
+There is also an increase in the number of chronic inflammatory cells in the
+lamina propria in the sigmoid and the rectum.
+
+The overall features are those of colonic Crohn's disease with active ulceration
+involving the ileocaecal valve and sigmoid. Viral inclusions are not identified
+and there is no evidence of dysplasia or malignancy.
+
+Ileo-colonoscopic biopsies - Pan-colonic Crohn's disease with ulceration
+involving the ileocaecal valve and sigmoid
+
+
+",2008-02-01,15
+"Edinburgh","90-24","CD",29,"male","timepoint_2",2022-02-11,126,4.98,11.2,8.72,0.96,1.2,0.22,0.09,386,51,31,NA,44,NA,"Mild",5,NA,NA,"No","No",NA,NA,NA,15,15,"L4","p",NA,NA,NA,"Three spots of Crohn's disease (<30% affected surface) - hepatic flexure, mid-transverse and proximal sigmoid colon. Note also, anal canal ulceration but no frank perianal disease. Ileum normal.
+SES-CD = 15/60 (see score sheet). I note that he has been loaded with Vedolizumab and renal function now normal. I think broadly, his Crohn's disease management is heading the right direction and I will review in clinic again.","1.  Biopsies from the terminal ileum show normal large bowel type mucosa.
+
+2.  Biopsies from the caecum show two fragments of normal large bowel type
+mucosa with no crypt architectural distortion.  There is a patchy mild increase
+in chronic inflammation within the lamina propria and one granuloma.
+
+3.  Some fragments show normal large bowel type mucosa however others are
+composed of granulation tissue containing granulomas.  There is patchy cryptitis
+and crypt abscess formation with crypt loss adjacent to entirely normal mucosa.
+
+4.  Sections show one fragment of normal large bowel type mucosa and one
+fragment of granulation tissue.  There is a third fragment showing large bowel
+type mucosa demonstrating chronic inflammation of the lamina propria with
+cryptitis and crypt abscess formation.  Granulomas are also present.
+
+5.  Sections show essentially normal large bowel type mucosa containing multiple
+granulomas.
+
+6.  Sections show large bowel type mucosa with patchy chronic inflammation.
+Some fragments are normal.  There is cryptitis and crypt abscess formation and a
+number of well formed granulomas are identified.  In addition fragments of
+granulation tissue are present.
+
+7.  Sections show large bowel type mucosa which is essentially normal however
+contains multiple granulomas.
+
+Comment:  Sections show patchy mild to moderate chronic inflammation
+predominantly within the hepatic flexure, sigmoid colon and rectum.  Multiple
+granulomas are seen throughout the series.  The appearances would be in keeping
+with moderately active Crohn's disease.
+
+",2008-02-01,15
+"Edinburgh","90-24","CD",29,"male","timepoint_3",2022-05-18,118,4.74,10.8,9.1,0.66,0.94,0.03,0.05,431,4,33,654,54,63.9,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L4","p",NA,NA,NA,NA,NA,2008-02-01,15
+"Edinburgh","90-24","CD",29,"male","timepoint_4",2022-08-19,122,4.91,8.9,7.09,0.59,0.99,0.12,0.07,406,7,32,NA,38,60.6,NA,2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L4","p",NA,NA,NA,NA,NA,2008-02-01,15
+"Edinburgh","90-25","UC",37,"female","timepoint_1",2021-11-24,121,4.02,5.1,3.96,0.72,0.31,0.06,0.02,134,19,37,1248,197,56.8,"Moderate",NA,9,5,"Yes","No",2,3,NA,NA,NA,NA,NA,NA,"E2",NA,"Confluent colitis first 50cm of distal colon.
+In descending colon, Mayo Score =1, UCEIS = V2+B0+E0=2.
+In sigmoid, rectum, Mayo Score =2, UCEIS = V2+B0+E1=3.
+Note she had her first Vedolizumab 2 weeks ago, still on Tofacitinib.
+","The biopsies from the caecum are of normal colonic mucosa. 
+Biopsies from the transverse colon are almost totally normal but there is a single focus of cryptitis. 
+
+The biopsies from descending colon to rectum are all abnormal. They show colonic mucosa with very marked architectural distortion, a villiform appearance, crypt shortening and branching of crypts. There is a diffuse increase in acute and chronic inflammation in the lamina propria but relatively minimal cryptitis. Crypt abscesses are sparse. A single area of erosion is identified in the biopsies from sigmoid colon. 
+
+The appearances are those of ulcerative colitis with moderate disease activity. There is no evidence of dysplasia. 
+",2019-12-16,35
+"Edinburgh","90-25","UC",37,"female","timepoint_2",2022-02-16,128,4.29,8.6,5.84,2.13,0.34,0.21,0.04,259,4,39,1241,171,56.1,"Moderate",NA,6,4,"Ongoing","No",2,4,4,NA,NA,NA,NA,NA,"E2",NA,"Follow-up research scope as part of MUSIC study. Patient has had vedolizumab for approx 6 months - reports better than before but still symptomatic BO less than 5x/day intermittent bleeding. Calpro remains high, ongoing colitis to transverse, worst in rectum. Mayo 2. UCEIS V2B0E2 - 4. 
+"," The biopsies from the caecum and ascending colon are normal. Some of the  fragments from the transverse colon are also normal however others exhibits 
+diffuse lamina propria inflammation with multiple crypt abscesses.
+                                
+All of the biopsies from the ascending colon through to the rest of the abnormal  exhibiting a diffuse increase in chronic inflammatory cells in the lamina  propria associated marked crypt loss, focal crypt architectural distortion, 
+cryptitis and crypt abscess formation. Goblet cells are depleted. Granulomata are not seen. 
+                                
+Conclusion
+                                
+The biopsies from the rectum through to some of the transverse colon exhibit  features of mild to moderately active chronic ulcerative colitis. There is no evidence of dysplasia in any of these biopsies.
+",2019-12-16,35
+"Edinburgh","90-25","UC",37,"female","timepoint_3",2022-05-18,115,4.03,6.1,4.08,1.35,0.31,0.28,0.03,306,14,33,863,133,55.7,"Moderate",NA,3,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2",NA,NA,NA,2019-12-16,35
+"Edinburgh","90-25","UC",37,"female","timepoint_4",2022-08-17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,88,56.4,NA,NA,4,1,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2",NA,NA,NA,2019-12-16,35
+"Edinburgh","90-26","CD",37,"male","timepoint_1",2021-12-08,143,5.21,10.3,6.4,2.51,0.96,0.31,0.07,260,6,35,530,115,134.1,"Moderate",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"mild inflammation in left colon","The ileal biopsies comprise normal small bowel mucosa and mucosa-
+associated lymphoid tissue.
+
+All of the colonic and rectal biopsies are abnormal.  These show a moderate and
+largely diffuse increase in lymphocytes, plasma cells and eosinophils within the
+superficial two-thirds of the lamina propria.  Basal plasmacytosis is noted but
+is not a prominent feature.  There is focal cryptitis, most prominent in the
+left colon fragments where occasional small crypt abscesses are also noted.  The
+crypt architecture is essentially normal.  A few small ill-defined granulomatous
+foci are seen within the lamina propria of the left colon fragments.  These
+biopsies also show Paneth cell metaplasia.  The subepithelial collagen band is
+of normal thickness and there is no excess of intraepithelial lymphocytes.
+
+Comment:  Assuming that an infective aetiology has been excluded, the changes
+seen in the colonic and rectal biopsies are suggestive of mildly active Crohn's
+disease.  Correlation with faecal calprotectin and small bowel imaging is
+suggested.  The features are not typical of microscopic colitis.  There is no
+evidence of dysplasia.
+
+Colonoscopic biopsies - Features suggestive of colonic and rectal Crohn's
+disease
+",2021-11-18,37
+"Edinburgh","90-26","CD",37,"male","timepoint_2",2022-03-09,140,5.14,8.5,5.17,1.95,0.85,0.39,0.09,253,3,34,57,152,133,"Mild",2,NA,NA,"No","No",NA,NA,NA,0,0,"L2","B1",NA,NA,NA,"Colonoscopy to TI. Macroscopically the bowel was normal. SES-CD 0. Biopsy series taken to assess. Ongoing follow-up as part of MUSIC research study.","The biopsies from the terminal ileum consist of normal small bowel mucosa.
+
+Paneth cell metaplasia is seen extending to the rectal biopsies which is
+indicative of previous inflammation. These colonic and rectal biopsies are
+otherwise entirely normal.
+
+There is no evidence of Crohn's disease or dysplasia in any of these biopsies",2021-11-18,37
+"Edinburgh","90-26","CD",37,"male","timepoint_3",2022-06-08,145,5.19,7.2,4.34,1.75,0.67,0.32,0.08,214,2,35,NA,133,136,"Remission",6,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2021-11-18,37
+"Edinburgh","90-27","CD",54,"male","timepoint_1",2021-12-14,114,4.45,21.3,17.77,2.77,0.56,0.04,0.12,641,1,32,1250,121,70.1,"Severe",5,NA,NA,"Yes","Yes",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"Likely severe Crohns disease SESCD Left 9, Rectum 6. Needs inpatient admission today for assessment.","Sigmoidoscopic biopsies
+1. Sigmoid
+2. Rectum
+
+Macroscopy
+                                
+1. 10 fragments
+2. 6 fragments
+
+Microscopy
+All of these biopsies are abnormal exhibiting focal crypt architectural distortion which is more marked in the rectum where it results in a villiform mucosal surface. There are scattered large crypt abscesses and occasional foci of cryptitis. Overall goblet cells are however well preserved. There is an accompanying mild somewhat variable increase in chronic inflammatory cells in lamina propria which is slightly more marked in the rectum.
+
+Granulomata are not seen nor amoebae identified (though further levels will be examined). There is also no evidence of dysplasia.
+
+Conclusion
+
+These biopsies exhibit features of  moderately active chronic inflammatory bowel disease. While the degree of crypt architectural distortion seen within the rectal biopsies is more suggestive of ulcerative colitis the overall preservation of goblet cells and the relative lack of lamina propria inflammation would be unusual for this diagnosis therefore Crohn's disease should also be considered and I note that this was the favoured endoscopic diagnosis.
+",2021-12-10,54
+"Edinburgh","90-27","CD",54,"male","timepoint_2",2022-04-13,129,4.55,7.6,3.36,2.95,0.58,0.62,0.06,383,2,40,315,20,78,"Mild",1,NA,NA,"No","No",NA,NA,NA,NA,3,"L2","B1",NA,NA,NA,"Ileum normal.
+Interestingly, dense pseudopolyp formation from caecum to proximal sigmoid colon. Rectum is normal. Probably minor inflammation in transverse colon (1+1+1+0=3 SES-CD), the rest is 0. Clinically he has improved, BO 2x from 15x/day, weight has increased. Continue on IFX and AZA.","The terminal ileal biopsies consist of normal small bowel mucosa.
+
+The biopsies from the caecum and ascending colon exhibit mild crypt
+architectural distortion associated with a minimal increase in chronic
+inflammatory cells in lamina propria without evidence of crypt inflammation.
+these features are typical of those seen in biopsies originating from
+pseudopolyps.
+
+The biopsies from the transverse and descending colon also exhibit mild focal
+crypt architectural distortion or addition scattered crypt abscesses are seen
+and this is associated with a more definite they are still relatively mild
+increase in chronic and fatty cells in lamina propria.
+
+The biopsies from the sigmoid colon exhibit minimal focal crypt architectural
+distortion  only without evidence of inflammation. The rectal biopsies normal.
+
+Granulomata are not seen and there is no evidence of dysplasia in any of these
+biopsies.
+
+Conclusion
+
+The colonic biopsies exhibit subtle features in keeping with largely inactive
+inflammatory bowel disease with pseudopolyp formation, the any evidence of
+activity seen in the biopsies from the transverse and descending colon. Given
+the Minor changes in these biopsies accurate classification is not possible",2021-12-10,54
+"Edinburgh","90-27","CD",54,"male","timepoint_3",2022-07-13,130,3.92,6.7,2.66,2.75,0.83,0.35,0.06,298,5,38,884,29,81.5,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2021-12-10,54
+"Edinburgh","90-28","UC",28,"female","timepoint_1",2021-12-14,128,4.31,13.1,12.23,0.71,0.08,0,0.03,317,6,36,844,81,52.5,"Mild",NA,2,2,"No","No",3,8,NA,NA,NA,NA,NA,NA,"E2","S3","Confluent colitis from proximal descending colon to splenic flexure (30cm in length) whilst sigmoid and rectum completely normal (note on Salofalk enemas but note sigmoidoscopy on 29/11 = normal). Mayo Score =3, UCEIS = V2+B3+E3 = 8/8. I will liaise with Dr Gillet in SJH.","1.  The ileal biopsies show small intestinal mucosa with normal villous architecture. There is no significant inflammation and granulomata are not identified.
+
+2-7. The biopsies from the caecum to the transverse colon show large bowel mucosa with no architectural distortion and no significant inflammation.
+                                
+The biopsies from the descending colon all abnormal and show widespread architectural distortion, Paneth cell metaplasia and a diffuse increase in the number of chronic inflammatory cells within the lamina propria which spills into the submucosa.  There is patchy active inflammation within the lamina propria and focal cryptitis with possible areas of surface ulceration noted. Viral inclusions are not identified.  There are no granulomata.
+                                
+In contrast, the biopsies from the sigmoid and rectum show minimal architectural distortion and no active or chronic inflammation.
+                                
+Conclusion
+                                
+The histology from the index biopsies from NHS Greater Glasgow and Clyde have been reviewed (UB67047/21).  The index biopsies did demonstrate features of  mildly active distal inflammatory bowel disease involving the sigmoid and 
+rectum.  The changes are relatively minor but ulcerative colitis is favoured over Crohn's disease.  The pattern of inflammation within the descending colon of the current colonoscopic series is certainly more ulcerative colitis-like and 
+there are no granulomata.  The sparing of the sigmoid and rectum could be explained by medical therapy but correlation with the full clinical history and relevant medical therapy is required.  There is no dysplasia.
+",2019-08-01,25
+"Edinburgh","90-28","UC",28,"female","timepoint_2",2022-03-16,135,4.43,7.8,4.77,2.38,0.59,0.04,0.04,238,1,42,137,68,56.7,"Mild",NA,2,1,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S3",NA,NA,2019-08-01,25
+"Edinburgh","90-28","UC",28,"female","timepoint_3",2022-06-15,128,4.2,5.4,2.66,2.15,0.5,0.05,0.04,238,1,40,NA,33,54.2,"Remission",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S3",NA,NA,2019-08-01,25
+"Edinburgh","90-29","CD",18,"female","timepoint_1",2021-12-15,120,4.36,6.2,4.33,1.22,0.53,0.08,0.04,360,42,30,1124,167,80.8,"Moderate",13,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-03-29,18
+"Edinburgh","90-29","CD",18,"female","timepoint_2",2022-03-16,131,4.76,7.1,4.13,2.36,0.53,0.07,0.02,304,NA,35,950,36,87.2,"Mild",2,NA,NA,"No","No",NA,NA,NA,3,3,"L3","B1",NA,NA,NA,"Summary: Image capture failed but procedure videod.
+1. Ileum - still a few apthous ulcers present. SES-CD=3+0+0+0+0=3/60.
+2. The rest of the colon looked normal.
+3. Anal ulceration noted.
+I think we can increase her Adalimumab to 40mg every weekly. I note BO still active 4-5x/day, high calprotectin and energy levels low","1.-6.
+The terminal ileal mucosa is inflamed with patchy mixed composition infiltrate
+in the lamina propria, and very occasional foci of cryptitis.  Villi are blunted
+and crypts are branched, with regenerative epithelial changes (mucin depletion)
+but no evidence of dysplasia.  A single ill-formed granuloma is seen in the
+superficial lamina propria on one histological level (level 6).
+
+There is no evidence of active inflammation in the caecum, ascending and
+descending colonic mucosa, with at most minor crypt distortion in the caecum,
+but overall normal crypt architecture in these areas.
+
+A few ill-formed granulomas are seen scattered throughout the lamina propria of
+the sigmoid colon mucosa, with at most minor focal accompanying lympho-
+plasmacytic infiltrate, but no other evidence of active inflammation, and
+essentially normal crypt architecture here.
+
+The rectal mucosa has normal crypt architecture and no evidence of active
+inflammation.
+
+There is no evidence of dysplasia.
+
+Summary
+The findings are of mild active inflammation in terminal ileum and (minimally)
+sigmoid colon.  The findings are in keeping with clinical impression of mild
+active Crohn's disease, consistent with the previously reported biopsy series.",2021-03-29,18
+"Edinburgh","90-29","CD",18,"female","timepoint_3",2022-06-15,125,4.32,5.6,2.81,2.1,0.56,0.09,0.02,264,5,33,NA,19,93.2,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-03-29,18
+"Edinburgh","90-30","CD",21,"female","timepoint_1",2022-01-12,123,4.06,5.7,3.52,1.62,0.34,0.15,0.04,347,1,41,136,116,81.7,"Mild",1,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"Multiple patches of colitis - at splenic flexure, mid transverse and around the appendix. Intervening colonic mucosa is normal. The TI was intubated and was normal in its distal 8cm or so. Appearances consistent with colonic Crohn's disease. ","Large bowel mucosa showing patchy chronic active inflammation with focal cryptitis and crypt abscess, variable within and between biopsies and with multifocal moderate architectural distortion. Occasional possible vague granulomas seen. 
+Rectal biopsies show normal large bowel mucosa with no significant inflammation. 
+Features are in keeping with Crohn's disease. ",2022-01-05,21
+"Edinburgh","90-30","CD",21,"female","timepoint_2",2022-04-13,130,4.14,6.7,4.48,1.56,0.51,0.15,0.04,357,1,39,61,128,81,"Mild",1,NA,NA,"No","No",NA,NA,NA,2,2,"L2","B1",NA,NA,NA,"1. Periappendicecal inflammation - biopsied.
+2. Small 10cm segment in descending colon - mild inflammation with very fine apthous ulcers - biopsied. SES-CD = 2/56
+3. Ileum and rest of colon normal.
+Commenced on Azathioprine 2 weeks ago. Need to monitor closely.
+",NA,2022-01-05,21
+"Edinburgh","90-30","CD",21,"female","timepoint_3",2022-07-13,125,3.86,5.3,3.16,1.31,0.3,0.46,0.06,381,9,37,20,88,83.1,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2022-01-05,21
+"Edinburgh","90-31","CD",31,"male","timepoint_1",2022-02-02,139,5.22,6.5,4.22,1.25,0.84,0.15,0.03,229,9,35,566,133,106.1,"Moderate",7,NA,NA,"No","No",NA,NA,NA,9,9,"L3","B1",NA,NA,NA,"Active ileitis - ileum can be intubated. SES-CD, 3+3+3+0=9. The remainder of the colon is normal. I note he was very tender in the anal canal but no obvious fistulae or abscesses. I will review medical management which is likely needed to be adjusted based on endoscopic assessement this morning.","1.  Terminal ileal biopsies.
+2.  Caecal biopsies.
+ 3.  Ascending colon biopsies.
+ 4.  Transverse colon biopsies.
+ 5.  Descending colon biopsies.
+  6.  Sigmoid colon biopsies.
+ 7.  Rectal biopsies.
+                                
+                                                        
+  1.  Sections show small bowel type mucosa demonstrating patchy chronic  inflammation and focal ileitis.  There is a single poorly formed granuloma. 
+  2.  Sections show large bowel type mucosa with no evidence of crypt    architectural distortion.  There is patchy mild chronic inflammation within the 
+   lamina propria and a possible poorly formed granuloma.
+                                
+   3-5.  The biopsies from the ascending colon, transverse colon and descending 
+     colon show normal large bowel type mucosa.  Granulomas are not seen.  
+  6.  Sections show large bowel type mucosa with patchy mild chronic inflammation  and focal crypt destruction.  Granulomas are not seen.
+ 7.  Sections show one fragment of normal large bowel type mucosa and one  fragment demonstrating focal chronic inflammation surrounding single crypts.  A  possible single granuloma is identified.  
+
+Comment:  The biopsies from the terminal ileum, caecum, sigmoid colon and rectum  show patchy mild chronic inflammation with occasional destruction of crypts and  poorly formed granulomas.  The appearances would be in keeping with mildly  active Crohn's disease.
+",2019-08-29,29
+"Edinburgh","90-31","CD",31,"male","timepoint_2",2022-06-09,133,4.9,4.4,3.01,0.76,0.42,0.14,0.03,222,15,36,NA,89,104.8,"Moderate",4,NA,NA,"No","No",NA,NA,NA,1,10,"L3","B1",NA,NA,NA,"1. Ileitis + mild ICV stricture (note missed Adalimumab injections during switch to Uste). SES-CD = 10/56 (9 in ileum and 1 in left colon).
+2. Minor erythema in sigmoid - biopsied.
+3. Anal canal - ulcerated.
+Continue on Ustekinumab, need careful monitoring for response.",NA,2019-08-29,29
+"Edinburgh","90-32","CD",30,"male","timepoint_1",2022-02-16,159,5.04,7.8,5.28,1.47,0.6,0.39,0.07,259,14,35,761,74,143.1,"Mild",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"Patchy mild pancolitis with one solitary apthous ulcer in TI (seen to about 30cm). 
+He has chronic loose stools 2-3x/day with new intermittent abdominal pain. CRP 16mg/L and FCAL 969mcg/g. Family h/o IBD (sister UC; grandmother ? sub-type). 
+This looks like mild IBD. Path sent urgently. SBMRI requested (esp due to abdominal pain).","The terminal ileal biopsies consist of small bowel mucosa which is largely normal, only a single focus of neutrophils are seen within the epithelial surface overlying a lymphoid aggregate. Granulomata are not seen.
+
+All of the biopsies from the right colon through to the descending colon are abnormal exhibiting a focal increase in chronic inflammatory cells in the lamina propria with lymphoid aggregates associated with scattered crypt abscesses.
+There is only minimal crypt architectural distortion and goblet cells are well preserved. Isolated granulomata are not seen and there is no convincing basal plasmacytosis.
+
+While some of the biopsies from the sigmoid colon are entirely normal others exhibit similar changes cysts those seen in the right colon with a focal increase in chronic inflammatory cells in lamina propria with scattered crypt abscesses but only minimal focal crypt architectural distortion. While granulomata are seen and these appear to be related to disrupted inflamed
+crypts. Paneth cell metaplasia and indicative of a degree of chronicity is seen extending to the sigmoid colon.
+
+The rectal biopsies are largely normal however while there is no evidence of active inflammation scattered granulomata are seen.
+
+The is no evidence of dysplasia in any of these biopsies.
+
+Conclusion
+Provided infection is excluded the histological changes are highly suggestive of mildly active inflammatory bowel disease. Overall the patchy nature of the changes combined with the presence of apparently isolated granulomata within the rectum favour a diagnosis of Crohn's disease.
+
+",2021-12-21,30
+"Edinburgh","90-32","CD",30,"male","timepoint_2",2022-05-25,154,4.88,6.1,4.24,1.22,0.45,0.17,0.03,244,5,39,NA,34,146.2,"Mild",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2021-12-21,30
+"Edinburgh","90-33","CD",25,"male","timepoint_1",2022-02-23,150,4.97,4.9,2.26,1.59,0.62,0.34,0.05,286,2,40,633,24,80.5,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,"There is a mild right sided colitis - TI, transverse, left colon and rectum are normal. Biopsies taken for pathology and after consent for research.","Colonoscopic biopsies
+1. Terminal ileum
+2. Right colon
+3. Transverse
+4. Left colon
+5. Rectum
+
+Macroscopy
+
+1. Three fragments
+2. Eight fragments
+3 & 4. Each biopsy consists of 4 fragments
+5. Two fragments
+
+Microscopy
+
+The terminal ileal biopsies consist of normal small bowel mucosa.
+
+All of the biopsies from the right colon are abnormal, there is a moderate
+slightly variable increase in chronic inflammatory cells in the lamina propria
+associated with foci of cryptitis and crypt abscess formation. There is focal
+goblet cell depletion and mild crypt architectural distortion. Poorly formed
+granulomata are seen within the lamina propria not all of which are related to
+disrupted crypts.
+
+The biopsies from the transverse colon contain scattered crypt abscesses and
+foci of cryptitis associated with a mild focal increase in chronic inflammatory
+cells in the lamina propria. There is mild goblet cell depletion but no
+significant crypt architectural distortion. Isolated granulomata are not seen.
+
+In contrast the biopsies from the sigmoid colon and rectum are entirely normal.
+
+Conclusion
+
+These biopsies exhibit features of mild-to-moderate active chronic inflammatory
+bowel disease involving the right colon to less marked degree of the transverse
+colon. The overall features strongly favour a diagnosis of Crohn's disease.
+
+There is no evidence of dysplasia in these biopsies.
+",2022-02-04,25
+"Edinburgh","90-33","CD",25,"male","timepoint_2",2022-06-08,159,5.26,4.5,2.12,1.69,0.43,0.24,0.05,266,1,43,NA,37,80.5,"Remission",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2022-02-04,25
+"Edinburgh","90-34","CD",55,"female","timepoint_1",2022-03-16,139,5.37,13.3,10.47,1.7,0.89,0.21,0.05,349,8,35,710,105,54.9,"Moderate",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B1",NA,NA,NA,"THIS WAS A DOUBLE BALLOON COLONOSCOPY. Really quite difficult to get to right colon due to complex sigmoid looping almost behaving like a subacute volvulus. Balloon technique helpful here. Eventually able to attain caecum with straight scope. 
+
+Single small ulcer involving the ICV with a strictured terminal ileum (4-5mm diameter lumen) not allowing entry of the scope however multiple ulcers involving at least the TI visible proximal to the stricture particularly with underwater views. Multiple TI and ICV bx (x8) plus segmental colonic bx (x2 each) to descending colon. Left sided colon and rectal bx taken yesterday. Distal sigmoid sessile 14-15mm polyp piecemeal resected (forced coag) after gelofusin 8ml lift with 2 clips to one corner due to slight ooze here. Await histology but endosocpic findings suggestive of small bowel Crohn's (she denies any long Hx of NSAID use). Please update GI team again as next step. Consider a MR enterography when appropriate.","Colorectal biopsies
+                               1.  Terminal ileum.
+                               2.  Caecum.
+                               3.  Ascending colon.
+                               4.  Transverse.
+                               5.  Descending.
+                               6.  Sigmoid polyp.
+ Macroscopy     
+1.  Several fragments.
+2.  One fragment.
+3.  One fragment
+ 4.  One fragment
+ 5.  Three fragments.
+ 6.  Five fragments embedded across three cassettes.
+                                
+  Microscopy
+                                
+ 1.  Examination showed superficial pieces of large bowel mucosa.  It is difficult to ascertain whether this is from the terminal ileum or colon due to a  complete loss of the villous architecture.  The pieces showed acute and chronic inflammation with ulcer slough, focal cryptitis and distortion.  Occasional giant cells are seen in the base of the ulcer slough/granulation tissue but no definite well formed granuloma are identified.
+                                
+ 2-4.  Examination shows large bowel mucosa that is within normal limits.
+                                
+ 5: Examination shows almost normal large bowel mucosa. There is a suggestion in the middle level of some focal pericryptal inflammation and macrophage  aggregation, however these fall well short of a granuoma.
+6. Examination shows a large tubular adenoma with low grade dysplasia.  Excision cannot be assessed.
+                                
+The features of this biopsy series are those of an active inflammation with some patchy inflammation, ulceration and occasional giant cells. If these are from  the terminal ileum,    architecture, suggesting a degree of chronicity, thereby supporting the  possibility of Crohn's disease. If they are from the valve or caecum, as
+favoured morphologically, then the architecture is more normal, and this would
+be regarded as non-specific ulceration and inflammation. There is an incidental
+  sigmoid polyp and minimal non-specific changes in the descending colon.
+Discussion at the IBD CPC, with correlation of any radiology and clinical  information may be useful.
+",2022-02-04,55
+"Edinburgh","90-34","CD",55,"female","timepoint_2",2022-06-15,140,4.98,9.6,6.41,2.38,0.6,0.19,0.05,285,3,36,677,39,59.6,"Mild",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B1",NA,NA,NA,NA,NA,2022-02-04,55
+"Edinburgh","90-35","CD",23,"male","timepoint_1",2022-03-30,114,4.44,7,4.4,1.26,0.71,0.59,0.08,412,4,30,798,160,68.3,"Moderate",6,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L2","B3","Perianal disease",NA,NA,"Marked perianal inflammation with slightly stenotic and indurated anal canal. There is apthous ulceration and patchy loss of vascular pattern in all colonic segments. The TI was normal. The appearances are of mildly active Crohn's pancolitis with perianal involvement. Full colonic series taken. ","A) Caecal biopsies
+(B) Ascending colon biopsies
+(C) Transverse colon biopsies
+(D) Descending colon biopsies
+(E) Sigmoid colon biopsies
+(F) Rectal biopsies
+
+Macro Report
+(A) Two biopsies - the larger 5mm and the smaller 2mm
+(B) Three tissue fragments - the larger 3mm and the smaller 2mm
+(C) One tissue fragment - 5mm
+(D) Two tissue fragments - the larger 7mm and the smaller 5mm
+(E) Two tissue fragments - the larger 8mm and the smaller 6mm
+(F) Two biopsies - the largest 5mm and the smallest 4mm
+
+Micro Report
+(A) - (F)  Caecal, ascending, transverse, descending sigmoid
+colon and rectal biopsies:-
+
+
+THESE SHOW EVIDENCE OF MILD TO MODERATE ACTIVE CHRONIC
+PROCTOCOLITIS WITH EPITHELIOID GRANULOMAS, ESPECIALLY IN (B),
+(C), (D) AND (E) ENTIRELY SUPPORTIVE OF CROHN'S DISEASE.
+NEGATIVE FOR DYSPLASIA.  NO MALIGNANCY.",2022-02-24,23
+"Edinburgh","90-35","CD",23,"male","timepoint_2",2022-06-29,128,4.23,3.7,1.65,1.24,0.33,0.46,0.06,247,1,37,283,153,68.4,"Moderate",8,NA,NA,"Ongoing","Yes",NA,NA,NA,NA,NA,"L3","B1","Perianal disease",NA,NA,NA,NA,2022-02-24,23
+"Edinburgh","90-36","CD",51,"male","timepoint_1",2022-04-06,155,5.28,10.9,7.99,1.54,1.22,0.08,0.04,285,9,36,859,125,116,"Moderate",5,NA,NA,"No","No",NA,NA,NA,NA,12,"L3","B1",NA,NA,NA,"1. Ileum normal but small apthous ulcers on ICV + just as entering ileum
+2. Scattered fine apthous ulcers across the colon (r.colon to sigmoid). SES-CD=12/60=3+3+3+3+0=12.
+3. Evidence of anal ulceration although no fistula.
+4. Scattered diverticular's disease across the colon.
+","The ileal biopsies consist of small bowel mucosa some fragments of which are
+normal however in one fragment there is villous blunting, scattered crypt
+abscesses, cryptitis and associated mild increase in chronic inflammatory cells
+in the lamina propria.
+
+All of the caecal biopsies are normal. The biopsies from the ascending and
+transverse colon are also normal apart from the presence of isolated
+granulomata.
+
+More numerous granulomata are seen in the biopsy from the descending colon where
+there is also a single crypt abscess. The biopsies from the sigmoid colon
+exhibit a mild focal increase in chronic inflammatory cells lamina propria but
+there is no significant active crypt inflammation. Granulomas are seen within
+the rectal biopsy associated with mild focal increase in chronic inflammatory
+cells in lamina propria. However again there is no significant active crypt
+inflammation.
+
+There is no evidence of crypt architectural distortion or dysplasia in these
+biopsies.
+
+Conclusion
+
+These are core biopsies exhibit features of minimally active Crohn's disease.
+",2021-08-02,50
+"Edinburgh","90-36","CD",51,"male","timepoint_2",2022-06-29,156,5.1,7,3.9,2.02,0.87,0.19,0.03,257,4,36,33,84,120.6,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-08-02,50
+"Edinburgh","90-37","UC",61,"male","timepoint_1",2022-05-11,151,4.93,7.3,4.01,1.95,0.79,0.44,0.09,370,3,38,NA,153,96.6,"Moderate",NA,2,4,"No","No",2,NA,4,NA,NA,NA,NA,NA,"E2","S2","Active colitis to 30cm. UCEIS 4, Mayo 2
+","1.  Examination shows a small piece of unremarkable small bowel mucosa.
+
+2&3.  Examination shows normal large bowel mucosa.  There is at most a minimal
+increase in inflammatory cells within the surface of the left colon biopsy
+however no specific features are seen.
+
+4&5.  Examination shows increasing architectural distortion with acute and
+chronic inflammation, cryptitis and crypt abscess formation.  No granulomas are
+seen.
+
+The features are those of an active distal colitis with the morphology most in
+keeping with ulcerative colitis.  No infective organisms or viral inclusions are
+identified on routine H&E.
+",2012-07-16,51
+"Edinburgh","90-38","CD",31,"male","timepoint_1",2022-05-11,144,5.16,6.1,4.41,1.09,0.4,0.17,0.05,254,7,34,296,60,68.3,"Mild",2,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2004-09-01,14
+"Edinburgh","90-39","CD",36,"female","timepoint_1",2022-05-12,99,4.44,16.7,14.02,1.61,1.02,0.02,0.06,543,10,31,1250,191,57.5,"Severe",11,NA,NA,"No","Yes",NA,NA,NA,17,17,"L2","B1","Perianal disease",NA,NA,"1. 1-2 small apthous ulcers seen in ileum and ICV
+2. Confluent-like colitis from splenic flexure to rectum. Scoring SES-CD (based on previous CD diagnosis) = 17/56 (3+0+0+7+7).
+Will monitor clinical response to Vedolizumab and arrange +12 months follow-up scope.",NA,2012-08-01,26
+"Edinburgh","90-40","CD",59,"female","timepoint_1",2022-05-25,135,4.49,7.2,5.85,0.83,0.38,0.1,0.03,246,4,2.48,NA,140,97.3,"Moderate",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B1",NA,NA,NA,NA,NA,2019-02-01,56
+"Edinburgh","90-41","CD",27,"female","timepoint_1",2022-06-08,132,4.32,5.9,2.87,2.34,0.46,0.2,0.05,329,1,41,NA,67,41,"Mild",4,NA,NA,"No","No",NA,NA,NA,0,0,"L1","B1",NA,NA,NA,"Summary:
+1. Normal neoterminal ileum and colon.
+2. Ileo-colonic anastamosis healthy and widely patent.
+3. Ileal and colonic biopsies.
+4. Rectal retroflexion not done due to patient discomfort.
+I will see in clinic.",NA,2004-01-01,8
+"Edinburgh","90-42","UC",84,"male","timepoint_1",2022-07-11,129,4.07,12.7,11.09,0.55,0.88,0.12,0.05,332,NA,NA,NA,96,72.3,NA,NA,0,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2021-06-21,83
+"Edinburgh","90-44","UC",44,"male","timepoint_1",2022-07-14,132,4.7,11,7.89,1.64,1.32,0.09,0.05,339,1,40,578,116,74,"Mild",NA,2,2,"No","No",2,4,4,NA,NA,NA,NA,NA,"E3","S1","Ileum normal. Mild confluent pancolitis from caecum to rectum with relative rectal sparing. Mayo score 2. UCEIS V2 B1 E1 = 4/8. Note BO x2/day with no blood. On salofalk. ","Microscopy
+
+All of the biopsies are abnormal, although there is relative rectal sparing.  
+They show colonic mucosa with a disturbed mucosal architecture with some loss of  crypts, and branching or fusion of crypts.  In some of the fragments there  appears to be reduplication of muscularis mucosae.  There is evidence of Paneth cell metaplasia and a basal plasmacytosis.  There is a relatively diffuse but somewhat variable increase in inflammation in the lamina propria with both acute and chronic inflammation being present.  There is also evidence of cryptitis and crypt abscess formation.  In many of the fragments there is a slightly granulomatous appearance to the inflammation but in many of these fragments this appears centred round damaged crypts and may be cryptolytic in nature.
+                                
+No CMV inclusions are seen.  There is no evidence of dysplasia or malignancy.
+                                
+Comment.  This colonoscopic series shows a evidence of mild to moderately active inflammatory bowel disease affecting the entire colon.  Whilst the changes are likely to have been modified by treatment, the relatively diffuse nature of the   inflammation and architectural distortion perhaps favours ulcerative colitis.
+                                
+Colonoscopic biopsy series - Mild to moderately active inflammatory bowel disease
+",2020-07-01,41
+"Edinburgh","90-45","UC",55,"male","timepoint_1",2022-07-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,92,110,"Moderate",NA,5,5,"No","No",2,NA,NA,NA,NA,NA,NA,NA,"E2","S2","mild changes seen in the mid to upper rectum. Moderately active disease in the sigmoid colon up to 30-35 cm from the anal verge, but the proximal sigmoid and descending colon looked normal. Continue current medication. I will write with the histology results when they come back. Dr Ho will make any changes to treatment or follow up plan as he deems appropriate","Specimen
+
+1.  Descending colon.
+2.  Sigmoid colon.
+3.  Rectum.
+
+Macroscopy
+
+All specimens comprise 3-4 fragments.
+
+Microscopy
+
+1.  The descending colon biopsies are normal.
+
+2.  These sigmoid biopsies show expansion of the lamina propria by moderate
+numbers of plasma cells and lymphocytes.  There is crypt distortion, cryptitis
+and crypt abscesses.  There is a single focus where there are multinucleated
+giant cells but these as associated with the damaged crypts.  There is
+significant crypt distortion with bifid glands.  Focally there is ulceration.
+There is paneth cell metaplasia.
+
+3.  Two of the rectal biopsies show mild chronic inflammation with foci of
+cryptitis and crypt abscesses.  There is no dysplasia or viral inclusions.
+
+The features are those of moderately active ulcerative colitis.  There are no
+viral inclusions or dysplasia.",2018-12-04,51
+"Edinburgh","90-46","CD",74,"female","timepoint_1",2022-07-20,98,3.65,8.9,6.32,1.5,0.88,0.11,0.05,366,2,27,NA,91,61.2,"Mild",4,NA,NA,"No","No",NA,NA,NA,7,7,"L1","B2",NA,NA,NA,"Marked NTI and anastomotic inflammation. SESCD Ileum ulcers 3; ulcerated surface 2; affected surface 1; strictures 1 (7). Remainder of colon normal. Biospies urgently will contact with next steps for trial.","1.  Neo terminal ileum
+2.  Anastomosis
+3.  Right colon
+4.  Left colon
+5.  Rectum
+
+Microscopy
+
+1.  Sections show a single fragment of normal small bowel-type mucosa.  There is
+no significant inflammation.  Granulomas are not seen.
+
+2.  Sections show fragments of small bowel-type mucosa with focal ileitis and
+free-floating fragments of ulcer slough.  Granulomas are not seen.
+
+3-5.  The biopsies from the right colon, left colon and rectum show normal large
+bowel-type mucosa.  There is no significant inflammation.  Organisms are not
+seen.  Granulomas are not seen.
+
+Comment: There is focal ileitis and ulceration in the biopsies from the anastomosis.  The remainder of the biopsies are normal.  Granulomas are not seen.
+",2010-10-01,62
+"Edinburgh","90-47","CD",22,"female","timepoint_1",2022-07-27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,131,54.9,"Mild",7,NA,NA,"No","No",NA,NA,NA,NA,4,NA,NA,NA,NA,NA,"Mild patchy pancolitis/erythema with rectal sparing. SES-CD = 1 + 1+ 1 + 1 + 0 = 4. Mayo 1. Await pathology, ongoing follow-up in clinic.","
+Specimen
+
+1.  Terminal ileum
+2.  Caecum
+3.  Ascending colon
+4.  Transverse colon
+5.  Descending colon
+6.  Sigmoid colon
+7.  Rectum
+
+Macroscopy
+
+1.  One piece up to 4 mm all taken.
+2.  Two pieces up to 3 mm all taken.
+3.  Three pieces up to 3 mm all taken.
+4.  Three pieces up to 3 mm all taken.
+5.  Two pieces up to 4 mm all taken.
+6.  Four pieces up to 5 mm all taken.
+7.  Two pieces up to 3 mm all taken.
+
+Microscopy
+
+1.-7.
+
+The superficial terminal ileal biopsy has normal villous and crypt architecture
+with no active inflammation.
+
+There is evidence of active chronic inflammation in all the biopsied colonic
+areas, most active in the caecal and asecending colon biopsies.  Inflammation is
+relatively diffuse in pattern in the affected mucosa, predominantly comprised of
+mixed infiltrate filling the lamina propria, along with more focal cryptitis and
+crypt abscess formaiton.  Epithelioid granulomas are seen in the caecum and
+descending colon - some are deep within the lamina propria, and not obviously
+cryptolytic in nature.  There is mild architectural distortion throughout all
+the sampled colonic areas.
+
+The rectal biopsies have essentially normal crypt architecture, with no active
+inflammation.
+
+There is no evidence of dysplasia or malignancy.
+
+Summary
+The findings are of a chronic active pancolitis in keeping with the established inflammatory bowel disease diagnosis.  The disease activity is interpreted as mild, with activity worst in the right colon, and sparing both the terminal ileum and rectum.  Previous pathological descriptions and discourse is noted, the histological findings in this biopsy series may favour Crohn's disease.
+",2018-07-02,18
+"Glasgow","91-1","UC",34,"male","timepoint_1",2021-03-30,148,4.9,13.3,10.4,1.9,0.8,0.07,0,380,1,41,516,62,88.4,"Mild",NA,2,0,"No","No",3,6,NA,NA,NA,NA,NA,NA,"E2","S3","Steroid-dependent despite Adalimumab then Vedolizumab with what sounds like primary non-response to both agents.
+
+Has ongoing disease activity (initially Mayo 1 with loss of vascularity but ulceration in distal transverse consistent with Mayo 3 disease more proximally). Biopsies taken and will ask to look for CMV.
+
+Suggest: Active disease despite high-dose Prednisolone and 4/52 Vedo. Likely to requires switch.",NA,2000-01-01,13
+"Glasgow","91-1","UC",34,"male","timepoint_2",2021-07-08,146,5.03,6.2,3.3,2.1,0.7,0.12,0,352,2,40,30,52,88.6,"Mild",NA,1,2,"Ongoing","No",2,1,NA,NA,NA,NA,NA,NA,"E2","S3","Persisting active disease although subjectively perhaps a bit better than previous description. mayo 1 inflammation in rectum but Mayo 2 (marked erythema, total loss of vascular pattern) in descending and transverse colon. No ulcerations or contact bleeding. ",NA,2000-01-01,13
+"Glasgow","91-1","UC",34,"male","timepoint_3",2021-09-24,147,5.02,7.1,4.5,1.5,1,0.08,NA,341,1,41,30,22,97.3,"Remission",NA,1,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S3",NA,NA,2000-01-01,13
+"Glasgow","91-1","UC",34,"male","timepoint_4",2022-01-11,160,5.38,6.2,3.5,1.8,0.8,0.06,0,337,1,41,75,62,97.3,"Mild",NA,3,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S3",NA,NA,2000-01-01,13
+"Glasgow","91-2","CD",30,"female","timepoint_1",2021-03-30,131,4.3,8.1,5.7,1.5,0.7,0.13,0.1,326,3,46,1800,73,47.4,"Mild",1,NA,NA,"No","No",NA,NA,NA,11,NA,"L2","B1",NA,NA,NA,"Slight anal stenosis. Ulceration in anal canal and some inflammation to 20cm. Further inflamed segment over 10cm just distal to splenic flexure.
+Otherwise normal to TI but gamma loop made scope position unstable.
+Biopsy series taken. Local SES-CD score = 11.",NA,2017-08-29,26
+"Glasgow","91-2","CD",30,"female","timepoint_2",2021-06-28,128,4.17,8.9,5.9,2,0.9,0.18,0.1,331,3,42,568,52,48.5,"Mild",2,NA,NA,"No","No",NA,NA,NA,8,NA,"L2","B1",NA,NA,NA,"Slight anal stenosis as before. Mild to moderate proctitis and short segment of mild inflammation just distal to splenic flexure. SES-CD this time = 8 so definite improvement. Otherwise normal to TI.",NA,2017-08-29,26
+"Glasgow","91-2","CD",30,"female","timepoint_3",2021-09-24,127,4.04,8.3,5.3,1.7,1.1,0.13,NA,320,2,43,991,65,50.3,"Mild",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2017-08-29,26
+"Glasgow","91-2","CD",30,"female","timepoint_4",2022-01-07,124,4.04,7.2,3.9,1.9,1.1,0.19,NA,356,5,43,1360,51,48.8,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2017-08-29,26
+"Glasgow","91-3","CD",38,"male","timepoint_1",2021-06-28,144,4.93,6.3,3.5,1.4,0.6,0.72,0.1,240,3,39,139,34,73.3,"Mild",2,NA,NA,"No","No",NA,NA,NA,9,NA,"L2","B1",NA,NA,NA,"Moderate to severe inflammation to 20cm (SES-CD=9).",NA,2000-01-01,16
+"Glasgow","91-3","CD",38,"male","timepoint_2",2021-10-25,150,4.94,7.1,3.9,1.9,0.7,0.51,0.1,251,4,42,73,44,73.5,"Remission",3,NA,NA,"No","No",NA,NA,NA,8,NA,"L2","B1",NA,NA,NA,"Scope passed to ileum. Active disease confined to rectum at 0-20cm. SES-CD score 8. Symptomatically a good bit better since switching to weekly adalimumab. The rectum is slightly narrowed with a number of active ulcers (0.5 - 2cm). Ive suggested he could take a nightly mesalazine enema eg salofalk or asacol for a couple of months to see if that offers any additional benefit in terms of the rectal inflammation and ulceration.",NA,2000-01-01,16
+"Glasgow","91-4","CD",63,"male","timepoint_1",2021-08-31,150,5.31,9.9,8.1,1.2,0.6,0.01,NA,227,8,35,996,110,72.8,"Moderate",5,NA,NA,"Yes","No",NA,NA,NA,10,10,"L2","B1",NA,NA,NA,"OFG and 'colitis'. Recent flare responding well to steroids.
+Distal rectal ulceration +/- chronic fissure would explian perianal pain. Relative rectal sparing above this then further segmental inflammation with aphthae and cobblestoning in sigmoid. Patchy mild changes through rest of colon but TI normal. SES-CD 10.
+
+Biopsy series taken but image cpature unfortunately failed.
+
+Suggest: Will write with histology. Needs escalation to biologic (Adalimumab). Has agreed to participate in MUSIC Study so will arrange FU ileocolonoscopy in due course when can also assess reponse to medical escalation.",NA,2019-05-29,61
+"Glasgow","91-4","CD",63,"male","timepoint_2",2021-11-24,145,5.14,8.2,4.5,3,0.6,0.08,NA,243,3,37,362,63,71.8,"Mild",5,NA,NA,"No","No",NA,NA,NA,1,1,"L2","B1",NA,NA,NA,"MUSIC follow up colonoscopy.
+As before chronic anal fissure with some contact bleeding likely explains anal symptoms. 
+Some minor granularity in rectum/sigmoid, otherwise normal appearance throughout the colon.
+Scope passed into terminal ileum which also appeared normal.
+
+Suggest rectogesic ointment if not already using. Continue adalimumab therapy. Will not require 12 month study colonoscopy as evidence of improvement today.","MACRO
+A: Terminal ileum biopsy - One fragment.
+
+B: Right colon biopsy - Three fragments.
+
+C: Left colon biopsy - Four fragments.
+
+D: Rectal biopsy - Four fragments.
+
+MICROSCOPY
+Microscopy of specimen A shows normal small intestinal mucosa.
+
+Specimens B, C and D show normal large intestinal mucosa.
+
+There is no evidence of active inflammation, dysplasia or invasive malignancy.",2019-05-29,61
+"Glasgow","91-5","UC",46,"male","timepoint_1",2021-09-24,150,4.89,8.9,6.4,1.7,0.6,0.12,NA,309,4,40,NA,137,73.7,"Moderate",NA,8,7,"No","No",3,4,NA,NA,NA,NA,NA,NA,"E2","S2","Scope passed to ileum. There was active disease (Mayo 3) to 25
+
+30cm. Proximal to that the mucosa was largely unremarkable macroscopically but there were a number of discrete aphthae in the right colon and a small patch of inflammation around the appendiceal orifice. Mucosa in the small bowel looked healthy. On basis of the findings to day and ongoing symptom burden then escalation of treatment is appropriate. I do not think a course of bridging steroids is required. Dr Brownson will discuss treatment options with Mr Walsh and we will ensure pre-treatment bloods and information are completed. Follow up appt in my clinic will be arranged in due course.",NA,2012-08-16,37
+"Glasgow","91-5","UC",46,"male","timepoint_2",2021-12-15,155,5.01,6.5,3.8,2,0.5,0.1,0.1,238,NA,41,30,50,74.9,"Mild",NA,2,2,"No","No",0,0,NA,NA,NA,NA,NA,NA,"E2","S2","Scope to distal transverse colon. Inflammation previously present in rectum and sigmoid is greatly improved. Careful inspection of left colon, sigmoid colon and rectum under narrow band imaging. No polyps identified. Mucosa looked normal throughout. Random biopsies taken as detailed.",NA,2012-08-16,37
+"Glasgow","91-5","UC",46,"male","timepoint_3",2022-04-22,166,5.23,9.8,7.5,1.7,0.5,0.17,0.1,273,2,38,671,150,76,"Moderate",NA,9,7,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2012-08-16,37
+"Glasgow","91-6","CD",51,"male","timepoint_1",2021-10-06,134,4.5,12,8.4,2.8,0.8,0.06,0,382,1,40,NA,86,77.3,"Mild",6,NA,NA,"No","No",NA,NA,NA,2,NA,"L2","B1",NA,NA,NA,"Scope passed to TI - no obvious ileal ulceration. 
+Overall appearances much improved from previous with no evidence of significant inflammation anywhere throughout the colon. Patient symptomatically much better since commencing infliximab. 
+Biopsies taken from right colon, left colon and rectum, as well as representative biopsies for Biorepository as per patient consent prior to procedure.","Microscopy shows large intestinal mucosa with focal mild crypt
+distortion and focal crypt drop-out. There is focal Paneth cell
+metaplasia in the left sided biopsies. There are bowel preparation
+related changes with oedema and congestion of the lamina propria
+however the inflammatory cell infiltrate within the colonic
+biopsies falls within normal limits.
+
+In the rectal biopsies there is a non-caseating granuloma in keeping
+with the known history of Crohn's disease however there is no crypt
+activity represented. There is no dysplasia or malignancy.",2015-11-04,45
+"Glasgow","91-6","CD",51,"male","timepoint_2",2022-01-06,148,4.71,7.6,5,1.8,0.7,0.08,NA,360,1,42,203,60,82,"Mild",2,NA,NA,"No","No",NA,NA,NA,0,0,"L2","B1",NA,NA,NA,"Scope passed to ileum. Prep excellent. Normal mucosal appearances throughout. Biopsies taken as described. Please carry on with current treatment. Review pending in clinic on 9th March","The minimal crypt irregularity and scattered granulomas in the right
+and left colon are consistent with the history of Crohn's disease
+which is relatively quiescent. There is very focal acute
+inflammation in one of the biopsies from the right colon.
+
+There is no dysplasia or malignancy.",2015-11-04,45
+"Glasgow","91-6","CD",51,"male","timepoint_3",2022-04-08,148,4.56,5.9,3.5,1.6,0.7,0.06,0,302,2,40,110,61,82.8,"Mild",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2015-11-04,45
+"Glasgow","91-7","UC",55,"male","timepoint_1",2021-10-06,140,4.5,9.5,6.1,2.3,0.8,0.22,0,399,7,36,30,116,80.9,"Moderate",NA,5,6,"No","No",3,5,NA,NA,NA,NA,NA,NA,"E2","S2","Scope passed to distal descending colon, the mucosa from anal verge to approx 30cms, distal descending colon is significanlty inlfammed with large ulcers, bleeding ++. images attached and biopsies taken. ",NA,2011-09-12,45
+"Glasgow","91-7","UC",55,"male","timepoint_2",2021-12-21,139,4.36,8.3,7.4,0.7,0.2,0,0,299,3,38,1630,100,83.4,"Moderate",NA,5,6,"No","No",1,3,NA,NA,NA,NA,NA,NA,"E2","S2","Medically refractory distal UC. Seen last week in combined Medical/Surgical clinic and potentially heading towards colectomy. FU scope as part of MUSIC study.
+
+Mayo 1 colitis to 30cm with extensive pseudopolyps formation almosts amounting to a stricture at transition point. Normal proximaql colon. TI could not be intubated. Tiny caecal polyp removed by cold Bx.
+
+Disease assessment biopsies taken and sent urgently.","The caecal polyp (A) is a tubular adenoma with low-grade dysplasia in which the completeness of excision cannot be assessed histologically.
+
+Biopsies from the right colon and transverse colon (B and C) show large bowel mucosa which is within normal limits.
+
+The abnormalities are confined to biopsies from the left colon and rectum (D and E) where there is mild to moderate crypt architectural distortion with irregularity in the crypt spacing, dilation and branching. The lamina propria shows patchy hypercellularity with inflammation which is more prominent within the left colon where there is mild active cryptitis and a focal loss of the normal plasma cell gradient. The lamina propria within the rectum appears slightly hypocellular. Panneth cell metaplasia is seen. No viral inclusions, granulomas parasites are seen.
+
+Comment
+
+The findings within the background colonic biopsies (B-E) are those mild chronic active inflammation and in the stated clinical context would be in keeping with ongoing mild inflammation in the left colon in a patient with chronic inflammatory bowel disease. No malignancy is seen.",2011-09-12,45
+"Glasgow","91-8","CD",57,"male","timepoint_1",2021-10-12,143,4.77,7.7,4.7,1.9,0.7,0.46,0.1,318,8,37,NA,50,77.3,"Mild",4,NA,NA,"No","No",NA,NA,NA,13,NA,"L3","B3",NA,NA,NA,"Complex Crohn's with previous right hemicolectomy and SB adenocarcinoma. Systemically well but bowels opening 3-4x/day.
+
+Moderate pancolitis to anastomosis with pseudopolyps then widespread aphthous ulceration in neo-TI. Consistent with recurrent Crohn's. Biopsied extensively. SES-CD=13.",NA,1997-07-01,32
+"Glasgow","91-8","CD",57,"male","timepoint_2",2022-01-18,142,4.88,7.2,4.3,1.8,0.9,0.21,0.1,293,9,39,71,65,78.1,"Moderate",6,NA,NA,"Yes","No",NA,NA,NA,23,NA,"L3","B3",NA,NA,NA,"Pancolitis again with presence of pseudopolyps in transverse colon. In addition, inflammation and apthous ulceration in neo-TI to 20cm. SES-CD = 23 (13 in septamber 2021). Will discuss with Dr MacDonald re commencing Rx.","
+A. NEOTERMINAL ILEAL BIOPSIES:
+MACROSCOPY:
+Received three fragments largest 3mm.
+
+MICROSCOPY:
+Histology shows fragments of ileal mucosa exhibiting distortion,
+focal ulceration, cryptitis and increased mixed inflammation within
+lamina propria with reactive changes. There is no evidence of
+granulomata, dysplasia or malignancy.
+
+The features are those of patchy moderately active chronic
+inflammation and are in keeping with recurrent chronic inflammatory
+bowel disease.
+
+B. TRANSVERSE BIOPSIES:
+MACROSCOPY:
+Received four fragments largest 4mm.
+
+C. LEFT COLONIC BIOPSIES:
+MACROSCOPY:
+Received four fragments largest 3mm.
+
+MICROSCOPY:
+Histology of both parts B and C shows fragments of colonic mucosa
+exhibiting glandular distortion, mucin depletion, focal cryptitis
+and increased mixed inflammation within lamina propria. There is
+no evidence of granulomata,dysplasia or malignancy.
+
+The features are those of mildly active chronic inflammation and
+are in keeping with chronic inflammatory bowel disease.
+
+D. RECTAL BIOPSIES:
+MACROSCOPY:
+Received four fragments largest 3mm.
+
+MICROSCOPY:
+Histology shows fragments of rectal mucosa exhibiting glandular
+distortion, cryptitis and increased mixed inflammation within
+lamina propria. There is no evidence of granulomata, dysplasia
+or invasive malignancy.
+
+The features are those of moderately active chronic inflammation
+and are in keeping with chronic inflammatory bowel disease.",1997-07-01,32
+"Glasgow","91-9","UC",68,"female","timepoint_1",2021-10-14,133,4.44,9.4,5.7,2.6,0.8,0.27,NA,604,17,32,471,158,65,"Severe",NA,8,6,"No","No",3,6,NA,NA,NA,NA,NA,NA,"E3",NA,"Scope passed to ileum. Moderate to severely active pancolitis and ileitis. There were serpiginous ulcers in the rectum and recto-sigmoid. The remainder of the colon was actively inflamed w/o significant ulcers. There were aphthous ulcers and one larger ulcer in the ileum. The whole colon had a leadpipe appearance with a flattened, splinted ICV. Biopsies taken as described. I had a quick look at previous histology and colonoscopy. I see that ileal inflammation has been found in the past and also that a non-caseating granuloma has previously been seen. 
+Opinion: Persistent, chronic active disease despite 2nd line biologic and cortiment. ",NA,2005-06-01,52
+"Glasgow","91-9","UC",68,"female","timepoint_2",2022-02-01,135,4.37,8,4.6,2.3,0.9,0.17,0.1,568,5,33,1800,49,62.7,"Moderate",NA,4,4,"No","No",3,5,NA,NA,NA,NA,NA,NA,"E3",NA,"Remains symptomatic and, despite Ustekinumab, still has active pancolitis. Mayo=2 proximal to splenic flexure (with friability and loss of vascular pattern) but more severe distally with ulceration (Mayo=3). Lead-pipe changes and features of chronic inflammation with scarring throughout. TI looked normal.
+
+Disease assessment biopsies taken.
+
+Suggest: Happy to increase Ustekinumab to 4 weekly but accepts may be heading towards surgery. ",NA,2005-06-01,52
+"Glasgow","91-10","UC",67,"male","timepoint_1",2021-10-22,133,4.93,15.2,11.4,2,1.6,0.08,NA,209,7,33,493,164,70,"Moderate",NA,6,4,"Yes","No",2,2,NA,NA,NA,NA,NA,NA,"E3",NA,"Moderatley active pancolitis - - a little more patchy in the transverse and right colon.",NA,2004-03-01,49
+"Glasgow","91-10","UC",67,"male","timepoint_2",2022-01-25,129,4.56,11.3,9.6,1.1,0.6,0.04,0,263,5,33,30,96,70.9,"Mild",NA,4,2,"No","No",0,0,NA,NA,NA,NA,NA,NA,"E3",NA,"UC (previously left-sided but felt to have extended in 2021). Recently started Vedolizumab with good symptomatic response. FU colonoscopy as part of MUSIC study. INR=3 on warfarin.
+
+Looks quiescent (Mayo=0) to caecum. TI normal.
+
+Biopsy series taken.",NA,2004-03-01,49
+"Glasgow","91-10","UC",67,"male","timepoint_3",2022-05-05,126,4.4,9.8,5.7,2.8,1.1,0.14,NA,245,4,32,30,110,72,"Mild",NA,4,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,2004-03-01,49
+"Glasgow","91-11","CD",36,"male","timepoint_1",2021-10-26,149,5.11,6.1,3.3,2.1,0.4,0.28,NA,221,2,42,645,159,76.1,"Moderate",8,NA,NA,"No","No",NA,NA,NA,4,NA,"L1","B3",NA,NA,NA,"Scope passed well into terminal ileum. 
+Apthous ulcers at anastomosis and TI but surrounding mucosa looked healthly . Rutgeerts score i2b. Rest of bowel looked normal. 
+Colonic biopsies taken.",NA,2017-11-13,32
+"Glasgow","91-12","CD",22,"female","timepoint_1",2021-11-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,38,1800,155,86.5,"Moderate",8,NA,NA,"No","No",NA,NA,NA,12,NA,"L3","B1",NA,NA,NA,"Scope passed to TI. The rectal mucosa looked normal but thereafter to caecum moderately inflammed. TI looked normal. Serial biopsies taken. Patient's symptoms better BO 2-3 daily no blood, clinically well. Await histology.","Biopsies taken from the terminal ileum (A) show small bowel mucosa
+in which villous architecture appears preserved. There is a patchy
+increase in chronic inflammation in the lamina propria and evidence
+of active cryptitis with neutrophil polymorph infiltrating surface
+epithelium. Focally a peri-cryptal granulomata are noted. Within the
+large bowel (B to D) there are identical appearances of inflamed
+colonic mucosa with architectural distortion in the form of crypt
+branching and hyperplasia. There is expansion of the lamina propria
+by both acute and chronic inflammation and ongoing cryptitis with
+crypt abscess formation. Paneth cell metaplasia is noted in the left
+colon. Poorly formed peri-cryptal granulomata are noted. Within the
+rectum (E) there is similar mild architectural distortion with
+active inflammation and scattered poorly formed granulomata. There
+are no viral inclusions or evidence of parasites. There is no
+evidence of dysplasia or malignancy.
+
+Overall the appearances are of mild to moderate active chronic
+inflammation involving the large bowel and rectum as well as an active chronic ileitis. Provided an infective aetiology has been excluded, the appearances would be consistent with active chronic inflammatory bowel disease. Specific features for Crohn's disease are not identified.",2021-10-08,22
+"Glasgow","91-13","CD",39,"male","timepoint_1",2021-11-03,123,4.42,11.8,8,1.9,1.3,0.61,0.1,429,12,39,998,132,72.9,"Moderate",8,NA,NA,"No","No",NA,NA,NA,12,NA,"L3","B1",NA,NA,NA,"Scope passed to TI, the mucosa throughout is granular with small ulcers and touch bleeding. BIopsies taken as documented and images attached. 
+Steriod course finished 2 weeks ago continues to have erratic bowel habit and I will liaise with Dr Briggs re follow-up.",NA,2007-07-01,25
+"Glasgow","91-13","CD",39,"male","timepoint_2",2022-02-07,121,4.66,9.3,4.8,2.6,1.4,0.4,0.1,347,3,40,155,4,77.1,"Remission",0,NA,NA,"No","No",NA,NA,NA,18,NA,"L3","B1",NA,NA,NA,"Scope to ileum. TI looks normal. ICV quite inflamed with one or 2 ulcers. Active inflammation in fairly uniform distribution throughout the colon with erythema, loss of vascularity, friability, mucopurulent exudate and scattered aphthae (SES-CD score 18).
+Recommendation - increase treatment to amgevita 40mg every week and repeat drug levels in 8-12 weeks. If symptoms not improving or worsening over next few weeks please contact IBD helpline for further advice",NA,2007-07-01,25
+"Glasgow","91-13","CD",39,"male","timepoint_3",2022-05-05,117,4.62,6.5,4,1.8,0.6,0.03,0.1,330,8,38,NA,37,77.7,"Moderate",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2007-07-01,25
+"Glasgow","91-14","UC",39,"male","timepoint_1",2021-11-04,148,5.02,7.9,6,1.3,0.5,0.11,0,241,1,40,1800,63,76.3,"Mild",NA,3,2,"No","No",1,2,NA,NA,NA,NA,NA,NA,"E3",NA,"Scope to ileum. Disease activity mild and most marked in rectum (Mayo 2) but at most Mayo1disease with only mild features of disease activity (blurring of vessels) in remainder of colon. Suggest stop budesnide as planned next week and evaluate benefit of inflaiximab (remains on salofalk 3g - continue)",NA,2021-03-05,38
+"Glasgow","91-14","UC",39,"male","timepoint_2",2022-02-17,150,4.85,9.2,6.8,1.6,0.8,0.03,0,251,1,38,1800,33,77.3,"Mild",NA,1,2,"No","No",1,2,NA,NA,NA,NA,NA,NA,"E3",NA,"Mayo 1 colitis to caecum. Unable to intubate TI due to quality of preparation.",NA,2021-03-05,38
+"Glasgow","91-15","UC",65,"male","timepoint_1",2021-11-23,146,5.15,5.7,3.7,0.9,0.6,0.4,0.1,304,6,38,1800,83,107,"Moderate",NA,7,5,"No","No",2,4,NA,NA,NA,NA,NA,NA,"E2",NA,"MUSIC study - Mitochondrial DAMPs as mechanistic biomarkers of mucosal inflammation in Crohn's disease and Ulcerative Colitis. GN20GA462. PIS version 3.0 given to patient on 20/10/21 . Seen in Medical Day Unit at GGH on 23/11/21. All questions relating to study answered, patient happy to proceed with study. Consent form version 3.0 signed by patient and myself on 23/11/21. Study number MID-91-15. Subject meets all of the inclusion criteria and none of the exclusion criteria. Copy of consent form will be uploaded onto clinical portal. 
+Baseline data and samples collected and processed. ",NA,2020-07-21,63
+"Glasgow","91-16","CD",58,"male","timepoint_1",2021-11-23,147,4.9,10.3,6.7,1.6,1,1.04,0.1,366,23,36,732,165,76.4,"Severe",17,NA,NA,"No","No",NA,NA,NA,20,NA,"L2","B1",NA,NA,NA,"Slightly tight anal canal on PR with scarring and a skin tag from previous inflammation. Pancolonic inflammation from rectum to caecum. Unable to confidently identify or intubate ICV (also the case on previous scopes). Appendix orifice positively identified - inflamed and ulcerated. Biopsies taken as described. 6 additional biopsies taken for biorepository study. SES-CD score 20.
+In terms of next steps Mr Beese is happy to continue on mesalazine and budesonide and move towards initiation of adalimumab. He has also agreed to consider participation in the BIOPIC study and this may be practical if does not require escalation to prednisolone in the short term. I will liaise with IBD nurse team and research team and ensure that plans are put in place for clinic follow up.",NA,1978-01-01,14
+"Glasgow","91-16","CD",58,"male","timepoint_2",2022-03-14,153,5.09,9.7,4.7,2.3,0.5,2.05,0.1,280,3,41,86,10,78.1,"Remission",1,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,1978-01-01,14
+"Glasgow","91-17","CD",63,"male","timepoint_1",2021-12-21,121,3.71,9.2,5.9,2.1,0.8,0.29,0.1,277,17,40,259,196,100.8,"Moderate",12,NA,NA,"No","No",NA,NA,NA,4,NA,"L1","B1",NA,NA,NA,"Recurrent, medically-refractory TI Crohn's with arthralgia. Inadequate response to compassionate-use Risanlizumab.
+
+Normal to anastomosis then Rutgeert's i2b recurrence with widespread aphthae in neo-TI (SES-CD=4).
+
+Disease assessment and research biopsies taken.",NA,2002-03-06,44
+"Glasgow","91-18","CD",52,"female","timepoint_1",2022-01-05,123,4.57,6.3,3.9,1.6,0.6,0.13,0,360,5,38,157,26,71.1,"Mild",4,NA,NA,"No","No",NA,NA,NA,15,NA,"L1","B3",NA,NA,NA,"Ileocolonic Crohn's. Last colonoscopy in 2017 and CTE noted. Clinically well.
+
+As before, has TI inflammation and pseudopolyps in left colon and at rectosigmoid (presumably where SB in adherent). On this occasion there also seemed to be mild proximal colitis.
+
+Nil concerning to dye-spray. Biopsy series taken.",NA,1994-12-01,25
+"Glasgow","91-18","CD",52,"female","timepoint_2",2022-04-14,120,4.38,7.4,4.7,1.9,0.6,0.1,0,353,2,35,47,18,72.7,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B3",NA,NA,NA,NA,NA,1994-12-01,25
+"Glasgow","91-20","CD",35,"male","timepoint_1",2022-02-08,153,5.05,8.8,4.8,2.9,0.8,0.22,0,294,5,42,303,28,96.7,"Mild",4,NA,NA,"No","No",NA,NA,NA,4,NA,"L3","B2",NA,NA,NA,"Bowel preparation with 3 Klean prep was satisfactory. A digital rectal examination was performed.
+The colonoscope was inserted via the anus to the neo-terminal ileum. The caecum was identified positively by ileal intubation. The scope was retroflexed in the rectum. There were no peri-operative complications. 
+
+ Site a: Neo-terminal ileum
+Mucosa: mild congestion; aphthous ulcers.Specimens: 4x biopsy.
+Site b: Proximal transverse
+Ulceration: few serpiginous ulcers.Specimens: 2x biopsy.
+Site c: An area extending from the proximal transverse to the distal sigmoid
+Specimens: 8x random biopsy.
+Site d: Rectum
+Specimens: 4x biopsy.
+
+ Diagnoses
+  Ileitis and Crohn's disease (mildly active).
+
+ Advice/Comments
+  Mildly active disease in the neoterminal lieum and ulceration at the anastamosis - biopsies sent.
+
+ Follow up
+  Review will be in the GI clinic.",NA,2017-07-28,30
+"Glasgow","91-23","CD",48,"female","timepoint_1",2022-07-01,132,4.49,7.7,5.2,1.7,0.7,0.07,0.1,320,8,38,30,148,108.7,"Moderate",10,NA,NA,"No","No",NA,NA,NA,5,5,"L2","B1",NA,NA,NA,"UC previously on Aza. Increased diarrhoea and some blood since stopping this. Improved with oral and topical 5ASA.
+
+Good views to TI with water insertion, irrigation and position change. Some loss of vascularity in left colon and rectum with small patch of moderate inflammation at splenic flexure. Right colon looked more normal but ICV and distal TI had some aphthous ulceration. Denies regular NSAIDs so wonder if this could be Crohn's rather than UC. If so SES-CD=5.
+
+Disease assessment and surveillance biopsies taken.
+",NA,2002-02-01,28
+"Glasgow","91-24","CD",56,"male","timepoint_1",2022-08-12,153,5.65,6.7,4.6,1.1,0.8,0.14,0,271,24,37,1800,59,138.6,"Mild",4,NA,NA,"No","No",NA,NA,NA,12,12,"L2","B1",NA,NA,NA,"Crohn's colitis. Good symptomatic response to Ustekinumab.
+
+As before, preparation poor and excessive looping but able to progress to caecum.
+
+Rectal sparing and normal TI but moderate colitis (SES-CD=12) between.
+
+Suggest: Consider dose-intensifying Ustekinumab to 4 weekly.",NA,1997-01-01,30
+"Glasgow","91-25","CD",56,"male","timepoint_1",2022-08-12,161,4.78,8.9,5.6,2.3,0.9,0.07,0.1,236,1,41,30,107,70.5,"Moderate",13,NA,NA,"No","No",NA,NA,NA,13,13,"L2","B1",NA,NA,NA,"Right colon was not clean enough to carry out dye spray so biopsied instead. TI looked uninflamed but whole of the colon had multiple apthous ulcers all the way to rectum. He will need change in Rx.",NA,2008-04-18,42
+"Dundee","92-1","UC",29,"female","timepoint_1",2022-02-15,127,4.02,12.1,9.6,1.8,0.4,0.21,0,360,0,36,1800,150,61,"Moderate",NA,7,6,"Yes","No",1,NA,NA,NA,NA,NA,NA,NA,"E2","S2","Active colitis despite vedolizumab","Nature of Specimen(s)
+1. Sigmoid biopsy.
+2. Rectum biopsy.
+Clinical Information Supplied
+UC on vedolizumab. Active inflammation to the point of insertion.
+Evidence of CMV?
+Macro Report
+1. X4 up to 5 mm.
+2. X2 up to 5 mm.
+Micro Report
+1. Sections show colonic mucosa with mild to moderate chronic
+active inflammation characterised by acute cryptitis, crypt
+abscesses, crypt architectural distortion and basal
+lymphoplasmacytic infiltrates.
+2. Sections show rectal mucosa with mild chronic active
+inflammation characterised by crypt architectural distortion and mild acute cryptitis.
+Comment
+The features are in keeping with active inflammatory bowel
+disease. The CMV immunostains are negative. There is no evidence of viral cytopathic effect, granuloma formation, dysplasia or malignancy.
+
+
+
+Signature of Pathologist(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",2005-07-26,12
+"Dundee","92-1","UC",29,"female","timepoint_1",2022-02-15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,150,61,"Moderate",NA,7,6,"Yes","No",1,NA,NA,NA,NA,NA,NA,NA,"E2","S2","Active colitis despite vedolizumab","Nature of Specimen(s)
+1. Sigmoid biopsy.
+2. Rectum biopsy.
+Clinical Information Supplied
+UC on vedolizumab. Active inflammation to the point of insertion.
+Evidence of CMV?
+Macro Report
+1. X4 up to 5 mm.
+2. X2 up to 5 mm.
+Micro Report
+1. Sections show colonic mucosa with mild to moderate chronic
+active inflammation characterised by acute cryptitis, crypt
+abscesses, crypt architectural distortion and basal
+lymphoplasmacytic infiltrates.
+2. Sections show rectal mucosa with mild chronic active
+inflammation characterised by crypt architectural distortion and mild acute cryptitis.
+Comment
+The features are in keeping with active inflammatory bowel
+disease. The CMV immunostains are negative. There is no evidence of viral cytopathic effect, granuloma formation, dysplasia or malignancy.
+
+
+
+Signature of Pathologist(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",2005-07-26,12
+"Dundee","92-1","UC",29,"female","timepoint_2",2022-05-18,128,4.16,9.7,7.4,1.7,0.4,0.19,0,335,4,38,259,140,59.6,"Moderate",NA,12,7,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Adherent stool proximal colon washed clear. Active
+inflammation is most pronounced to 15cm, thereafter mild
+patchy erythem proximal sigmoid. Then normal to
+caecum.","Clinical Information Supplied
+Active ??? despite Vedolizumab.  Recent in patient stay for
+intravenous steroids.  Active disease to 15cm with patchy shallow ulceration.  Minimal inflammation in proximal sigmoid.  Rest normal to caecum.
+Macro Report
+1. 5 fragments up to 4mm.
+2. 4 fragments up to 3mm.
+3. 4 fragments up to 3mm.
+4. 3 fragments up to 3mm.
+5. ?? (cuts out).
+Micro Report
+1&2. The biopsies from right colon and transverse colon are
+morphologically normal.
+3-5. The biopsies extending from descending colon to rectosigmoid show variable active chronic inflammation with crypt architectural distortion and crypt abscess formation in keeping with chronic inflammatory bowel disease.  There is evidence of patchy ulceration in the rectosigmoid.  There is no evidence of dysplasia.
+",2005-07-26,12
+"Dundee","92-1","UC",29,"female","timepoint_2",2022-05-18,125,3.99,9.2,6.3,1.8,0.7,0.33,0.1,297,12,34,NA,140,59.6,"Moderate",NA,12,7,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Adherent stool proximal colon washed clear. Active
+inflammation is most pronounced to 15cm, thereafter mild
+patchy erythem proximal sigmoid. Then normal to
+caecum.","Clinical Information Supplied
+Active ??? despite Vedolizumab.  Recent in patient stay for
+intravenous steroids.  Active disease to 15cm with patchy shallow ulceration.  Minimal inflammation in proximal sigmoid.  Rest normal to caecum.
+Macro Report
+1. 5 fragments up to 4mm.
+2. 4 fragments up to 3mm.
+3. 4 fragments up to 3mm.
+4. 3 fragments up to 3mm.
+5. ?? (cuts out).
+Micro Report
+1&2. The biopsies from right colon and transverse colon are
+morphologically normal.
+3-5. The biopsies extending from descending colon to rectosigmoid show variable active chronic inflammation with crypt architectural distortion and crypt abscess formation in keeping with chronic inflammatory bowel disease.  There is evidence of patchy ulceration in the rectosigmoid.  There is no evidence of dysplasia.
+",2005-07-26,12
+"Dundee","92-2","UC",19,"female","timepoint_1",2022-02-15,142,4.3,6.5,3.5,2.5,0.4,0.08,0,176,0,39,1030,152,56.7,"Mild",NA,2,2,"Yes","No",2,NA,NA,NA,NA,NA,NA,NA,"E2","S2","Scoped to 30 cm- active fulminate colitis. Day 6 of
+prednisolone 40 mg . BO 7 x per day ( was 10-14).
+Symptoms not settled since previous admission in Nov.","Nature of Specimen(s)
+
+1. Distal sigmoid.
+
+2. Rectum.
+
+Clinical Information Supplied
+
+Ulcerative colitis, bowels opening x 6-7 per day. On steroids. ?
+CMV.
+
+Macro Report
+
+1. 2 fragments up to 4mm.
+
+2. 2 fragments up to 4mm.
+
+Micro Report
+
+The biopsies are of large bowel mucosa showing diffuse moderate
+to severe active chronic inflammation with cryptitis and crypt architectural distortion. The features are in keeping with active inflammatory bowel disease. There is no morphological evidence of
+CMV infection",2020-11-24,18
+"Dundee","92-2","UC",19,"female","timepoint_2",2022-05-16,124,3.96,7.7,5.7,1.4,0.4,0.11,0,186,0,39,366,138,57,"Mild",NA,4,3,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2","active confluent inflammation to 25cm. thereafter normal.
+active inflammation, sub-optimal proximal prep and
+patient discomfort limited examination to splenic flexure.",NA,2020-11-24,18
+"Dundee","92-2","UC",19,"female","timepoint_3",2022-08-16,120,3.72,2.1,0.9,0.9,0.2,0.11,0,333,10,40,NA,62,54.7,"Mild",NA,5,3,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2020-11-24,18
+"Dundee","92-3","UC",32,"male","timepoint_1",2022-03-16,123,4.03,5.8,3.9,1.6,0.2,0.06,0,307,0,35,1800,48,66.3,"Mild",NA,1,1,"No","No",2,NA,NA,NA,NA,NA,NA,NA,"E3","S2","Ulcerative colitis (Type: Active)
+New diagnosis of probable ulcerative pan-colitis. Biopsies
+taken. We will inform the IBD nurses who can arrange
+follow up.
+7 weeks of bowel opening over 20 times per day with
+blood and mucus and nocturnal symptoms.","1. Right colon
+2. Left colon
+3. Rectum
+
+Clinical Information Supplied
+
+Probable new diagnosis of active ulcerative pancolitis.
+
+Macro Report
+
+1. Three fragments up to 4mm.
+2. Multiple fragments up to 4mm.
+3. Three fragments up to 3mm.
+
+Micro Report
+
+1-3. The large bowel mucosal biopsies show diffuse active chronic
+inflammation with some associated crypt architectural distortion.
+No granulomas are seen. The features are relatively acute and
+infection needs to be carefully excluded. The changes otherwise
+would be consistent with early stage chronic inflammatory bowel
+disease.
+
+",2022-02-02,32
+"Dundee","92-3","UC",32,"male","timepoint_2",2022-06-07,131,4.17,4.3,2,1.9,0.3,0.07,0,229,0,37,30,25,70.5,"Remission",NA,0,0,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3","S2","rectal sparing. multiple tiny pseudopolyps from sigmoid to
+hepatic flexure, then further localised patch next to
+appendix. Additional linear scarring in sigmoid.",NA,2022-02-02,32
+"Dundee","92-4","CD",50,"male","timepoint_1",2022-05-12,145,4.96,7.4,4.2,2.4,0.4,0.29,0.1,306,0,37,471,173,97.5,"Moderate",9,NA,NA,"Yes","No",NA,NA,NA,11,NA,"L3","B2",NA,NA,NA,"Very well tolerated. Poor prep with pieces of solid stool
+throughout. Used movement to get better views as could
+not suction through scope.
+Deep ulceration and erythema at anastamosis.
+Anastamosis would not allow scope through so likely
+element of stricturing here. Rutgeerts i4.
+Remaining colon looked macrosocpically normal,
+mapping biopises taken.","Nature of Specimen(s)
+1. Terminal ileum biopsy
+2. Anastomosis biopsy
+3. Descending colon biopsy
+4. Transverse colon biopsy
+5. Descending colon biopsy
+6. Sigmoid colon biopsy
+7. Rectum biopsy
+Clinical Information Supplied
+Known Crohn's disease. Diarrhoea positive calprotectin.
+Ulceration and stricture at anastomosis. Could not pass. ? active disease
+Macro Report
+1. 5 mm biopsy
+2. 4 biopsies up to 4 mm
+3. 2 biopsies up to 5 mm
+4. 3 biopsies up to 3 mm
+5. 6 mm biopsy
+6. 2 biopsies up 6 mm
+7. 2 biopsies up to 4 mm
+Micro Report
+1. Sections show small bowel mucosa with broadening of the villi and acute inflammation.
+2. Sections show superficial intestinal mucosa with a villous
+architecture and ulcerative slough.
+3-7. Sections show unremarkable colonic mucosa.
+Active chronic inflammation is seen within the neo-terminal ileum and anastomosis. Given the history, the features are suggestive of active Crohn's disease. There is no evidence of granulomas, a viral cytopathic effect, dysplasia or malignancy.",2009-07-28,37
+"Dundee","92-4","CD",50,"male","timepoint_2",2022-08-16,154,5.29,7.8,3.5,3.4,0.4,0.42,0.1,287,3.99,39,220,179,92.7,"Mild",7,NA,NA,"Ongoing","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2009-07-28,37
+"Dundee","92-5","CD",23,"female","timepoint_1",2022-05-23,130,4.47,12.6,9.2,2.7,0.5,0.14,0.1,371,11,38,594,65,54.2,"Mild",3,NA,NA,"Yes","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2022-02-23,23
+"Dundee","92-6","CD",61,"female","timepoint_1",2022-06-23,142,4.84,12.1,7.8,3.6,0.4,0.17,0.1,401,3.9,38,1801,99,69.5,NA,4,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L3",NA,NA,NA,NA,NA,NA,2014-10-03,54
+"Dundee","92-7","CD",22,"male","timepoint_1",2022-07-06,144,5.27,4.8,2.7,1.5,0.3,0.17,0,204,5,37,42,127,104.7,"Moderate",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2022-03-25,22
+"Dundee","92-8","CD",52,"female","timepoint_1",2022-08-01,119,3.85,6.9,3.5,2.4,0.5,0.37,0,426,4,39,NA,109,76.6,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2006-07-17,36
+"Edinburgh","90-13","CD",22,"male","timepoint_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2009-01-01,10
+"Edinburgh","90-15","CD",30,"male","timepoint_4",2022-07-20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,90,79.4,"Moderate",5,NA,NA,"Yes","Yes",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2014-03-05,23
+"Edinburgh","90-17","UC",23,"female","timepoint_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2019-06-01,21
+"Edinburgh","90-20","CD",28,"female","timepoint_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2013-01-01,19
+"Edinburgh","90-21","UC",34,"female","timepoint_4",2022-08-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75,56.8,NA,NA,4,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2021-08-08,34
+"Edinburgh","90-37","UC",61,"male","timepoint_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2012-07-16,51
+"Edinburgh","90-38","CD",31,"male","timepoint_2",2022-08-18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75,68.3,NA,5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,2004-09-01,14
+"Edinburgh","90-43","CD",64,"female","timepoint_1",2022-07-18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,138,63.3,"Severe",4,NA,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2012-08-01,54
+"Edinburgh","90-48","CD",26,"female","timepoint_1",2022-08-04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,93,86,NA,4,NA,NA,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2022-07-07,26
+"Glasgow","91-1","UC",34,"male","timepoint_5",2022-03-28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24,96.8,"Remission",NA,1,0,"No","No",1,2,NA,NA,NA,NA,NA,NA,"E2","S3","Mild erythema with a couple of small ulcers in the left colon. The rectum appeared spared. Biopsies taken from left colon and rectum. The patients symptoms have resolved since recent consultation. I have advised him to continue his current dose of Tofacitinib for now.",NA,2000-01-01,13
+"Glasgow","91-2","CD",30,"female","timepoint_5",2022-03-28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,61,49,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2017-08-29,26
+"Glasgow","91-3","CD",38,"male","timepoint_3",2022-01-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,52,75.3,"Mild",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2000-01-01,16
+"Glasgow","91-3","CD",38,"male","timepoint_4",2022-04-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64,75.6,"Mild",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2000-01-01,16
+"Glasgow","91-4","CD",63,"male","timepoint_3",2022-03-10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,71.9,"Mild",2,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2019-05-29,61
+"Glasgow","91-4","CD",63,"male","timepoint_4",2022-06-27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,71.7,"Remission",3,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2019-05-29,61
+"Glasgow","91-5","UC",46,"male","timepoint_4",2022-07-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,75.5,"Mild",NA,3,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2012-08-16,37
+"Glasgow","91-6","CD",51,"male","timepoint_4",2022-07-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,80,"Mild",6,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2015-11-04,45
+"Glasgow","91-7","UC",55,"male","timepoint_3",2022-04-12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,84.1,"Mild",NA,4,3,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2","S2",NA,NA,2011-09-12,45
+"Glasgow","91-8","CD",57,"male","timepoint_3",2022-05-09,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,77.2,"Mild",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,1997-07-01,32
+"Glasgow","91-8","CD",57,"male","timepoint_4",2022-07-13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48,77.6,"Moderate",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B3",NA,NA,NA,NA,NA,1997-07-01,32
+"Glasgow","91-9","UC",68,"female","timepoint_3",2022-04-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,130,62.6,"Moderate",NA,7,5,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,2005-06-01,52
+"Glasgow","91-10","UC",67,"male","timepoint_4",2022-07-25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,95,73.9,"Mild",NA,6,3,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,2004-03-01,49
+"Glasgow","91-11","CD",36,"male","timepoint_2",2022-01-26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,103,77.7,"Mild",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B3",NA,NA,NA,NA,NA,2017-11-13,32
+"Glasgow","91-12","CD",22,"female","timepoint_2",2022-02-01,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,87,88.3,"Mild",6,NA,NA,"No","No",NA,NA,NA,3,NA,"L3","B1",NA,NA,NA,"Recent diagnosis of IBD-U with pericryptal granulomas, mild ileitis and rectal sparing. Good response to 5ASA and now in remission with BOx1/day and no systemic upset.
+
+Well tolerated with water insertion. Good views to TI. Mild (Mayo=1) colitis in sigmoid colon with erythema and some loss of vascular pattern. Otherwise normal to TI.
+
+Biopsy series taken.
+
+Suggest: Will write with histology. Continue current Rx. FU as planned with Dr Nowell.","MACRO:
+A. ILEAL BIOPSIES:
+Received five fragments of tissue the largest 4mm in size.
+
+B. RIGHT COLONIC BIOPSIES:
+Received four fragments of tissue the largest 4mm in size.
+
+C. TRANSVERSE COLONIC BIOPSIES:
+Received four fragments of tissue the largest 3mm in size.
+
+D. LEFT COLONIC BIOPSIES:
+Received five fragments of tissue the largest 3mm in size.
+
+E. RECTAL BIOPSIES:
+Received four fragments of tissue the largest 4mm in size.
+
+MICRO:
+A. Microscopy shows normal small intestinal mucosa.
+
+B. The right sided colonic biopsies show focal mild crypt distortion
+and focal crypt dropout. There is a mild inflammatory cell
+infiltrate within the lamina propria. There is very focal cryptitis
+and focal crypt abscess formation.
+
+C and D. The transverse and left sided colonic biopsies show focal
+mild crypt distortion. There is Paneth cell metaplasia in the left
+sided biopsies. There is a mild chronic inflammatory cell infiltrate
+throughout.
+
+In the transverse colonic biopsies an occasional single neutrophil
+infiltrates crypt epithelium.
+
+In the left sided colonic biopsies there is focal cryptitis with an
+occasional crypt abscess. An illdefined microgranuloma is seen in
+the lamina propria in part D level 2.
+
+E. In the rectal biopsies there is relatively preserved crypt
+architecture. Superficial microgranulomata are seen in the
+lamina propria. There is minimal cryptitis. The chronic
+inflammatory cell infiltrate is not significantly increased.
+
+SUMMARY:
+There is mild chronic inflammation in the colonic biopsies. There is
+crypt distortion and Paneth cell metaplasia which are features of
+chronicity. There is very focal crypt activity (minimal crypt
+activity).
+
+Provided an infective association has been previously excluded the
+histological findings would be consistent with chronic Inflammatory
+bowel disease.
+
+It was not known at the time of reporting whether this patient was
+on immunosuppresant medication. On the request form the description
+provided was indeterminate colitis (mildly active, segmental
+colitis) however in the biopsies there is inflammation in the right
+sided,transverse and left sided biopsies.
+
+However if this was segmental clinically given the microgranulomata
+in particular in rectal biopsies I would favour Crohn's disease over
+Ulcerative colitis.",2021-10-08,22
+"Glasgow","91-12","CD",22,"female","timepoint_3",2022-05-11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,56,85.8,"Mild",4,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-10-08,22
+"Glasgow","91-12","CD",22,"female","timepoint_4",2022-07-26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,106,84.2,"Moderate",6,NA,NA,"Yes","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2021-10-08,22
+"Glasgow","91-13","CD",39,"male","timepoint_4",2022-05-09,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,58,79.5,"Moderate",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B1",NA,NA,NA,NA,NA,2007-07-01,25
+"Glasgow","91-14","UC",39,"male","timepoint_3",2022-05-26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,100,80.4,"Mild",NA,5,2,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E3",NA,NA,NA,2021-03-05,38
+"Glasgow","91-15","UC",65,"male","timepoint_2",2022-03-01,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,147,102.7,"Moderate",NA,6,6,"Ongoing","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2",NA,NA,NA,2020-07-21,63
+"Glasgow","91-15","UC",65,"male","timepoint_3",2022-05-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,105.2,"Moderate",NA,4,4,"No","No",NA,NA,NA,NA,NA,NA,NA,NA,"E2",NA,NA,NA,2020-07-21,63
+"Glasgow","91-16","CD",58,"male","timepoint_3",2022-06-02,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6,77.6,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,1978-01-01,14
+"Glasgow","91-17","CD",63,"male","timepoint_2",2022-03-28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,131,99.7,"Moderate",6,NA,NA,"No","No",NA,NA,NA,4,4,"L1","B1",NA,NA,NA,"Bowel preparation with 2 picolax was poor. A digital rectal examination was performed.
+The colonoscope was inserted via the anus to the neo-terminal ileum. The caecum was identified by ileal intubation. The rest of the examination to the limit of insertion was normal. The patient has a resected colon as a result of a right hemicolectomy. There were no peri-operative complications. 
+
+ Site a: An area wholly within the neo-terminal ileum
+Specimens: 4x random biopsy.
+Site b: Neo-terminal ileum
+Specimens: 4x biopsy.
+
+ Diagnoses
+  Ileitis.
+
+ Advice/Comments
+  Scope to neo terminal ileum. Anastomosis widely patent - some peristomal inflammation and ulceration. Difficult to find entrance in to ileum but once located scope could be advanced relative;y easily and on the whole the mucosa looked healthy with only one or 2 visible ulcers (size approx. 0.5cm). SES-CD score 4. Rutgeerts score i1. To continue with current treatment.",NA,2002-03-06,44
+"Glasgow","91-17","CD",63,"male","timepoint_3",2022-06-24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,141,99.9,"Moderate",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B1",NA,NA,NA,NA,NA,2002-03-06,44
+"Glasgow","91-18","CD",52,"female","timepoint_3",2022-07-08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28,72.7,"Mild",5,NA,NA,"No","No",NA,NA,NA,NA,NA,"L1","B3",NA,NA,NA,NA,NA,1994-12-01,25
+"Glasgow","91-19","CD",23,"female","timepoint_1",2022-02-04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,132,68.3,"Moderate",7,NA,NA,"No","No",NA,NA,NA,NA,NA,"L2","B1",NA,NA,NA,NA,NA,2021-03-23,22
+"Glasgow","91-20","CD",35,"male","timepoint_2",2022-07-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26,98.2,"Remission",0,NA,NA,"No","No",NA,NA,NA,NA,NA,"L3","B2",NA,NA,NA,NA,NA,2017-07-28,30
+"Glasgow","91-21","CD",26,"male","timepoint_1",2022-02-23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,95,76.3,"Moderate",9,NA,NA,"No","No",NA,NA,NA,13,NA,"L2","B2",NA,NA,NA,"There was patchy segmental inflammation predominantly in the rectum, sigmoid and caecum.
+Strictured area in mid-sigmoid with evidence of active inflammation and linear ulcers, although the scope passed through without difficulty.
+Less inflamed stricture at the caecum with marked narrowing just adjacent to the ileo-caecal valve. 
+
+Biopsies taken of two strictured areas in separate pots as well as colonic biopsy series. 
+
+Discussed importance of medicine compliance (admits not taking azathioprine regularly though sure he hasn't missed any adalimumab injections).
+Will discuss with Dr Seenan, may require escalation of therapy.",NA,2014-04-25,18
+"Glasgow","91-22","CD",45,"female","timepoint_1",2022-05-26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,233,72.6,"Severe",15,NA,NA,"No","No",NA,NA,NA,13,13,"L2","B1",NA,NA,NA,"Diarrhoea, abdominal pain and weight loss. Smoker. No FHx IBD but FC=244.
+
+Reasonable preparation and good views with washing and position chnage.
+
+Patchy inflammation with small aphthae to caecum where this was more pronounced. TI normal but appearances suggestive of Crohn's colitis.
+
+Suggest: Prednisolone 40mg daily reducing by 5mg per week to stop alongside bone protection (e.g. Accrete D3). Will arrange FU. Suitable for MUSIC +/- BIOPIC so PIS given for MUSIC and seems happy to consider. IBD Helpline details provided.",NA,2022-05-12,45
+"Glasgow","91-26","CD",28,"female","timepoint_1",2022-08-12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,88,70,"Moderate",10,NA,NA,"No","No",NA,NA,NA,12,NA,"L2","B1",NA,NA,NA,"The patients bowel symptoms have settled on Pentasa. There were scattered small apthous ulcers and a couple of larger ulcers. The colon was otherwise normal with no frank colitis. The TI appeared normal. She is awaiting an MRI small bowel and has a clinic appointment in August. MUSIC information sheet given. SES-CD = 6",NA,2018-02-22,24
