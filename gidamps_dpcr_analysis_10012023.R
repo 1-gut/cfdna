@@ -7,7 +7,7 @@ cohort_dir <- "output/gidamps/cohort/"
 
 # input_dpcr_file <- "data/gidamps/dpcr/dpcr_analysis_17032022.csv"
 # Reanalysis 10012023 here:
-input_dpcr_file <- "data/gidamps/dpcr/dpcr_analysis_09012023.csv"
+input_dpcr_file <- "data/gidamps/reanalysis_10012023/dpcr_analysis_09012023.csv"
 input_gidamps_merged_df <- "data/gidamps/clinical/merged_df.rds"
 # -----------------------------------------------------------------------------
 # Description
@@ -428,7 +428,7 @@ p <- plot.by.ibd.status(
   y="total_cfdna",
   y_label="Total cfDNA (ng/uL)",
   title="Total cfDNA by Activity",
-  caption="* p<0.05 ** p<0.01.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  caption="** p<0.01 *** p<0.001.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
   log_scale=FALSE
 )
 p +
@@ -436,19 +436,19 @@ p +
     comparisons = list(c("Highly active", "Active")),
     y_position = 2.6,
     tip_length = 0,
-    annotations = "**",
+    annotations = "***",
     vjust = 0.5
   ) +
   geom_signif(
     comparisons = list(c("Highly active", "Remission")),
     y_position = 2.7,
     tip_length = 0,
-    annotations = "*",
+    annotations = "***",
     vjust = 0.5
   ) +
   geom_signif(
     comparisons = list(c("Highly active", "Biochemical remission")),
-    annotations = "*",
+    annotations = "**",
     y_position = 2.8,
     tip_length = 0,
     vjust = 0.5
@@ -550,12 +550,19 @@ p +
     comparisons = list(c("Highly active", "Active")),
     y_position = 4.1,
     tip_length = 0,
-    annotations = "*",
+    annotations = "***",
     vjust=0.5
   ) +
   geom_signif(
     comparisons = list(c("Highly active", "Biochemical remission")),
     annotations = "*",
+    y_position = 4.3,
+    tip_length = 0,
+    vjust=0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Remission")),
+    annotations = "**",
     y_position = 4.2,
     tip_length = 0,
     vjust=0.5
