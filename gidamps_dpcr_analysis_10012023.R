@@ -269,8 +269,10 @@ p.gapdh_log <- plot.distribution(df=total_cfdna_exclude_outliers, x="gapdh_log",
 
 p.cox3nd2 <- grid.arrange(p.cox3, p.cox3_log, p.nd2, p.nd2_log, nrow=2)
 ggsave(paste0(output_dir, "cox3_nd2_distrbutions_combined.png"), p.cox3nd2, dpi = 300, width = 4000, height = 3000, units = "px")
+
 p3 <- grid.arrange(p1, p2, nrow=1)
 ggsave(paste0(output_dir, "total_cfdna_combined.png"), p3, dpi = 300, width = 4000, height = 1500, units = "px")
+
 p.gapdh_combined <- grid.arrange(p.gapdh, p.gapdh_log, nrow=1)
 ggsave(paste0(output_dir, "gapdh_combined.png"), p.gapdh_combined, dpi = 300, width = 4000, height = 1500, units = "px")
 print("Complete.")
@@ -323,7 +325,7 @@ plot.by.group <- function(y, y_label, title, caption=NULL, log_scale=FALSE) {
     p <- p + scale_y_log10()
   }
   print(p)
-  ggsave(paste0(output_dir, file_string), p, dpi = 300, width = 2000, height = 1500, units = "px")
+  ggsave(paste0(output_dir, file_string), p, dpi = 300, width = 3000, height = 2000, units = "px")
   return(p)
 }
 
@@ -350,7 +352,7 @@ p + geom_signif(
   tip_length = 0,
   vjust = 0.5
 ) 
-ggsave(paste0(output_dir, "by_group_total_cfdna.png"), dpi = 300, width = 2500, height = 2000, units = "px")
+ggsave(paste0(output_dir, "by_group_total_cfdna.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 
 
 
@@ -371,6 +373,13 @@ pairwise.wilcox.test(
 kruskal.test(nd2 ~ group, data = simplified_df)
 pairwise.wilcox.test(
   simplified_df$nd2,
+  simplified_df$group,
+  p.adjust.method = "BH"
+)
+
+kruskal.test(gapdh ~ group, data = simplified_df)
+pairwise.wilcox.test(
+  simplified_df$gapdh,
   simplified_df$group,
   p.adjust.method = "BH"
 )
@@ -447,7 +456,7 @@ p +
     tip_length = 0,
     vjust = 0.5
   )
-ggsave(paste0(output_dir, "activity_cfdna.png"), dpi = 300, width = 2500, height = 2000, units = "px")
+ggsave(paste0(output_dir, "activity_cfdna.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 
 
 kruskal.test(cox3 ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
@@ -472,11 +481,11 @@ pairwise.wilcox.test(
 # 
 # P value adjustment method: B
 
-# Median and IQR for cox3 and total cfDNA
+# Median and IQR for nd2 and total cfDNA
 
 ibd_status_df_exclude_outlier_cfdna %>%
   group_by(ibd_status) %>%
-  summarise_at(vars(cox3), list(median = median, iqr = IQR))
+  summarise_at(vars(nd2), list(median = median, iqr = IQR))
 
 ibd_status_df_exclude_outlier_cfdna %>%
   group_by(ibd_status) %>%
@@ -515,9 +524,6 @@ ggsave(paste0(output_dir, "activity_cox3.png"), dpi = 300, width = 2500, height 
 
 
 kruskal.test(nd2 ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
-# Kruskal-Wallis rank sum test
-# data:  nd2 by ibd_status
-# Kruskal-Wallis chi-squared = 15.33, df = 3, p-value = 0.001555
 
 pairwise.wilcox.test(
   ibd_status_df_exclude_outlier_cfdna$nd2,
@@ -525,18 +531,20 @@ pairwise.wilcox.test(
   p.adjust.method = "BH"
 )
 # Pairwise comparisons using Wilcoxon rank sum exact test 
+# 
 # data:  ibd_status_df_exclude_outlier_cfdna$nd2 and ibd_status_df_exclude_outlier_cfdna$ibd_status 
+# 
 #                 Biochemical remission Remission Active
-#   Remission     0.731                 -         -     
-#   Active        0.284                 0.347     -     
-#   Highly active 0.044                 0.066     0.025 
+#   Remission     0.9215                -         -     
+#   Active        0.3913                0.2206    -     
+#   Highly active 0.0019                0.0018    0.0012
 
 p <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
   y="nd2",
   y_label="ND2 (copies/uL)",
   title="ND2 by Activity",
-  caption="* p<0.05  ** p<0.01\nKruskal-Wallis p<0.05.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  caption="** p<0.01\nKruskal-Wallis p<0.05.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
   log_scale=TRUE
 )
 p +
@@ -544,12 +552,12 @@ p +
     comparisons = list(c("Highly active", "Active")),
     y_position = 4.1,
     tip_length = 0,
-    annotations = "***",
+    annotations = "**",
     vjust=0.5
   ) +
   geom_signif(
     comparisons = list(c("Highly active", "Biochemical remission")),
-    annotations = "*",
+    annotations = "**",
     y_position = 4.3,
     tip_length = 0,
     vjust=0.5
@@ -561,7 +569,7 @@ p +
     tip_length = 0,
     vjust=0.5
   )
-ggsave(paste0(output_dir, "activity_nd2.png"), dpi = 300, width = 2500, height = 2000, units = "px")
+ggsave(paste0(output_dir, "activity_nd2.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 # ====================================================================
 # Total cfDNA by Group and Activity
 # ====================================================================
@@ -702,6 +710,84 @@ print("Complete.")
 # ====================================================================
 print("Creating COX3/ND2 graphs...")
 
+# ====================================================================
+# ND2 by Group and Activity
+# ====================================================================
+
+# Crohn's group comparison
+kruskal.test(nd2 ~ ibd_status, data = cd_df)
+pairwise.wilcox.test(cd_df$nd2, cd_df$ibd_status,
+                     p.adjust.method = "BH"
+)
+#                 Biochemical remission Remission Active 
+#   Remission     0.92929               -         -      
+#   Active        0.92929               0.92929   -      
+#   Highly active 0.00033               0.00033   1.3e-05
+
+
+p1 <- ibd_status_df_exclude_outlier_cfdna %>%
+  subset(group=="CD") %>%
+  ggplot(aes(x = ibd_status, y = nd2, fill=ibd_status)) +
+  geom_boxplot(width=0.5, outlier.shape=NA) +
+  geom_jitter(width = 0.1, alpha=0.5) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Active")),
+    y_position = 4.2,
+    tip_length = 0,
+    annotations = "***",
+    vjust = 0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Remission")),
+    y_position = 4.35,
+    tip_length = 0,
+    annotations = "***",
+    vjust = 0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Biochemical remission")),
+    y_position = 4.5,
+    tip_length = 0,
+    annotations = "***",
+    vjust = 0.5
+  ) +
+  xlab("IBD Activity") +
+  ylab("ND2 (copies/uL)") +
+  labs(
+    title = "Crohn's Disease",
+    caption = "*** p<0.001.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied."
+  ) +
+  scale_y_log10() +
+  scale_fill_brewer(palette="Pastel1") +
+  theme_options
+
+# UC group comparison
+kruskal.test(nd2 ~ ibd_status, data = uc_df)
+# p = 0.08873
+pairwise.wilcox.test(uc_df$nd2, uc_df$ibd_status,p.adjust.method = "BH")
+#                 Biochemical remission Remission Active
+#   Remission     0.31                  -         -     
+#   Active        0.17                  0.31      -     
+#   Highly active 0.17                  0.31      0.31  
+
+p2 <- ibd_status_df_exclude_outlier_cfdna %>%
+  subset(group=="UC") %>%
+  ggplot(aes(x = ibd_status, y = nd2, fill=ibd_status)) +
+  geom_boxplot(width=0.5, outlier.shape=NA) +
+  geom_jitter(width = 0.1, alpha=0.5) +
+  xlab("IBD Activity") +
+  ylab("Total cfDNA (ng/uL)") +
+  labs(
+    title = "Ulcerative Colitis",
+    caption = "Kruskal-Wallis p=0.08.\nInter-group difference did not reach statistical significance."
+  ) +
+  scale_y_log10() +
+  scale_fill_brewer(palette="Pastel1") +
+  theme_options
+p2
+p3 <- grid.arrange(p1, p2, nrow=1)
+ggsave(paste0(output_dir, "nd2_by_group_and_activity.png"), p3, dpi = 300, width = 5000, height = 2000, units = "px")
+
 
 # ====================================================================
 # COX3 by IBD group and activity (IBDU Excluded)
@@ -730,61 +816,19 @@ pairwise.wilcox.test(uc_df$cox3, uc_df$ibd_status,
 
 # Log scale
 ibd_status_df_exclude_outlier_cfdna_without_ibdu %>%
-  ggplot(aes(x = ibd_status, y = cox3)) +
+  ggplot(aes(x = ibd_status, y = cox3, fill=ibd_status)) +
   geom_boxplot() +
   scale_y_log10() +
-  geom_jitter(width = 0.1) +
-  facet_grid(group ~ .) +
+  geom_jitter(width = 0.1, alpha=0.5) +
+  facet_grid(. ~ group) +
   xlab("IBD Activity") +
   ylab("COX3 (copies/uL)") +
-  ggtitle("COX3 by Group and Activity (Log Scale)")
+  ggtitle("COX3 by Group and Activity (Log Scale)") +
+  scale_fill_brewer(palette="Pastel1") +
+  theme_options
 # ggsave("output/dpcr/cox3_by_group_and_activity_log.png", dpi = 300, width = 2560, height = 1920, units = "px")
 
-
 print("Complete.")
-# ====================================================================
-# ND2
-# ====================================================================
-
-print("Creating ND2 graphs...")
-
-# ====================================================================
-# ND2 by IBD group and activity (IBDU Excluded)
-# ====================================================================
-
-# Crohn's group comparison
-kruskal.test(nd2 ~ ibd_status, data = cd_df)
-pairwise.wilcox.test(cd_df$nd2, cd_df$ibd_status,
-                     p.adjust.method = "BH"
-)
-#                 Biochemical remission Remission Active
-#   Remission     0.495                 -         -     
-#   Active        0.207                 1.000     -     
-#   Highly active 0.002                 0.021     0.002 
-
-# UC group comparison
-kruskal.test(nd2 ~ ibd_status, data = uc_df)
-pairwise.wilcox.test(uc_df$nd2, uc_df$ibd_status,
-                     p.adjust.method = "BH"
-)
-#                 Biochemical remission Remission Active
-#   Remission     1.00                  -         -     
-#   Active        0.87                  0.87      -     
-#   Highly active 0.87                  0.87      0.87  
-
-ibd_status_df_exclude_outlier_cfdna_without_ibdu %>%
-  ggplot(aes(x = ibd_status, y = nd2)) +
-  geom_boxplot() +
-  scale_y_log10() +
-  geom_jitter(width = 0.1) +
-  facet_grid(group ~ .) +
-  xlab("IBD Activity") +
-  ylab("ND2 (copies/uL)") +
-  ggtitle("ND2 by Group and Activity (Log Scale)")
-# ggsave("output/dpcr/nd2_by_group_and_activity_log.png", dpi = 300, width = 2560, height = 1920, units = "px")
-
-print("Complete.")
-
 # ====================================================================
 # Correlation Analysis
 # ====================================================================
@@ -822,13 +866,14 @@ plot.scatter <- function(df, x, y, x_label, y_label) {
   return(p)
 }
 
-p.hb <-plot.scatter(correlation_all, x="haemoglobin", y="cox3_log", x_label="Haemoglobin", y_label="Log COX3")
-p.plt <- plot.scatter(correlation_all, x="plt_lab", y="cox3_log", x_label="Platelets", y_label="Log COX3")
+p.hb <-plot.scatter(correlation_all, x="haemoglobin", y="nd2_log", x_label="Haemoglobin", y_label="Log ND2")
+p.plt <- plot.scatter(correlation_all, x="plt_lab", y="nd2_log", x_label="Platelets", y_label="Log ND2")
 p.hb_plt <- gridExtra::grid.arrange(p.hb, p.plt, nrow=1)
 ggsave(paste0(output_dir, "hb_plt_correlates.png"), p.hb_plt, dpi = 300, width = 5000, height = 2000, units = "px")
 
-p.calpro <- plot.scatter(correlation_all, x="calprotectin", y="cox3_log", x_label="Calprotectin", y_label="Log COX3")
-p.crp <- plot.scatter(correlation_all, x="crp", y="cox3_log", x_label="CRP", y_label="Log COX3")
+p.calpro <- plot.scatter(correlation_all, x="calprotectin", y="nd2_log", x_label="Calprotectin", y_label="Log ND2")
+p.crp <- plot.scatter(correlation_all, x="crp", y="nd2_log", x_label="CRP", y_label="Log ND2")
+p.crp <- ggpar(p.crp, xlim=c(0,100))
 p.calpro_crp <- gridExtra::grid.arrange(p.calpro, p.crp, nrow=1)
 ggsave(paste0(output_dir, "known_biomarkers.png"), p.calpro_crp, dpi = 300, width = 5000, height = 2000, units = "px")
 
