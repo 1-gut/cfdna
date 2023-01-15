@@ -41,6 +41,7 @@ dpcr$study_id[dpcr$study_id > 10000] <- NA
 dpcr$total_cfdna_log <- log10(dpcr$total_cfdna)
 dpcr$cox3_log <- log10(dpcr$cox3)
 dpcr$nd2_log <- log10(dpcr$nd2)
+dpcr$gapdh_log <- log10(dpcr$gapdh)
 print("Complete.")
 
 
@@ -136,8 +137,7 @@ demographic_df <- input_df %>%
     "tonsillectomy_date",
     "appendicectomy_date",
     "sample_date",
-    "dpcr_date",
-    "sampling_date",
+    "dpcr_date"
     )) %>%
   select(-starts_with("drug_level_"))
 
@@ -147,6 +147,7 @@ demographic_df$group[demographic_df$group == "Non-IBD"] <- "HC" # collapse HC an
 
 # Fill NA with 0
 demographic_df[,c("aza","mp", "ada", "vedo", "uste", "tofa")][is.na(demographic_df[,c("aza","mp", "ada", "vedo", "uste", "tofa")])] <- 0
+demographic_df[,c("iv_steroids","antibiotics", "rescue_therapy")][is.na(demographic_df[,c("iv_steroids","antibiotics", "rescue_therapy")])] <- 0
 
 uc_demo <- subset(demographic_df, group == "UC")
 cd_demo <- subset(demographic_df, group == "CD")
@@ -263,10 +264,15 @@ p.cox3_log <- plot.distribution(df=total_cfdna_exclude_outliers, x="cox3_log", x
 p.nd2 <- plot.distribution(df=total_cfdna_exclude_outliers, x="nd2", x_label="ND2", binwidth=100, density_scaling = 10000)
 p.nd2_log <- plot.distribution(df=total_cfdna_exclude_outliers, x="nd2_log", x_label="ND2 (Log)", binwidth=0.2, density_scaling = 10)
 
+p.gapdh <- plot.distribution(df=total_cfdna_exclude_outliers, x="gapdh", x_label="GAPDH", binwidth=10, density_scaling = 0.1)
+p.gapdh_log <- plot.distribution(df=total_cfdna_exclude_outliers, x="gapdh_log", x_label="GAPDH (Log)", binwidth=0.1, density_scaling = 10)
+
 p.cox3nd2 <- grid.arrange(p.cox3, p.cox3_log, p.nd2, p.nd2_log, nrow=2)
 ggsave(paste0(output_dir, "cox3_nd2_distrbutions_combined.png"), p.cox3nd2, dpi = 300, width = 4000, height = 3000, units = "px")
 p3 <- grid.arrange(p1, p2, nrow=1)
 ggsave(paste0(output_dir, "total_cfdna_combined.png"), p3, dpi = 300, width = 4000, height = 1500, units = "px")
+p.gapdh_combined <- grid.arrange(p.gapdh, p.gapdh_log, nrow=1)
+ggsave(paste0(output_dir, "gapdh_combined.png"), p.gapdh_combined, dpi = 300, width = 4000, height = 1500, units = "px")
 print("Complete.")
 
 shapiro.test(total_cfdna_exclude_outliers$total_cfdna_log)
@@ -323,39 +329,27 @@ plot.by.group <- function(y, y_label, title, caption=NULL, log_scale=FALSE) {
 
 plot.by.group(y="cox3", y_label="COX3 (copies/uL)", title="COX3 by Groups (Log scale)", log_scale=TRUE)
 plot.by.group(y="nd2", y_label="ND2 (copies/uL)", title="ND2 by Groups (Log scale)", log_scale=TRUE)
+plot.by.group(y="gapdh", y_label="GAPDH (copies/uL)", title="GAPDH by Groups (Log scale)", log_scale=TRUE)
 
-p <- plot.by.group(y="total_cfdna", y_label="Total cfDNA (ng/uL)", title="Total cfDNA by Groups", log_scale=FALSE)
+p <- plot.by.group(
+  y="total_cfdna",
+  y_label="Total cfDNA (ng/uL)",
+  title="Total cfDNA by Groups",
+  caption="* p<0.05 ** p<0.01.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  log_scale=FALSE)
 p + geom_signif(
   comparisons = list(c("Ulcerative colitis", "Healthy controls")),
+  y_position = 2.9,
+  annotations = "**",
+  tip_length = 0,
+  vjust = 0.5
+) + geom_signif(
+  comparisons = list(c("Crohn's disease", "Healthy controls")),
   y_position = 3,
-  annotations = "p < 0.05",
-  tip_length = 0.01,
-  vjust = 0
+  annotations = "*",
+  tip_length = 0,
+  vjust = 0.5
 ) 
-
-# Remove negative controls significance bars
-# +
-#   geom_signif(
-#     comparisons = list(c("Ulcerative colitis", "Negative controls")),
-#     y_position = 2.3,
-#     annotations = "***",
-#     tip_length = 0,
-#     vjust = 0.5
-#   ) +
-#   geom_signif(
-#     comparisons = list(c("Crohn's disease", "Negative controls")),
-#     y_position = 2.4,
-#     annotations = "***",
-#     tip_length = 0,
-#     vjust = 0.5
-#   ) +
-#   geom_signif(
-#     comparisons = list(c("Healthy controls", "Negative controls")),
-#     y_position = 2.2,
-#     annotations = "***",
-#     tip_length = 0,
-#     vjust = 0.5
-#   )
 ggsave(paste0(output_dir, "by_group_total_cfdna.png"), dpi = 300, width = 2500, height = 2000, units = "px")
 
 
@@ -418,10 +412,10 @@ pairwise.wilcox.test(ibd_status_df_exclude_outlier_cfdna$total_cfdna, ibd_status
 # 
 # data:  ibd_status_df_exclude_outlier_cfdna$total_cfdna and ibd_status_df_exclude_outlier_cfdna$ibd_status 
 # 
-# Biochemical remission Remission Active
-# Remission     0.7748                -         -     
-# Active        0.7136                0.5015    -     
-# Highly active 0.0191                0.0177    0.0024
+# Biochemical remission Remission Active 
+# Remission     0.44059               -         -      
+#   Active        0.79369               0.31398   -      
+#   Highly active 0.00221               0.00089   3.5e-06
 
 p <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
@@ -634,7 +628,7 @@ p1 <- ibd_status_df_exclude_outlier_cfdna %>%
     comparisons = list(c("Highly active", "Active")),
     y_position = 2.6,
     tip_length = 0,
-    annotations = "*",
+    annotations = "***",
     vjust = 0.5
   ) +
   geom_signif(
@@ -648,7 +642,7 @@ p1 <- ibd_status_df_exclude_outlier_cfdna %>%
   ylab("Total cfDNA (ng/uL)") +
   labs(
     title = "Crohn's Disease",
-    caption = "* p<0.05. Kruskal-Wallis p<0.05.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied."
+    caption = "* p<0.05. *** p<0.001.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied."
   ) +
   scale_fill_brewer(palette="Pastel1") +
   theme_options
@@ -676,11 +670,25 @@ p2 <- ibd_status_df_exclude_outlier_cfdna %>%
   ggplot(aes(x = ibd_status, y = total_cfdna, fill=ibd_status)) +
   geom_boxplot(width=0.5, outlier.shape=NA) +
   geom_jitter(width = 0.1, alpha=0.5) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Active")),
+    y_position = 2.6,
+    tip_length = 0,
+    annotations = "*",
+    vjust = 0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Biochemical remission")),
+    y_position = 2.7,
+    tip_length = 0,
+    annotations = "*",
+    vjust = 0.5
+  ) +
   xlab("IBD Activity") +
   ylab("Total cfDNA (ng/uL)") +
   labs(
     title = "Ulcerative Colitis",
-    caption = "Kruskal-Wallis p<0.05.\nPost-hoc testing did not reach statistical significance due to small numbers."
+    caption = "* p<0.05.\nKruskal-Wallis p<0.001.\nPost-hoc testing did not reach statistical significance due to small numbers."
   ) +
   scale_fill_brewer(palette="Pastel1") +
   theme_options
