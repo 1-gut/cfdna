@@ -28,6 +28,7 @@ library(RColorBrewer)
 library(gridExtra)
 library(summarytools)
 library(compareGroups)
+library(forcats)
 source("./theme_options.R")
 print("Complete.")
 
@@ -53,6 +54,7 @@ df <- left_join(df, df_endoscopy, by="study_id")
 df$complete_mucosal_healing[df$complete_mucosal_healing==""] <- NA
 df$endoscopic_improvement[df$endoscopic_improvement==""] <- NA
 df$complete_mucosal_healing <- factor(df$complete_mucosal_healing, levels=c("Yes", "No"))
+df$endoscopic_improvement <- factor(df$endoscopic_improvement, levels=c("Yes", "No"))
 # Create simplified df for analysis
 # Choose your variables here.
 
@@ -600,5 +602,73 @@ ggplot2::ggsave(paste0(output_dir, "correlation_matrix.png"), p1,
 
 cor.test(df$nd2_sapphire, df$cox3_sapphire, method = "spearman")
 cor.test(df$total_cfdna, df$cox3_sapphire, method = "spearman")
+
+# ====================================================================
+# Complete Mucosal Healing
+# ====================================================================
+
+t(prop.table(table(df_baseline$complete_mucosal_healing))) * 100
+t(prop.table(table(df_baseline$endoscopic_improvement))) * 100
+
+
+p_complete_mucosal_healing <- df_baseline %>%
+  filter(!is.na(complete_mucosal_healing)) %>%
+  ggplot(aes(x = complete_mucosal_healing, fill = complete_mucosal_healing)) +
+  geom_bar(aes(y = (..count..)/sum(..count..)*100), width=0.5) +
+  ylim(0,100) +
+  xlab("Complete Mucosal Healing") +
+  ylab("Percentage") +
+  labs(
+    title = "Complete Mucosal Healing at 3-6 months"
+  ) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  theme_options
+
+p_endoscopic_improvement <- df_baseline %>%
+  filter(!is.na(endoscopic_improvement)) %>%
+  mutate(endoscopic_improvement = fct_relevel(endoscopic_improvement, 
+                            "Yes", "No")) %>%
+  ggplot(aes(x = endoscopic_improvement, fill = endoscopic_improvement)) +
+  geom_bar(aes(y = (..count..)/sum(..count..)*100), width=0.5) +
+  ylim(0,100) +
+  xlab("Endoscopic Improvement") +
+  ylab("Percentage") +
+  labs(
+    title = "Endoscopic Improvement at 3-6 months"
+  ) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  theme_options
+
+p_complete_mucosal_healing
+p_endoscopic_improvement
+
+p_mucosal_healing <- gridExtra::grid.arrange(p_complete_mucosal_healing, p_endoscopic_improvement, nrow = 1)
+ggplot2::ggsave(paste0(output_dir, "endoscopic_healing.png"), p_mucosal_healing,
+                dpi = 300, width = 5000, height = 2000, units = "px"
+)
+
+df_baseline %>% 
+  filter(!is.na(complete_mucosal_healing)) %>%
+  group_by(study_group_name, complete_mucosal_healing) %>%
+  count()
+
+df_baseline %>% 
+  filter(!is.na(complete_mucosal_healing)) %>%
+  group_by(study_group_name, complete_mucosal_healing) %>%
+  summarise(Percentage=n()) %>% 
+  group_by(study_group_name) %>% 
+  mutate(Percentage=Percentage/sum(Percentage)*100)
+
+df_baseline %>% 
+  filter(!is.na(endoscopic_improvement)) %>%
+  group_by(study_group_name, endoscopic_improvement) %>%
+  count()
+
+df_baseline %>% 
+  filter(!is.na(endoscopic_improvement)) %>%
+  group_by(study_group_name, endoscopic_improvement) %>%
+  summarise(Percentage=n()) %>% 
+  group_by(study_group_name) %>% 
+  mutate(Percentage=Percentage/sum(Percentage)*100)
 
 print("Script successfully completed.")
