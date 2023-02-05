@@ -228,6 +228,76 @@ plot.longitudinal.boxplot(y="sccai_total", y_label="SCCAI")
 plot.longitudinal.boxplot(y="mayo_total", y_label="Mayo Clinical Score")
 
 
+# Special UC Clinical Score Plot
+p.hbi <- df %>%
+  subset(study_group_name == "CD") %>%
+  ggplot(aes(
+    x = redcap_event_name, y = hbi_total,
+    fill = redcap_event_name
+  )) +
+  stat_boxplot(geom = "errorbar", width = 0.3) +
+  geom_boxplot(width = 0.5) +
+  geom_jitter(width = 0.05) +
+  xlab("Timepoints") +
+  ylab("Harvey-Bradshaw Index") +
+  labs(
+    title = "HBI (Crohn's Disease)"
+  ) +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  theme_options
+print(p.hbi)
+ggplot2::ggsave(paste0(output_dir, "hbi_clinical_scores.png"), p.hbi,
+                dpi = 300, width = 2000, height = 1500, units = "px"
+)
+
+
+p.sccai <- df %>%
+  subset(study_group_name == "UC") %>%
+  ggplot(aes(
+    x = redcap_event_name, y = sccai_total,
+    fill = redcap_event_name
+  )) +
+  stat_boxplot(geom = "errorbar", width = 0.3) +
+  geom_boxplot(width = 0.5) +
+  geom_jitter(width = 0.05) +
+  xlab("Timepoints") +
+  ylab("SCCAI") +
+  labs(
+    title = "SCCAI (Ulcerative Colitis)"
+  ) +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  theme_options
+print(p.sccai)
+
+p.mayo <- df %>%
+  subset(study_group_name == "UC") %>%
+  ggplot(aes(
+    x = redcap_event_name, y = mayo_total,
+    fill = redcap_event_name
+  )) +
+  stat_boxplot(geom = "errorbar", width = 0.3) +
+  geom_boxplot(width = 0.5) +
+  geom_jitter(width = 0.05) +
+  xlab("Timepoints") +
+  ylab("Mayo Clinical Score") +
+  labs(
+    title = "Mayo Clinical Score (Ulcerative Colitis)"
+  ) +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  theme_options
+print(p.mayo)
+
+
+p.uc_clinical <- gridExtra::grid.arrange(p.sccai, p.mayo, nrow = 1)
+ggplot2::ggsave(paste0(output_dir, "uc_clinical_scores.png"), p.uc_clinical,
+                dpi = 300, width = 4000, height = 1500, units = "px"
+)
+
+
+
 # ====================================================================
 # Trajectory Plots
 # ====================================================================
