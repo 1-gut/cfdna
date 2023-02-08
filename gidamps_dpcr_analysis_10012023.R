@@ -26,6 +26,7 @@ library(GGally)
 library(RColorBrewer)
 library(gridExtra)
 library(compareGroups)
+library(scales)
 library("ggpubr")
 source("./theme_options.R")
 print("Complete.")
@@ -585,7 +586,7 @@ ggsave(paste0(output_dir, "activity_nd2.png"), dpi = 300, width = 3000, height =
 # ====================================================================
 # ND2 Corrected Hb by activity
 # ====================================================================
-
+options(scipen=5)
 kruskal.test(nd2_corrected_hb ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
 
 pairwise.wilcox.test(
@@ -594,18 +595,18 @@ pairwise.wilcox.test(
   p.adjust.method = "BH"
 )
 
-p <- plot.by.ibd.status(
+p.nd2_hb <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
   y="nd2_corrected_hb",
-  y_label="ND2 corrected for Hb (copies/uL)",
-  title="ND2 (corrected by Haemoglobin) by Activity",
+  y_label="ND2 (copies/uL) divided by Hb (g/L)",
+  title="ND2 by Activity Corrected for Haemoglobin",
   caption="* p<0.05 *** p<0.001\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
   log_scale=TRUE
 )
-p +
+p.nd2_hb <- p.nd2_hb +
   geom_signif(
     comparisons = list(c("Highly active", "Active")),
-    y_position = 3.1,
+    y_position = 2.1,
     tip_length = 0,
     annotations = "***",
     vjust=0.5
@@ -613,17 +614,18 @@ p +
   geom_signif(
     comparisons = list(c("Highly active", "Biochemical remission")),
     annotations = "*",
-    y_position = 3.3,
+    y_position = 2.4,
     tip_length = 0,
     vjust=0.5
   ) +
   geom_signif(
     comparisons = list(c("Highly active", "Remission")),
     annotations = "***",
-    y_position = 3.2,
+    y_position = 2.25,
     tip_length = 0,
     vjust=0.5
-  )
+  ) +
+  scale_y_log10(labels = label_comma())
 ggsave(paste0(output_dir, "activity_nd2_corrected_hb.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 
 # ====================================================================
@@ -638,18 +640,18 @@ pairwise.wilcox.test(
   p.adjust.method = "BH"
 )
 
-p <- plot.by.ibd.status(
+p.nd2_plt <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
   y="nd2_corrected_plt",
-  y_label="ND2 corrected for platelets",
-  title="ND2 (corrected by platelets) by Activity",
+  y_label="ND2 (copies/uL) divided by platelets",
+  title="ND2 by Activity Corrected for Platelets",
   caption="* p<0.05\nKruskal-Wallis p<0.01.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
   log_scale=TRUE
 )
-p +
+p.nd2_plt <- p.nd2_plt +
   geom_signif(
     comparisons = list(c("Highly active", "Active")),
-    y_position = 3.1,
+    y_position = 2.1,
     tip_length = 0,
     annotations = "*",
     vjust=0.5
@@ -657,11 +659,14 @@ p +
   geom_signif(
     comparisons = list(c("Highly active", "Remission")),
     annotations = "*",
-    y_position = 3.2,
+    y_position = 2.25,
     tip_length = 0,
     vjust=0.5
   )
 ggsave(paste0(output_dir, "activity_nd2_corrected_plt.png"), dpi = 300, width = 3000, height = 2000, units = "px")
+
+p3 <- grid.arrange(p.nd2_hb, p.nd2_plt, nrow=1)
+ggsave(paste0(output_dir, "activity_nd2_corrected_hb_plt.png"), p3, dpi = 300, width = 5000, height = 2000, units = "px")
 
 
 # ====================================================================
@@ -679,8 +684,8 @@ pairwise.wilcox.test(
 p <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
   y="nd2_corrected_gapdh",
-  y_label="ND2 corrected for GAPDH",
-  title="ND2 (corrected by GAPDH) by Activity",
+  y_label="ND2 divided by GAPDH",
+  title="ND2 by Activity Corrected for GAPDH",
   caption="Kruskal-Wallis no significant differences.",
   log_scale=TRUE
 )
