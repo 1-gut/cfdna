@@ -57,6 +57,11 @@ print("Creating merged file...")
 df <- left_join(dpcr, gid, by = c("study_id", "sampling_date"))
 print("Complete.")
 
+# Add correction columns
+df$nd2_corrected_hb <- df$nd2 / df$haemoglobin
+df$nd2_corrected_plt <- df$nd2 / df$plt_lab
+df$nd2_corrected_gapdh <- df$nd2 / df$gapdh
+
 # Label negative controls
 levels(df$group) <- c(levels(df$group), "NC")
 df$group[is.na(df$study_id)] <- "NC"
@@ -458,6 +463,9 @@ p +
   )
 ggsave(paste0(output_dir, "activity_cfdna.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 
+# ====================================================================
+# COX3 by activity
+# ====================================================================
 
 kruskal.test(cox3 ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
 # Kruskal-Wallis rank sum test
@@ -522,6 +530,9 @@ p + geom_signif(
   )
 ggsave(paste0(output_dir, "activity_cox3.png"), dpi = 300, width = 2500, height = 2000, units = "px")
 
+# ====================================================================
+# ND2 by activity
+# ====================================================================
 
 kruskal.test(nd2 ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
 
@@ -570,6 +581,110 @@ p +
     vjust=0.5
   )
 ggsave(paste0(output_dir, "activity_nd2.png"), dpi = 300, width = 3000, height = 2000, units = "px")
+
+# ====================================================================
+# ND2 Corrected Hb by activity
+# ====================================================================
+
+kruskal.test(nd2_corrected_hb ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
+
+pairwise.wilcox.test(
+  ibd_status_df_exclude_outlier_cfdna$nd2_corrected_hb,
+  ibd_status_df_exclude_outlier_cfdna$ibd_status,
+  p.adjust.method = "BH"
+)
+
+p <- plot.by.ibd.status(
+  df=ibd_status_df_exclude_outlier_cfdna,
+  y="nd2_corrected_hb",
+  y_label="ND2 corrected for Hb (copies/uL)",
+  title="ND2 (corrected by Haemoglobin) by Activity",
+  caption="* p<0.05 *** p<0.001\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  log_scale=TRUE
+)
+p +
+  geom_signif(
+    comparisons = list(c("Highly active", "Active")),
+    y_position = 3.1,
+    tip_length = 0,
+    annotations = "***",
+    vjust=0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Biochemical remission")),
+    annotations = "*",
+    y_position = 3.3,
+    tip_length = 0,
+    vjust=0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Remission")),
+    annotations = "***",
+    y_position = 3.2,
+    tip_length = 0,
+    vjust=0.5
+  )
+ggsave(paste0(output_dir, "activity_nd2_corrected_hb.png"), dpi = 300, width = 3000, height = 2000, units = "px")
+
+# ====================================================================
+# ND2 Corrected plt by activity
+# ====================================================================
+
+kruskal.test(nd2_corrected_plt ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
+
+pairwise.wilcox.test(
+  ibd_status_df_exclude_outlier_cfdna$nd2_corrected_plt,
+  ibd_status_df_exclude_outlier_cfdna$ibd_status,
+  p.adjust.method = "BH"
+)
+
+p <- plot.by.ibd.status(
+  df=ibd_status_df_exclude_outlier_cfdna,
+  y="nd2_corrected_plt",
+  y_label="ND2 corrected for platelets",
+  title="ND2 (corrected by platelets) by Activity",
+  caption="* p<0.05\nKruskal-Wallis p<0.01.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  log_scale=TRUE
+)
+p +
+  geom_signif(
+    comparisons = list(c("Highly active", "Active")),
+    y_position = 3.1,
+    tip_length = 0,
+    annotations = "*",
+    vjust=0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Remission")),
+    annotations = "*",
+    y_position = 3.2,
+    tip_length = 0,
+    vjust=0.5
+  )
+ggsave(paste0(output_dir, "activity_nd2_corrected_plt.png"), dpi = 300, width = 3000, height = 2000, units = "px")
+
+
+# ====================================================================
+# ND2 Corrected gapdh by activity
+# ====================================================================
+
+kruskal.test(nd2_corrected_gapdh ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
+
+pairwise.wilcox.test(
+  ibd_status_df_exclude_outlier_cfdna$nd2_corrected_gapdh,
+  ibd_status_df_exclude_outlier_cfdna$ibd_status,
+  p.adjust.method = "BH"
+)
+
+p <- plot.by.ibd.status(
+  df=ibd_status_df_exclude_outlier_cfdna,
+  y="nd2_corrected_gapdh",
+  y_label="ND2 corrected for GAPDH",
+  title="ND2 (corrected by GAPDH) by Activity",
+  caption="Kruskal-Wallis no significant differences.",
+  log_scale=TRUE
+)
+ggsave(paste0(output_dir, "activity_nd2_corrected_gapdh.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 # ====================================================================
 # Total cfDNA by Group and Activity
 # ====================================================================
