@@ -150,6 +150,18 @@ ggsave(
   width = 3000, height = 2000, units = "px", limitsize = FALSE
 )
 
+
+# ANOSIM Test
+
+
+otu_table <- t(as.data.frame(otu_table(biom_data)))
+otu_table_cleaned <- data.frame(study_id = row.names(otu_table), otu_table)
+otu_table_metadata <- phyloseq_metadata %>% select(c("study_id", "ibd_status_collapsed_code"))
+otu_table_cleaned <- left_join(otu_table_cleaned, otu_table_metadata, by="study_id")
+ano = anosim(otu_table, otu_table_cleaned$ibd_status_collapsed_code, distance = "bray", permutations = 9999)
+ano
+
+
 # Plot beta diversity by activity with split plot of phylum
 # plot_ordination(percentages, meta.ord, type="split", color="Phylum", shape="ibd_status_collapsed", title="Phylum") + theme_options
 
