@@ -161,7 +161,10 @@ otu_table_cleaned <- left_join(otu_table_cleaned, otu_table_metadata, by="study_
 ano = anosim(otu_table, otu_table_cleaned$ibd_status_collapsed_code, distance = "bray", permutations = 9999)
 ano
 
+# Permanova test
 
+permanova = adonis2(otu_table ~ ibd_status_collapsed_code, data=otu_table_metadata, permutations=999, method="bray")
+permanova
 # Plot beta diversity by activity with split plot of phylum
 # plot_ordination(percentages, meta.ord, type="split", color="Phylum", shape="ibd_status_collapsed", title="Phylum") + theme_options
 
