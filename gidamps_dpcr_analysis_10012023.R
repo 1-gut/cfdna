@@ -181,11 +181,11 @@ ibd_demo %>%
 cat("Previous Thiopurine by Group")
 ibd_demo %>%
   group_by(group) %>%
-  count(previous_thiopurine)
+  dplyr::count(previous_thiopurine)
 cat("Previous Biologic by Group")
 ibd_demo %>%
   group_by(group) %>%
-  count(previous_biologic)
+  dplyr::count(previous_biologic)
 
 # ====================================================================
 # Cohort comparison statistics
@@ -498,7 +498,13 @@ ibd_status_df_exclude_outlier_cfdna %>%
 
 ibd_status_df_exclude_outlier_cfdna %>%
   group_by(ibd_status) %>%
+  summarise_at(vars(cox3), list(median = median, iqr = IQR), na.rm=TRUE)
+
+ibd_status_df_exclude_outlier_cfdna %>%
+  group_by(ibd_status) %>%
   summarise_at(vars(total_cfdna), list(median = median, iqr = IQR))
+
+
 
 p <- plot.by.ibd.status(
   df=ibd_status_df_exclude_outlier_cfdna,
@@ -582,7 +588,46 @@ p +
     vjust=0.5
   )
 ggsave(paste0(output_dir, "activity_nd2.png"), dpi = 300, width = 3000, height = 2000, units = "px")
+# ====================================================================
+# GAPDH by activity
+# ====================================================================
 
+kruskal.test(gapdh_log ~ ibd_status, data = ibd_status_df_exclude_outlier_cfdna)
+
+pairwise.wilcox.test(
+  ibd_status_df_exclude_outlier_cfdna$gapdh,
+  ibd_status_df_exclude_outlier_cfdna$ibd_status,
+  p.adjust.method = "BH"
+)
+
+ibd_status_df_exclude_outlier_cfdna %>%
+  group_by(ibd_status) %>%
+  summarise_at(vars(gapdh), list(median = median, iqr = IQR), na.rm=TRUE)
+
+p <- plot.by.ibd.status(
+  df=ibd_status_df_exclude_outlier_cfdna,
+  y="gapdh",
+  y_label="GAPDH (copies/uL)",
+  title="GAPDH by Activity",
+  caption="* p<0.05\nKruskal-Wallis p<0.01.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied.",
+  log_scale=TRUE
+)
+p +
+  geom_signif(
+    comparisons = list(c("Highly active", "Active")),
+    y_position = 2.55,
+    tip_length = 0,
+    annotations = "*",
+    vjust=0.5
+  ) +
+  geom_signif(
+    comparisons = list(c("Highly active", "Remission")),
+    annotations = "*",
+    y_position = 2.7,
+    tip_length = 0,
+    vjust=0.5
+  )
+ggsave(paste0(output_dir, "activity_gapdh.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 # ====================================================================
 # ND2 Corrected Hb by activity
 # ====================================================================
@@ -665,8 +710,8 @@ p.nd2_plt <- p.nd2_plt +
   )
 ggsave(paste0(output_dir, "activity_nd2_corrected_plt.png"), dpi = 300, width = 3000, height = 2000, units = "px")
 
-p3 <- grid.arrange(p.nd2_hb, p.nd2_plt, nrow=1)
-ggsave(paste0(output_dir, "activity_nd2_corrected_hb_plt.png"), p3, dpi = 300, width = 5000, height = 2000, units = "px")
+p3 <- grid.arrange(p.nd2_hb, p.nd2_plt, nrow=2)
+ggsave(paste0(output_dir, "activity_nd2_corrected_hb_plt.png"), p3, dpi = 300, width = 3000, height = 4000, units = "px")
 
 
 # ====================================================================
@@ -874,7 +919,7 @@ p1 <- ibd_status_df_exclude_outlier_cfdna %>%
   xlab("IBD Activity") +
   ylab("ND2 (copies/uL)") +
   labs(
-    title = "Crohn's Disease",
+    title = "ND2 (Crohn's Disease)",
     caption = "*** p<0.001.\nKruskal-Wallis p<0.001.\nPost-hoc pairwise Wilcoxon test with Benjamini & Hochberg correction applied."
   ) +
   scale_y_log10() +
@@ -896,17 +941,17 @@ p2 <- ibd_status_df_exclude_outlier_cfdna %>%
   geom_boxplot(width=0.5, outlier.shape=NA) +
   geom_jitter(width = 0.1, alpha=0.5) +
   xlab("IBD Activity") +
-  ylab("Total cfDNA (ng/uL)") +
+  ylab("ND2 (copies/uL)") +
   labs(
-    title = "Ulcerative Colitis",
+    title = "ND2 (Ulcerative Colitis)",
     caption = "Kruskal-Wallis p=0.08.\nInter-group difference did not reach statistical significance."
   ) +
   scale_y_log10() +
   scale_fill_brewer(palette="Pastel1") +
   theme_options
 p2
-p3 <- grid.arrange(p1, p2, nrow=1)
-ggsave(paste0(output_dir, "nd2_by_group_and_activity.png"), p3, dpi = 300, width = 5000, height = 2000, units = "px")
+p3 <- grid.arrange(p1, p2, nrow=2)
+ggsave(paste0(output_dir, "nd2_by_group_and_activity.png"), p3, dpi = 300, width = 3000, height = 4000, units = "px")
 
 
 # ====================================================================
@@ -996,23 +1041,24 @@ plot.scatter <- function(df, x, y, x_label, y_label, title_string="") {
     labs(title = title_string) +
     theme_options
   print(p)
-  ggsave(paste0(output_dir, file_string, ".png"), p, dpi = 300, width = 2500, height = 2000, units = "px")
+  ggsave(paste0(output_dir, file_string, ".png"), p, dpi = 300, width = 2000, height = 1500, units = "px")
   return(p)
 }
 
 p.hb <-plot.scatter(correlation_all, x="haemoglobin", y="nd2_log", x_label="Haemoglobin", y_label="Log ND2")
 p.plt <- plot.scatter(correlation_all, x="plt_lab", y="nd2_log", x_label="Platelets", y_label="Log ND2")
 p.hb_plt <- gridExtra::grid.arrange(p.hb, p.plt, nrow=1)
-ggsave(paste0(output_dir, "hb_plt_correlates.png"), p.hb_plt, dpi = 300, width = 5000, height = 2000, units = "px")
+ggsave(paste0(output_dir, "hb_plt_correlates.png"), p.hb_plt, dpi = 300, width = 4000, height = 1500, units = "px")
 
 p.calpro <- plot.scatter(correlation_all, x="calprotectin", y="nd2_log", x_label="Calprotectin", y_label="Log ND2")
 p.crp <- plot.scatter(correlation_all, x="crp", y="nd2_log", x_label="CRP", y_label="Log ND2")
 p.crp <- ggpar(p.crp, xlim=c(0,100))
 p.calpro_crp <- gridExtra::grid.arrange(p.calpro, p.crp, nrow=1)
-ggsave(paste0(output_dir, "known_biomarkers.png"), p.calpro_crp, dpi = 300, width = 5000, height = 2000, units = "px")
+ggsave(paste0(output_dir, "known_biomarkers.png"), p.calpro_crp, dpi = 300, width = 4000, height = 1500, units = "px")
 
 p.nd2_gapdh <- plot.scatter(correlation_all, x="nd2_log", y="gapdh_log", x_label="Log ND2", y_label="Log GAPDH", title_string="GAPDH against ND2")
 p.total_cfdna_gapdh <- plot.scatter(correlation_all, x="total_cfdna_log", y="gapdh_log", x_label="Log Total cfDNA", y_label="Log GAPDH", title_string="GAPDH against Total cfDNA")
 p.gapdh_correlates <- gridExtra::grid.arrange(p.total_cfdna_gapdh, p.nd2_gapdh, nrow=1)
-ggsave(paste0(output_dir, "gapdh_correlates.png"), p.gapdh_correlates, dpi = 300, width = 5000, height = 2000, units = "px")
+ggsave(paste0(output_dir, "gapdh_correlates.png"), p.gapdh_correlates, dpi = 300, width = 4000, height = 1500, units = "px")
 print("Script successfully completed.")
+

@@ -20,7 +20,7 @@ theme_options <- theme_prism(base_size = 16) + theme(
   legend.position="none"
 )
 
-music_dpcr <- music_dpcr %>% rename(cox3 = cox3_sapphire, nd2 = nd2_sapphire)
+music_dpcr <- music_dpcr %>% dplyr::rename(cox3 = cox3_sapphire, nd2 = nd2_sapphire)
 
 df1 <- gidamps_dpcr %>% select(c("cox3","nd2", "total_cfdna"))
 df2 <- music_dpcr %>% select(c("cox3","nd2", "total_cfdna"))
@@ -89,5 +89,14 @@ ggpubr::ggscatter(merged_df, x = "total_cfdna_log", y = "cox3_log",
   labs(title = "COX3 against total cfDNA") +
   theme_options
 ggsave(paste0(output_dir, "cox3_total_cfdna_correlation.png"), dpi = 300, width = 2500, height = 2000, units = "px")
+
+ggpubr::ggscatter(merged_df, x = "total_cfdna_log", y = "nd2_log", 
+                  add = "reg.line", conf.int = TRUE, 
+                  cor.coef = FALSE, cor.method = "spearman", cor.coef.size=8) +
+  xlab("Log total cfDNA") +
+  ylab("Log ND2") +
+  labs(title = "ND2 against total cfDNA") +
+  theme_options
+ggsave(paste0(output_dir, "nd2_total_cfdna_correlation.png"), dpi = 300, width = 2500, height = 2000, units = "px")
 
 print("Script successfully completed.")

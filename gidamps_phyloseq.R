@@ -252,6 +252,7 @@ p + stat_boxplot(geom="errorbar", width=0.2) + geom_boxplot(width=0.3) + theme_o
 # Alpha Diversity Chao1 and Shannon Final Plots
 remove_controls <- subset_samples(biom_data, ibd_status_collapsed != 'Negative control')
 remove_controls <- subset_samples(remove_controls, ibd_status_collapsed != 'Positive control')
+
 p <- plot_richness(remove_controls, measures="Chao1", x="ibd_status_collapsed") +
   xlab("IBD Status")
 p$layers <- p$layers[-1]
@@ -265,6 +266,11 @@ p_chao1 <- p + stat_boxplot(geom="errorbar", width=0.2) +
               tip_length = 0.01,
               vjust = 0) +theme(title = element_blank())
 p_chao1
+
+# get median iqr chao values
+p_chao1$data %>%
+  group_by(ibd_status_collapsed_code) %>%
+  summarise_at(vars(value), list(median = median, iqr = IQR))
 
 p <- plot_richness(remove_controls, measures=c("Shannon"), x="ibd_status_collapsed") +
   xlab("IBD Status")
@@ -281,7 +287,10 @@ p_shannon <- p + stat_boxplot(geom="errorbar", width=0.2) +
 
 p_shannon
 
-
+# get median Shannon values IQR
+p_shannon$data %>%
+  group_by(ibd_status_collapsed_code) %>%
+  summarise_at(vars(value), list(median = median, iqr = IQR))
 
 p_alpha_diversity_final <- gridExtra::grid.arrange(
   p_chao1, p_shannon, nrow=1

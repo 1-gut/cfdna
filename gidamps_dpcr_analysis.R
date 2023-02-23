@@ -484,6 +484,10 @@ ibd_status_df_exclude_outlier_cfdna %>%
 
 ibd_status_df_exclude_outlier_cfdna %>%
   group_by(ibd_status) %>%
+  summarise_at(vars(nd2), list(median = median, iqr = IQR))
+
+ibd_status_df_exclude_outlier_cfdna %>%
+  group_by(ibd_status) %>%
   summarise_at(vars(total_cfdna), list(median = median, iqr = IQR))
 
 p <- plot.by.ibd.status(

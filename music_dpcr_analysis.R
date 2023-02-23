@@ -329,7 +329,7 @@ plot.trajectory <- function(y, y_label) {
     theme_options
   print(p)
   ggplot2::ggsave(paste0(output_dir, file_string), p,
-    dpi = 300, width = 2500, height = 2000, units = "px"
+    dpi = 300, width = 2000, height = 1500, units = "px"
   )
 
   p.uc <- df %>%
@@ -386,7 +386,7 @@ plot.trajectory <- function(y, y_label) {
 
   p_combined <- gridExtra::grid.arrange(p.cd, p.uc, nrow = 1)
   ggplot2::ggsave(paste0(output_dir, file_string.combined), p_combined,
-    dpi = 300, width = 5000, height = 2000, units = "px"
+    dpi = 300, width = 4000, height = 1500, units = "px"
   )
 }
 
@@ -421,7 +421,30 @@ p <- df %>%
   theme_options
 print(p)
 ggplot2::ggsave(paste0(output_dir, "cox3_separated_by_trajectory.png"), p,
-                dpi = 300, width = 5000, height = 2000, units = "px"
+                dpi = 300, width = 4000, height = 1500, units = "px"
+)
+
+p <- df %>%
+  ggplot(aes(
+    x = redcap_event_name, y = nd2_log,
+    group = study_id, col = study_id
+  )) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_label(aes(label = study_id), data = df %>%
+               filter(redcap_event_name == "timepoint_3")) +
+  xlab("Timepoints") +
+  ylab("ND2") +
+  labs(title = "ND2 (Log) Trajectories") +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  facet_grid(
+    . ~ rising_mitochondrial_cfdna
+  ) +
+  theme_options
+print(p)
+ggplot2::ggsave(paste0(output_dir, "nd2_separated_by_trajectory.png"), p,
+                dpi = 300, width = 4000, height = 1500, units = "px"
 )
 
 # Plot COX3 Log against mucosal healing outcomes
@@ -450,6 +473,32 @@ ggplot2::ggsave(paste0(output_dir, "cox3_by_mucosal_healing.png"), p,
                 dpi = 300, width = 5000, height = 2000, units = "px"
 )
 
+
+p <- df %>%
+  filter(!is.na(complete_mucosal_healing)) %>%
+  ggplot(aes(
+    x = redcap_event_name, y = nd2_sapphire,
+    group = study_id, col = study_id
+  )) +
+  geom_point(size = 3) +
+  geom_line() +
+  geom_label(aes(label = study_id), data = df %>% filter(!is.na(complete_mucosal_healing)) %>%
+               filter(redcap_event_name == "timepoint_3")) +
+  xlab("Timepoints") +
+  ylab("ND2 (Log)") +
+  labs(title = "ND2 by Complete Mucosal Healing") +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_x_discrete(labels = timepoint_labels) +
+  facet_grid(
+    . ~ complete_mucosal_healing
+  ) +
+  theme_options
+print(p)
+ggplot2::ggsave(paste0(output_dir, "nd2_by_mucosal_healing.png"), p,
+                dpi = 300, width = 4000, height = 1500, units = "px"
+)
+
+
 p <- df %>%
   filter(!is.na(complete_mucosal_healing)) %>%
   ggplot(aes(
@@ -471,7 +520,7 @@ p <- df %>%
   theme_options
 print(p)
 ggplot2::ggsave(paste0(output_dir, "total_cfdna_by_mucosal_healing.png"), p,
-                dpi = 300, width = 5000, height = 2000, units = "px"
+                dpi = 300, width = 4000, height = 1500, units = "px"
 )
 
 
